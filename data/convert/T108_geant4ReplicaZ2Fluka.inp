@@ -1,0 +1,106 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
+* wl ws
+RPP B000001 -50.0 50.0 -50.0 50.0 -50.0 50.0
+* ml_pv1 mbs
+RPP B000201 -5.0 5.0 -5.0 5.0 -40.0 40.0
+$start_transform T0003
+* mbl_replica_0 bs
+RPP B000301 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0004
+* mbl_replica_1 bs
+RPP B000401 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0005
+* mbl_replica_2 bs
+RPP B000501 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0006
+* mbl_replica_3 bs
+RPP B000601 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0007
+* mbl_replica_4 bs
+RPP B000701 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0008
+* mbl_replica_5 bs
+RPP B000801 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0009
+* mbl_replica_6 bs
+RPP B000901 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+$start_transform T0010
+* mbl_replica_7 bs
+RPP B001001 -5.0 5.0 -5.0 5.0 -5.0 5.0
+$end_transform
+END
+* mbl_replica_0
+R0003 5 | +B000301
+* mbl_replica_1
+R0004 5 | +B000401
+* mbl_replica_2
+R0005 5 | +B000501
+* mbl_replica_3
+R0006 5 | +B000601
+* mbl_replica_4
+R0007 5 | +B000701
+* mbl_replica_5
+R0008 5 | +B000801
+* mbl_replica_6
+R0009 5 | +B000901
+* mbl_replica_7
+R0010 5 | +B001001
+BLKHOLE 5 | +BLKBODY -( +B000001)
+R0000 5 | +B000001 -( +B000201)
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+* isotope: G4_H_1
+MATERIAL, 1.0, 1.007825, 10.0, , , 1.0, M0000000
+* isotope: G4_H_2
+MATERIAL, 1.0, 2.014102, 10.0, , , 2.0, M0000001
+* element-composite: G4_H
+MATERIAL, , , 0.123456789, , , , M00000
+COMPOUND, 0.999885, M0000000, 0.000115, M0000001, , , M00000
+* material-composite: G4_Galactic
+MATERIAL, , , 1e-25, , , , M000
+COMPOUND, -1.0, M00000, , , , , M000
+* isotope: G4_Fe_54
+MATERIAL, 26.0, 53.9396, 10.0, , , 54.0, M0010000
+* isotope: G4_Fe_56
+MATERIAL, 26.0, 55.9349, 10.0, , , 56.0, M0010001
+* isotope: G4_Fe_57
+MATERIAL, 26.0, 56.9354, 10.0, , , 57.0, M0010002
+* isotope: G4_Fe_58
+MATERIAL, 26.0, 57.9333, 10.0, , , 58.0, M0010003
+* element-composite: G4_Fe
+MATERIAL, , , 0.123456789, , , , M00100
+COMPOUND, 0.05845, M0010000, 0.91754, M0010001, 0.02119, M0010002, M00100
+COMPOUND, 0.00282, M0010003, , , , , M00100
+* material-composite: Material_G4_Fe
+MATERIAL, , , 7.874, , , , M001
+COMPOUND, -1.0, M00100, , , , , M001
+ASSIGNMA M001 R0003
+ASSIGNMA M001 R0004
+ASSIGNMA M001 R0005
+ASSIGNMA M001 R0006
+ASSIGNMA M001 R0007
+ASSIGNMA M001 R0008
+ASSIGNMA M001 R0009
+ASSIGNMA M001 R0010
+ASSIGNMA BLCKHOLE BLKHOLE
+ASSIGNMA M000 R0000
+ROT-DEFI, 2000.0, 0.0, 0.0, 0.0, 0.0, -35.0, T0003
+ROT-DEFI, 3000.0, 0.0, 0.0, 0.0, 0.0, -25.0, T0004
+ROT-DEFI, 4000.0, 0.0, 0.0, 0.0, 0.0, -15.0, T0005
+ROT-DEFI, 5000.0, 0.0, 0.0, 0.0, 0.0, -5.0, T0006
+ROT-DEFI, 6000.0, 0.0, 0.0, 0.0, 0.0, 5.0, T0007
+ROT-DEFI, 7000.0, 0.0, 0.0, 0.0, 0.0, 15.0, T0008
+ROT-DEFI, 8000.0, 0.0, 0.0, 0.0, 0.0, 25.0, T0009
+ROT-DEFI, 9000.0, 0.0, 0.0, 0.0, 0.0, 35.0, T0010

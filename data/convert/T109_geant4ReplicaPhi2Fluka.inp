@@ -1,0 +1,259 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
+* wl ws
+RPP B000001 -50.0 50.0 -50.0 50.0 -50.0 50.0
+* ml_pv1 mts
+ZCC B000201 0 0 20.0
+* ml_pv1 mts
+XYP B000202 -40.0
+* ml_pv1 mts
+XYP B000203 40.0
+* ml_pv1 mts
+ZCC B000204 0 0 10.0
+* mtl_replica_0 ts
+ZCC B000301 0 0 20.0
+* mtl_replica_0 ts
+XYP B000302 -40.0
+* mtl_replica_0 ts
+XYP B000303 40.0
+* mtl_replica_0 ts
+ZCC B000304 0 0 10.0
+* mtl_replica_0 ts
+PLA B000305 -0.0 1.0 0.0 0.0 0.0 0.0
+* mtl_replica_0 ts
+PLA B000306 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$start_transform T0004
+* mtl_replica_1 ts
+ZCC B000401 0 0 20.0
+$end_transform
+$start_transform T0004
+* mtl_replica_1 ts
+XYP B000402 -40.0
+$end_transform
+$start_transform T0004
+* mtl_replica_1 ts
+XYP B000403 40.0
+$end_transform
+$start_transform T0004
+* mtl_replica_1 ts
+ZCC B000404 0 0 10.0
+$end_transform
+$start_transform T0004
+* mtl_replica_1 ts
+PLA B000405 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0004
+* mtl_replica_1 ts
+PLA B000406 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+ZCC B000501 0 0 20.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+XYP B000502 -40.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+XYP B000503 40.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+ZCC B000504 0 0 10.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+PLA B000505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0005
+* mtl_replica_2 ts
+PLA B000506 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+ZCC B000601 0 0 20.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+XYP B000602 -40.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+XYP B000603 40.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+ZCC B000604 0 0 10.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+PLA B000605 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0006
+* mtl_replica_3 ts
+PLA B000606 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+ZCC B000701 0 0 20.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+XYP B000702 -40.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+XYP B000703 40.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+ZCC B000704 0 0 10.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+PLA B000705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0007
+* mtl_replica_4 ts
+PLA B000706 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+ZCC B000801 0 0 20.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+XYP B000802 -40.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+XYP B000803 40.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+ZCC B000804 0 0 10.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+PLA B000805 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0008
+* mtl_replica_5 ts
+PLA B000806 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+ZCC B000901 0 0 20.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+XYP B000902 -40.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+XYP B000903 40.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+ZCC B000904 0 0 10.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+PLA B000905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0009
+* mtl_replica_6 ts
+PLA B000906 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+ZCC B001001 0 0 20.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+XYP B001002 -40.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+XYP B001003 40.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+ZCC B001004 0 0 10.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+PLA B001005 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0010
+* mtl_replica_7 ts
+PLA B001006 -0.7071067811865475 0.7071067811865476 0.0 0.0 0.0 0.0
+$end_transform
+END
+* mtl_replica_0
+R0003 5 | +B000301 +B000303 +B000306 -B000302 -B000304 -B000305
+* mtl_replica_1
+R0004 5 | +B000401 +B000403 +B000406 -B000402 -B000404 -B000405
+* mtl_replica_2
+R0005 5 | +B000501 +B000503 +B000506 -B000502 -B000504 -B000505
+* mtl_replica_3
+R0006 5 | +B000601 +B000603 +B000606 -B000602 -B000604 -B000605
+* mtl_replica_4
+R0007 5 | +B000701 +B000703 +B000706 -B000702 -B000704 -B000705
+* mtl_replica_5
+R0008 5 | +B000801 +B000803 +B000806 -B000802 -B000804 -B000805
+* mtl_replica_6
+R0009 5 | +B000901 +B000903 +B000906 -B000902 -B000904 -B000905
+* mtl_replica_7
+R0010 5 | +B001001 +B001003 +B001006 -B001002 -B001004 -B001005
+BLKHOLE 5 | +BLKBODY -( +B000001)
+R0000 5 | +B000001 -( +B000201 +B000203 -B000202 -B000204)
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+* isotope: G4_H_1
+MATERIAL, 1.0, 1.007825, 10.0, , , 1.0, M0000000
+* isotope: G4_H_2
+MATERIAL, 1.0, 2.014102, 10.0, , , 2.0, M0000001
+* element-composite: G4_H
+MATERIAL, , , 0.123456789, , , , M00000
+COMPOUND, 0.999885, M0000000, 0.000115, M0000001, , , M00000
+* material-composite: G4_Galactic
+MATERIAL, , , 1e-25, , , , M000
+COMPOUND, -1.0, M00000, , , , , M000
+* isotope: G4_Fe_54
+MATERIAL, 26.0, 53.9396, 10.0, , , 54.0, M0010000
+* isotope: G4_Fe_56
+MATERIAL, 26.0, 55.9349, 10.0, , , 56.0, M0010001
+* isotope: G4_Fe_57
+MATERIAL, 26.0, 56.9354, 10.0, , , 57.0, M0010002
+* isotope: G4_Fe_58
+MATERIAL, 26.0, 57.9333, 10.0, , , 58.0, M0010003
+* element-composite: G4_Fe
+MATERIAL, , , 0.123456789, , , , M00100
+COMPOUND, 0.05845, M0010000, 0.91754, M0010001, 0.02119, M0010002, M00100
+COMPOUND, 0.00282, M0010003, , , , , M00100
+* material-composite: Material_G4_Fe
+MATERIAL, , , 7.874, , , , M001
+COMPOUND, -1.0, M00100, , , , , M001
+ASSIGNMA M001 R0003
+ASSIGNMA M001 R0004
+ASSIGNMA M001 R0005
+ASSIGNMA M001 R0006
+ASSIGNMA M001 R0007
+ASSIGNMA M001 R0008
+ASSIGNMA M001 R0009
+ASSIGNMA M001 R0010
+ASSIGNMA BLCKHOLE BLKHOLE
+ASSIGNMA M000 R0000
+ROT-DEFI, 2003.0, 0.0, -135.00000000000003, 0.0, 0.0, 0.0, T0004
+ROT-DEFI, 3003.0, 0.0, 90.00000000000001, 0.0, 0.0, 0.0, T0005
+ROT-DEFI, 4003.0, 0.0, 135.0, 0.0, 0.0, 0.0, T0006
+ROT-DEFI, 5003.0, 0.0, 180.0, 0.0, 0.0, 0.0, T0007
+ROT-DEFI, 6003.0, 0.0, -135.00000000000003, 0.0, 0.0, 0.0, T0008
+ROT-DEFI, 7003.0, 0.0, -90.00000000000001, 0.0, 0.0, 0.0, T0009
+ROT-DEFI, 8003.0, 0.0, 135.0, 0.0, 0.0, 0.0, T0010
