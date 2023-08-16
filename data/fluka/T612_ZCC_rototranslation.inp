@@ -1,0 +1,23 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform zccTRF
+ZCC ZCC_BODY 0 0 20
+$end_transform
+$start_transform zccTRF
+XYP XYP1_BODY 20
+$end_transform
+$start_transform zccTRF
+XYP XYP2_BODY 0
+$end_transform
+END
+REG_INF 5 | +ZCC_BODY +XYP1_BODY -XYP2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER REG_INF
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, zccTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, zccTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, zccTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, zccTRF

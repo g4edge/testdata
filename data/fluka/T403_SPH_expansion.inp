@@ -1,0 +1,11 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+SPH SPH_BODY 5.0 5.0 5.0 5
+END
+SPH_REG 5 | +SPH_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER SPH_REG

@@ -1,0 +1,14 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RPP RPP_BODY1 -20.0 20.0 -20.0 20.0 -20.0 20.0
+RPP RPP2_BODY2 -10.0 10.0 -10.0 10.0 -30.0 30.0
+RPP RPP_BODY3 0.0 20.0 -20.0 20.0 -20.0 20.0
+ZCC ZCC_BODY 0 0 10
+END
+RPP_REG 5 | +RPP_BODY1 -( +RPP2_BODY2 -ZCC_BODY) | +RPP_BODY3
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER RPP_REG

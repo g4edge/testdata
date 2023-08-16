@@ -1,0 +1,12 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+ELL ELL1_BODY 20.0 5.0 0.0 20.0 15.0 0.0 20
+ELL ELL2_BODY 20.0 7.5 0.0 20.0 12.5 0.0 15
+END
+ELL_REG 5 | +ELL1_BODY -ELL2_BODY | +ELL2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER ELL_REG

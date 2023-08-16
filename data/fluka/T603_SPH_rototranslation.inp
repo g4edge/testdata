@@ -1,0 +1,17 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform sphTRF
+SPH SPH_BODY 10.0 10.0 10.0 10
+$end_transform
+END
+SPH_REG 5 | +SPH_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER SPH_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, sphTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, sphTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, sphTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, sphTRF

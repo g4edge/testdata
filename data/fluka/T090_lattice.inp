@@ -1,0 +1,16 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RCC target 0.0 0.0 -50.0 0.0 0.0 100.0 50.0
+$start_transform rtrans
+RCC targRepl 0.0 0.0 -50.0 0.0 0.0 100.0 50.0
+$end_transform
+END
+TARGET 5 | +target
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER TARGET
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, -2.0, -30.0, rtrans
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, rtrans

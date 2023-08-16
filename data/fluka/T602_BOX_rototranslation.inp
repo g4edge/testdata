@@ -1,0 +1,17 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform boxTRF
+BOX BOX_BODY 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0
+$end_transform
+END
+BOX_REG 5 | +BOX_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER BOX_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, boxTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, boxTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, boxTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, boxTRF

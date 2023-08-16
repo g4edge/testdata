@@ -1,0 +1,17 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform recTRF
+REC REC_BODY 0.0 0.0 0.0 3.0 3.0 3.0 0.5 -1.0 0.5 1.7320508075688772 0.0 -1.7320508075688772
+$end_transform
+END
+REC_REG 5 | +REC_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER REC_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, recTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, recTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, recTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, recTRF

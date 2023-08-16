@@ -1,0 +1,12 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+WED WED1_BODY 20.0 20.0 20.0 -20.0 0.0 0.0 0.0 0.0 -20.0 0.0 -20.0 0.0
+WED WED2_BODY 0.0 0.0 0.0 20.0 0.0 0.0 0.0 0.0 20.0 0.0 20.0 0.0
+END
+WED_REG 5 | +WED1_BODY | +WED2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER WED_REG

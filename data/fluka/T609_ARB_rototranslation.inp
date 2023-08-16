@@ -1,0 +1,21 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform rppTRF
+0.0 0.0 0.0 20.0 0.0 0.0
+10.0 20.0 0.0 0.0 20.0 0.0
+0.0 0.0 20.0 20.0 0.0 20.0
+10.0 20.0 20.0 0.0 20.0 20.0
+4321 5678 2376 1584 3487 1265
+$end_transform
+END
+ARB_REG 5 | +ARB_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER ARB_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, rppTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, rppTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, rppTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, rppTRF

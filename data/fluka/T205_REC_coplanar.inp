@@ -1,0 +1,14 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+REC REC_BODY1 0.0 0.0 0.0 20.0 0.0 0.0 0.0 0.0 5.0 0.0 10.0 0.0
+REC REC_BODY2 5.0 0.0 0.0 10.0 0.0 0.0 0.0 0.0 2.5 0.0 5.0 0.0
+END
+REC_REG1 5 | +REC_BODY1 -REC_BODY2
+REC_REG2 5 | +REC_BODY2
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER REC_REG1
+ASSIGNMA COPPER REC_REG2
