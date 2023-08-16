@@ -1,0 +1,11 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+BOX BOX_BODY 5.0 0.0 0.0 5.0 0.0 0.0 0.0 10.0 0.0 0.0 0.0 10.0
+END
+BOX_REG 5 | +BOX_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER BOX_REG

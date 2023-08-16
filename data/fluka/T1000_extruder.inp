@@ -1,0 +1,57 @@
+FREE
+DEFAULTS, , , , , , , PRECISIO
+BEAM, 10.0, 0.1, 0.0, 0.1, 0.0, -1.0, ELECTRON
+BEAMPOS, 0.0, 0.0, 0.0, 0.0, 0.0, ,
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
+* wl ws
+RPP B000001 -50.0 50.0 -50.0 50.0 -50.0 50.0
+* Magnet outer
+PLA B000200 0.0 0.0 -1.0 0.0 0.0 -25.0
+* Magnet outer
+PLA B000201 0.0 0.0 1.0 0.0 0.0 25.0
+* Magnet outer
+PLA B000202 1.0 -0.0 -0.0 10.0 -10.0 -25.0
+* Magnet outer
+PLA B000203 -0.0 1.0 -0.0 10.0 10.0 -25.0
+* Magnet outer
+PLA B000204 -1.0 -0.0 0.0 -10.0 10.0 -25.0
+* Magnet outer
+PLA B000205 -0.0 -1.0 -0.0 -10.0 -10.0 -25.0
+END
+* el_pv1
+R0002 5 | +B000200 +B000201 +B000202 +B000203 +B000204 +B000205
+BLKHOLE 5 | +BLKBODY -( +B000001)
+R0000 5 | +B000001 -( +B000200 +B000201 +B000202 +B000203 +B000204 +B000205)
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+* isotope: G4_H_1
+MATERIAL, 1.0, 1.007825, 10.0, , , 1.0, M0000000
+* isotope: G4_H_2
+MATERIAL, 1.0, 2.014102, 10.0, , , 2.0, M0000001
+* element-composite: G4_H
+MATERIAL, , , 0.123456789, , , , M00000
+COMPOUND, 0.999885, M0000000, 0.000115, M0000001, , , M00000
+* material-composite: G4_Galactic
+MATERIAL, , , 1e-25, , , , M000
+COMPOUND, -1.0, M00000, , , , , M000
+* element-simple: G4_Au
+MATERIAL, 79.0, , 19.32, , , 197.0, M00100
+* material-composite: Material_G4_Au
+MATERIAL, , , 19.32, , , , M001
+COMPOUND, -1.0, M00100, , , , , M001
+ASSIGNMA M001 R0002
+ASSIGNMA BLCKHOLE BLKHOLE
+ASSIGNMA M000 R0000
+USRBIN, 0.0, ENERGY, -21.0, 1.0, 1.0, 1.0, bin1
+USRBIN, -1.0, -1.0, -1.0, 10.0, 10.0, 10.0, &
+USRBIN, 0.0, ENERGY, -21.0, 1.0, 1.0, 1.0, bin2
+USRBIN, -1.0, -1.0, -1.0, 10.0, 10.0, 10.0, &
+LOW-MAT, M0000000, 1.0, -2.0, 296.0, , ,
+LOW-MAT, M0000001, 1.0, -2.0, 296.0, , ,
+LOW-MAT, M00100, 79.0, -2.0, 296.0, , ,
+RANDOMIZ, 1.0, 54217137.0, , , , ,
+START, 100.0, , , , , ,

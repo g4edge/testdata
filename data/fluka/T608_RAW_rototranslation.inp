@@ -1,0 +1,20 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform rawTRF
+RAW RAW1_BODY 20.0 20.0 20.0 -20.0 0.0 0.0 0.0 0.0 -20.0 0.0 -20.0 0.0
+$end_transform
+$start_transform rawTRF
+RAW RAW2_BODY 0.0 0.0 0.0 20.0 0.0 0.0 0.0 0.0 20.0 0.0 20.0 0.0
+$end_transform
+END
+RAW_REG 5 | +RAW1_BODY | +RAW2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER RAW_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, rawTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, rawTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, rawTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, rawTRF

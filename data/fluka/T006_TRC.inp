@@ -1,0 +1,11 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+TRC TRC_BODY 0.0 0.0 0.0 5.0 5.0 5.0 5 2
+END
+TRC_REG 5 | +TRC_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER TRC_REG

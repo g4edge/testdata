@@ -1,0 +1,12 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RCC RCC1_BODY 0.0 0.0 0.0 5.0 5.0 5.0 2.5
+RCC RCC2_BODY -1.0 -1.0 -1.0 6.0 6.0 6.0 1.25
+END
+RCC_REG 5 | +RCC1_BODY -RCC2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER RCC_REG

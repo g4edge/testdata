@@ -1,0 +1,17 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+$start_transform ellTRF
+ELL ELL_BODY 20.0 5.0 0.0 20.0 15.0 0.0 20
+$end_transform
+END
+ELL_REG 5 | +ELL_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER ELL_REG
+ROT-DEFI, 1.0, 0.0, -45.0, 0.0, 0.0, 0.0, ellTRF
+ROT-DEFI, 2.0, 0.0, -45.0, 0.0, 0.0, 0.0, ellTRF
+ROT-DEFI, 3.0, 0.0, -45.0, 0.0, 0.0, 0.0, ellTRF
+ROT-DEFI, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, ellTRF

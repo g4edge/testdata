@@ -1,0 +1,13 @@
+FREE
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+YCC YCC_BODY 5 5 5
+XZP XZP1_BODY 20
+XZP XZP2_BODY 0
+END
+REG_INF 5 | +YCC_BODY +XZP1_BODY -XZP2_BODY
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+ASSIGNMA COPPER REG_INF
