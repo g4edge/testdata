@@ -1,0 +1,209 @@
+<?xml version="1.0" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+	<define>
+		<position name="a_pv1_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<constant name="bx" value="40.000000000000000"/>
+		<constant name="by" value="20.000000000000000"/>
+		<constant name="bz" value="1.000000000000000"/>
+		<position name="a_pv1_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv1_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv1_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv2_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv2_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv2_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv2_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv3_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv3_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv3_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv3_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv4_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv4_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv4_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv4_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv5_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv5_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv5_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv5_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv1_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv1_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv1_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv1_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="-100.000000000000000" unit="mm"/>
+		<rotation name="a_pv1_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv2_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv2_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv2_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv2_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="-50.000000000000000" unit="mm"/>
+		<rotation name="a_pv2_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv3_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv3_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv3_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv3_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="0.000000000000000" unit="mm"/>
+		<rotation name="a_pv3_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv4_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv4_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv4_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv4_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="50.000000000000000" unit="mm"/>
+		<rotation name="a_pv4_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<position name="a_pv5_b_pv1_pos_1" x="0.000000000000000" y="-35.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv1_rot_1" x="0.000000000000000" y="-0.000000000000000" z="0.000000000000000" unit="rad"/>
+		<position name="a_pv5_b_pv2_pos_1" x="35.000000000000000" y="0.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv2_rot_1" x="0.000000000000000" y="-0.000000000000000" z="1.570796326794897" unit="rad"/>
+		<position name="a_pv5_b_pv3_pos_1" x="0.000000000000000" y="35.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv3_rot_1" x="0.000000000000000" y="-0.000000000000000" z="3.141592653589793" unit="rad"/>
+		<position name="a_pv5_b_pv4_pos_1" x="-35.000000000000000" y="0.000000000000000" z="100.000000000000000" unit="mm"/>
+		<rotation name="a_pv5_b_pv4_rot_1" x="0.000000000000000" y="-0.000000000000000" z="-1.570796326794897" unit="rad"/>
+		<constant name="wx" value="250.000000000000000"/>
+		<constant name="wy" value="250.000000000000000"/>
+		<constant name="wz" value="250.000000000000000"/>
+	</define>
+	<materials/>
+	<solids>
+		<box name="bs" x="bx" y="by" z="bz" lunit="mm"/>
+		<box name="ws" x="wx" y="wy" z="wz" lunit="mm"/>
+	</solids>
+	<structure>
+		<volume name="bl">
+			<materialref ref="G4_Si"/>
+			<solidref ref="bs"/>
+		</volume>
+		<volume name="wl">
+			<materialref ref="G4_Galactic"/>
+			<solidref ref="ws"/>
+			<physvol name="a_pv1_b_pv1">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv1_b_pv1_pos_1"/>
+				<rotationref ref="a_pv1_b_pv1_rot_1"/>
+			</physvol>
+			<physvol name="a_pv1_b_pv2">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv1_b_pv2_pos_1"/>
+				<rotationref ref="a_pv1_b_pv2_rot_1"/>
+			</physvol>
+			<physvol name="a_pv1_b_pv3">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv1_b_pv3_pos_1"/>
+				<rotationref ref="a_pv1_b_pv3_rot_1"/>
+			</physvol>
+			<physvol name="a_pv1_b_pv4">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv1_b_pv4_pos_1"/>
+				<rotationref ref="a_pv1_b_pv4_rot_1"/>
+			</physvol>
+			<physvol name="a_pv2_b_pv1">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv2_b_pv1_pos_1"/>
+				<rotationref ref="a_pv2_b_pv1_rot_1"/>
+			</physvol>
+			<physvol name="a_pv2_b_pv2">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv2_b_pv2_pos_1"/>
+				<rotationref ref="a_pv2_b_pv2_rot_1"/>
+			</physvol>
+			<physvol name="a_pv2_b_pv3">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv2_b_pv3_pos_1"/>
+				<rotationref ref="a_pv2_b_pv3_rot_1"/>
+			</physvol>
+			<physvol name="a_pv2_b_pv4">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv2_b_pv4_pos_1"/>
+				<rotationref ref="a_pv2_b_pv4_rot_1"/>
+			</physvol>
+			<physvol name="a_pv3_b_pv1">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv3_b_pv1_pos_1"/>
+				<rotationref ref="a_pv3_b_pv1_rot_1"/>
+			</physvol>
+			<physvol name="a_pv3_b_pv2">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv3_b_pv2_pos_1"/>
+				<rotationref ref="a_pv3_b_pv2_rot_1"/>
+			</physvol>
+			<physvol name="a_pv3_b_pv3">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv3_b_pv3_pos_1"/>
+				<rotationref ref="a_pv3_b_pv3_rot_1"/>
+			</physvol>
+			<physvol name="a_pv3_b_pv4">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv3_b_pv4_pos_1"/>
+				<rotationref ref="a_pv3_b_pv4_rot_1"/>
+			</physvol>
+			<physvol name="a_pv4_b_pv1">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv4_b_pv1_pos_1"/>
+				<rotationref ref="a_pv4_b_pv1_rot_1"/>
+			</physvol>
+			<physvol name="a_pv4_b_pv2">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv4_b_pv2_pos_1"/>
+				<rotationref ref="a_pv4_b_pv2_rot_1"/>
+			</physvol>
+			<physvol name="a_pv4_b_pv3">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv4_b_pv3_pos_1"/>
+				<rotationref ref="a_pv4_b_pv3_rot_1"/>
+			</physvol>
+			<physvol name="a_pv4_b_pv4">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv4_b_pv4_pos_1"/>
+				<rotationref ref="a_pv4_b_pv4_rot_1"/>
+			</physvol>
+			<physvol name="a_pv5_b_pv1">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv5_b_pv1_pos_1"/>
+				<rotationref ref="a_pv5_b_pv1_rot_1"/>
+			</physvol>
+			<physvol name="a_pv5_b_pv2">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv5_b_pv2_pos_1"/>
+				<rotationref ref="a_pv5_b_pv2_rot_1"/>
+			</physvol>
+			<physvol name="a_pv5_b_pv3">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv5_b_pv3_pos_1"/>
+				<rotationref ref="a_pv5_b_pv3_rot_1"/>
+			</physvol>
+			<physvol name="a_pv5_b_pv4">
+				<volumeref ref="bl"/>
+				<positionref ref="a_pv5_b_pv4_pos_1"/>
+				<rotationref ref="a_pv5_b_pv4_rot_1"/>
+			</physvol>
+		</volume>
+	</structure>
+	<setup name="Default" version="1.0">
+		<world ref="wl"/>
+	</setup>
+</gdml>
