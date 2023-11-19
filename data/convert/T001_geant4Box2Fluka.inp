@@ -1,7 +1,7 @@
 FREE
 DEFAULTS, , , , , , , PRECISIO
 BEAM, 10.0, 0.1, 0.0, 0.1, 0.0, -1.0, ELECTRON
-BEAMPOS, 0.0, 0.0, 0.0, 0.0, 0.0, ,
+BEAMPOS, 0.0, 0.0, 0.0, 0.0, 0.0, , 
 GEOBEGIN , , , , , , , COMBNAME
     0    0
 RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
