@@ -54,9 +54,9 @@
 		</material>
 	</materials>
 	<solids>
-		<box name="ws" x="1000.000000000000000" y="1000.000000000000000" z="1000.000000000000000" lunit="mm"/>
-		<tube name="ts" rmin="0" rmax="200.000000000000000" z="800.000000000000000" startphi="0" deltaphi="2*pi" lunit="mm" aunit="rad"/>
-		<tube name="mts" rmin="0" rmax="200.000000000000000" z="800.000000000000000" startphi="0" deltaphi="2*pi" lunit="mm" aunit="rad"/>
+		<box name="ws" x="wx" y="wy" z="wz" lunit="mm"/>
+		<tube name="ts" rmin="0" rmax="rmax" z="z" startphi="0" deltaphi="tdphi" lunit="mm" aunit="rad"/>
+		<tube name="mts" rmin="0" rmax="rmax" z="z" startphi="0" deltaphi="mtdphi" lunit="mm" aunit="rad"/>
 	</solids>
 	<structure>
 		<volume name="tl">
