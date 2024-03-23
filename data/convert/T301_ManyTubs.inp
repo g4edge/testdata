@@ -1,0 +1,5304 @@
+FREE
+DEFAULTS, , , , , , , PRECISIO
+BEAM, 10.0, 0.1, 0.0, 0.1, 0.0, -1.0, ELECTRON
+BEAMPOS, 0.0, 0.0, 0.0, 0.0, 0.0, ,
+GEOBEGIN , , , , , , , COMBNAME
+    0    0
+RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
+* wl ws
+RPP B000001 -50.0 50.0 -50.0 50.0 -50.0 50.0
+$start_transform T0002
+* b_pv_0_0_0 ts
+RCC B000201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+ZCC B000301 0 0 5.0
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+XYP B000302 -2.5
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+XYP B000303 2.5
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+ZCC B000304 0 0 2.5
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+PLA B000305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0003
+* b2_pv ts2
+PLA B000306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0004
+* b_pv_0_0_1 ts
+RCC B000401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+ZCC B000501 0 0 5.0
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+XYP B000502 -2.5
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+XYP B000503 2.5
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+ZCC B000504 0 0 2.5
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+PLA B000505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0005
+* b2_pv ts2
+PLA B000506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0006
+* b_pv_0_0_2 ts
+RCC B000601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+ZCC B000701 0 0 5.0
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+XYP B000702 -2.5
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+XYP B000703 2.5
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+ZCC B000704 0 0 2.5
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+PLA B000705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0007
+* b2_pv ts2
+PLA B000706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0008
+* b_pv_0_0_3 ts
+RCC B000801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+ZCC B000901 0 0 5.0
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+XYP B000902 -2.5
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+XYP B000903 2.5
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+ZCC B000904 0 0 2.5
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+PLA B000905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0009
+* b2_pv ts2
+PLA B000906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0010
+* b_pv_0_0_4 ts
+RCC B001001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+ZCC B001101 0 0 5.0
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+XYP B001102 -2.5
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+XYP B001103 2.5
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+ZCC B001104 0 0 2.5
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+PLA B001105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0011
+* b2_pv ts2
+PLA B001106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0012
+* b_pv_0_1_0 ts
+RCC B001201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+ZCC B001301 0 0 5.0
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+XYP B001302 -2.5
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+XYP B001303 2.5
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+ZCC B001304 0 0 2.5
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+PLA B001305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0013
+* b2_pv ts2
+PLA B001306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0014
+* b_pv_0_1_1 ts
+RCC B001401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+ZCC B001501 0 0 5.0
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+XYP B001502 -2.5
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+XYP B001503 2.5
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+ZCC B001504 0 0 2.5
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+PLA B001505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0015
+* b2_pv ts2
+PLA B001506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0016
+* b_pv_0_1_2 ts
+RCC B001601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+ZCC B001701 0 0 5.0
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+XYP B001702 -2.5
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+XYP B001703 2.5
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+ZCC B001704 0 0 2.5
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+PLA B001705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0017
+* b2_pv ts2
+PLA B001706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0018
+* b_pv_0_1_3 ts
+RCC B001801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+ZCC B001901 0 0 5.0
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+XYP B001902 -2.5
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+XYP B001903 2.5
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+ZCC B001904 0 0 2.5
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+PLA B001905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0019
+* b2_pv ts2
+PLA B001906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0020
+* b_pv_0_1_4 ts
+RCC B002001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+ZCC B002101 0 0 5.0
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+XYP B002102 -2.5
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+XYP B002103 2.5
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+ZCC B002104 0 0 2.5
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+PLA B002105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0021
+* b2_pv ts2
+PLA B002106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0022
+* b_pv_0_2_0 ts
+RCC B002201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+ZCC B002301 0 0 5.0
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+XYP B002302 -2.5
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+XYP B002303 2.5
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+ZCC B002304 0 0 2.5
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+PLA B002305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0023
+* b2_pv ts2
+PLA B002306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0024
+* b_pv_0_2_1 ts
+RCC B002401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+ZCC B002501 0 0 5.0
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+XYP B002502 -2.5
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+XYP B002503 2.5
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+ZCC B002504 0 0 2.5
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+PLA B002505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0025
+* b2_pv ts2
+PLA B002506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0026
+* b_pv_0_2_2 ts
+RCC B002601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+ZCC B002701 0 0 5.0
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+XYP B002702 -2.5
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+XYP B002703 2.5
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+ZCC B002704 0 0 2.5
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+PLA B002705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0027
+* b2_pv ts2
+PLA B002706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0028
+* b_pv_0_2_3 ts
+RCC B002801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+ZCC B002901 0 0 5.0
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+XYP B002902 -2.5
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+XYP B002903 2.5
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+ZCC B002904 0 0 2.5
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+PLA B002905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0029
+* b2_pv ts2
+PLA B002906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0030
+* b_pv_0_2_4 ts
+RCC B003001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+ZCC B003101 0 0 5.0
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+XYP B003102 -2.5
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+XYP B003103 2.5
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+ZCC B003104 0 0 2.5
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+PLA B003105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0031
+* b2_pv ts2
+PLA B003106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0032
+* b_pv_0_3_0 ts
+RCC B003201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+ZCC B003301 0 0 5.0
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+XYP B003302 -2.5
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+XYP B003303 2.5
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+ZCC B003304 0 0 2.5
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+PLA B003305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0033
+* b2_pv ts2
+PLA B003306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0034
+* b_pv_0_3_1 ts
+RCC B003401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+ZCC B003501 0 0 5.0
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+XYP B003502 -2.5
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+XYP B003503 2.5
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+ZCC B003504 0 0 2.5
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+PLA B003505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0035
+* b2_pv ts2
+PLA B003506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0036
+* b_pv_0_3_2 ts
+RCC B003601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+ZCC B003701 0 0 5.0
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+XYP B003702 -2.5
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+XYP B003703 2.5
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+ZCC B003704 0 0 2.5
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+PLA B003705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0037
+* b2_pv ts2
+PLA B003706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0038
+* b_pv_0_3_3 ts
+RCC B003801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+ZCC B003901 0 0 5.0
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+XYP B003902 -2.5
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+XYP B003903 2.5
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+ZCC B003904 0 0 2.5
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+PLA B003905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0039
+* b2_pv ts2
+PLA B003906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0040
+* b_pv_0_3_4 ts
+RCC B004001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+ZCC B004101 0 0 5.0
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+XYP B004102 -2.5
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+XYP B004103 2.5
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+ZCC B004104 0 0 2.5
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+PLA B004105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0041
+* b2_pv ts2
+PLA B004106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0042
+* b_pv_0_4_0 ts
+RCC B004201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+ZCC B004301 0 0 5.0
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+XYP B004302 -2.5
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+XYP B004303 2.5
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+ZCC B004304 0 0 2.5
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+PLA B004305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0043
+* b2_pv ts2
+PLA B004306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0044
+* b_pv_0_4_1 ts
+RCC B004401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+ZCC B004501 0 0 5.0
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+XYP B004502 -2.5
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+XYP B004503 2.5
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+ZCC B004504 0 0 2.5
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+PLA B004505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0045
+* b2_pv ts2
+PLA B004506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0046
+* b_pv_0_4_2 ts
+RCC B004601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+ZCC B004701 0 0 5.0
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+XYP B004702 -2.5
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+XYP B004703 2.5
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+ZCC B004704 0 0 2.5
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+PLA B004705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0047
+* b2_pv ts2
+PLA B004706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0048
+* b_pv_0_4_3 ts
+RCC B004801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+ZCC B004901 0 0 5.0
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+XYP B004902 -2.5
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+XYP B004903 2.5
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+ZCC B004904 0 0 2.5
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+PLA B004905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0049
+* b2_pv ts2
+PLA B004906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0050
+* b_pv_0_4_4 ts
+RCC B005001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+ZCC B005101 0 0 5.0
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+XYP B005102 -2.5
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+XYP B005103 2.5
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+ZCC B005104 0 0 2.5
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+PLA B005105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0051
+* b2_pv ts2
+PLA B005106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0052
+* b_pv_1_0_0 ts
+RCC B005201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+ZCC B005301 0 0 5.0
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+XYP B005302 -2.5
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+XYP B005303 2.5
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+ZCC B005304 0 0 2.5
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+PLA B005305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0053
+* b2_pv ts2
+PLA B005306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0054
+* b_pv_1_0_1 ts
+RCC B005401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+ZCC B005501 0 0 5.0
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+XYP B005502 -2.5
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+XYP B005503 2.5
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+ZCC B005504 0 0 2.5
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+PLA B005505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0055
+* b2_pv ts2
+PLA B005506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0056
+* b_pv_1_0_2 ts
+RCC B005601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+ZCC B005701 0 0 5.0
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+XYP B005702 -2.5
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+XYP B005703 2.5
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+ZCC B005704 0 0 2.5
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+PLA B005705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0057
+* b2_pv ts2
+PLA B005706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0058
+* b_pv_1_0_3 ts
+RCC B005801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+ZCC B005901 0 0 5.0
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+XYP B005902 -2.5
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+XYP B005903 2.5
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+ZCC B005904 0 0 2.5
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+PLA B005905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0059
+* b2_pv ts2
+PLA B005906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0060
+* b_pv_1_0_4 ts
+RCC B006001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+ZCC B006101 0 0 5.0
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+XYP B006102 -2.5
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+XYP B006103 2.5
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+ZCC B006104 0 0 2.5
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+PLA B006105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0061
+* b2_pv ts2
+PLA B006106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0062
+* b_pv_1_1_0 ts
+RCC B006201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+ZCC B006301 0 0 5.0
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+XYP B006302 -2.5
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+XYP B006303 2.5
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+ZCC B006304 0 0 2.5
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+PLA B006305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0063
+* b2_pv ts2
+PLA B006306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0064
+* b_pv_1_1_1 ts
+RCC B006401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+ZCC B006501 0 0 5.0
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+XYP B006502 -2.5
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+XYP B006503 2.5
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+ZCC B006504 0 0 2.5
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+PLA B006505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0065
+* b2_pv ts2
+PLA B006506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0066
+* b_pv_1_1_2 ts
+RCC B006601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+ZCC B006701 0 0 5.0
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+XYP B006702 -2.5
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+XYP B006703 2.5
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+ZCC B006704 0 0 2.5
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+PLA B006705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0067
+* b2_pv ts2
+PLA B006706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0068
+* b_pv_1_1_3 ts
+RCC B006801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+ZCC B006901 0 0 5.0
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+XYP B006902 -2.5
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+XYP B006903 2.5
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+ZCC B006904 0 0 2.5
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+PLA B006905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0069
+* b2_pv ts2
+PLA B006906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0070
+* b_pv_1_1_4 ts
+RCC B007001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+ZCC B007101 0 0 5.0
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+XYP B007102 -2.5
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+XYP B007103 2.5
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+ZCC B007104 0 0 2.5
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+PLA B007105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0071
+* b2_pv ts2
+PLA B007106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0072
+* b_pv_1_2_0 ts
+RCC B007201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+ZCC B007301 0 0 5.0
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+XYP B007302 -2.5
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+XYP B007303 2.5
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+ZCC B007304 0 0 2.5
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+PLA B007305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0073
+* b2_pv ts2
+PLA B007306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0074
+* b_pv_1_2_1 ts
+RCC B007401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+ZCC B007501 0 0 5.0
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+XYP B007502 -2.5
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+XYP B007503 2.5
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+ZCC B007504 0 0 2.5
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+PLA B007505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0075
+* b2_pv ts2
+PLA B007506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0076
+* b_pv_1_2_2 ts
+RCC B007601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+ZCC B007701 0 0 5.0
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+XYP B007702 -2.5
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+XYP B007703 2.5
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+ZCC B007704 0 0 2.5
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+PLA B007705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0077
+* b2_pv ts2
+PLA B007706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0078
+* b_pv_1_2_3 ts
+RCC B007801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+ZCC B007901 0 0 5.0
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+XYP B007902 -2.5
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+XYP B007903 2.5
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+ZCC B007904 0 0 2.5
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+PLA B007905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0079
+* b2_pv ts2
+PLA B007906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0080
+* b_pv_1_2_4 ts
+RCC B008001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+ZCC B008101 0 0 5.0
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+XYP B008102 -2.5
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+XYP B008103 2.5
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+ZCC B008104 0 0 2.5
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+PLA B008105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0081
+* b2_pv ts2
+PLA B008106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0082
+* b_pv_1_3_0 ts
+RCC B008201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+ZCC B008301 0 0 5.0
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+XYP B008302 -2.5
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+XYP B008303 2.5
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+ZCC B008304 0 0 2.5
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+PLA B008305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0083
+* b2_pv ts2
+PLA B008306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0084
+* b_pv_1_3_1 ts
+RCC B008401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+ZCC B008501 0 0 5.0
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+XYP B008502 -2.5
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+XYP B008503 2.5
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+ZCC B008504 0 0 2.5
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+PLA B008505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0085
+* b2_pv ts2
+PLA B008506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0086
+* b_pv_1_3_2 ts
+RCC B008601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+ZCC B008701 0 0 5.0
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+XYP B008702 -2.5
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+XYP B008703 2.5
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+ZCC B008704 0 0 2.5
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+PLA B008705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0087
+* b2_pv ts2
+PLA B008706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0088
+* b_pv_1_3_3 ts
+RCC B008801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+ZCC B008901 0 0 5.0
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+XYP B008902 -2.5
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+XYP B008903 2.5
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+ZCC B008904 0 0 2.5
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+PLA B008905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0089
+* b2_pv ts2
+PLA B008906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0090
+* b_pv_1_3_4 ts
+RCC B009001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+ZCC B009101 0 0 5.0
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+XYP B009102 -2.5
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+XYP B009103 2.5
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+ZCC B009104 0 0 2.5
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+PLA B009105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0091
+* b2_pv ts2
+PLA B009106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0092
+* b_pv_1_4_0 ts
+RCC B009201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+ZCC B009301 0 0 5.0
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+XYP B009302 -2.5
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+XYP B009303 2.5
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+ZCC B009304 0 0 2.5
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+PLA B009305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0093
+* b2_pv ts2
+PLA B009306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0094
+* b_pv_1_4_1 ts
+RCC B009401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+ZCC B009501 0 0 5.0
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+XYP B009502 -2.5
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+XYP B009503 2.5
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+ZCC B009504 0 0 2.5
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+PLA B009505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0095
+* b2_pv ts2
+PLA B009506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0096
+* b_pv_1_4_2 ts
+RCC B009601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+ZCC B009701 0 0 5.0
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+XYP B009702 -2.5
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+XYP B009703 2.5
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+ZCC B009704 0 0 2.5
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+PLA B009705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0097
+* b2_pv ts2
+PLA B009706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0098
+* b_pv_1_4_3 ts
+RCC B009801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+ZCC B009901 0 0 5.0
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+XYP B009902 -2.5
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+XYP B009903 2.5
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+ZCC B009904 0 0 2.5
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+PLA B009905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0099
+* b2_pv ts2
+PLA B009906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0100
+* b_pv_1_4_4 ts
+RCC B010001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+ZCC B010101 0 0 5.0
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+XYP B010102 -2.5
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+XYP B010103 2.5
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+ZCC B010104 0 0 2.5
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+PLA B010105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0101
+* b2_pv ts2
+PLA B010106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0102
+* b_pv_2_0_0 ts
+RCC B010201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+ZCC B010301 0 0 5.0
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+XYP B010302 -2.5
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+XYP B010303 2.5
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+ZCC B010304 0 0 2.5
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+PLA B010305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0103
+* b2_pv ts2
+PLA B010306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0104
+* b_pv_2_0_1 ts
+RCC B010401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+ZCC B010501 0 0 5.0
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+XYP B010502 -2.5
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+XYP B010503 2.5
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+ZCC B010504 0 0 2.5
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+PLA B010505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0105
+* b2_pv ts2
+PLA B010506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0106
+* b_pv_2_0_2 ts
+RCC B010601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+ZCC B010701 0 0 5.0
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+XYP B010702 -2.5
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+XYP B010703 2.5
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+ZCC B010704 0 0 2.5
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+PLA B010705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0107
+* b2_pv ts2
+PLA B010706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0108
+* b_pv_2_0_3 ts
+RCC B010801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+ZCC B010901 0 0 5.0
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+XYP B010902 -2.5
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+XYP B010903 2.5
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+ZCC B010904 0 0 2.5
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+PLA B010905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0109
+* b2_pv ts2
+PLA B010906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0110
+* b_pv_2_0_4 ts
+RCC B011001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+ZCC B011101 0 0 5.0
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+XYP B011102 -2.5
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+XYP B011103 2.5
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+ZCC B011104 0 0 2.5
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+PLA B011105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0111
+* b2_pv ts2
+PLA B011106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0112
+* b_pv_2_1_0 ts
+RCC B011201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+ZCC B011301 0 0 5.0
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+XYP B011302 -2.5
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+XYP B011303 2.5
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+ZCC B011304 0 0 2.5
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+PLA B011305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0113
+* b2_pv ts2
+PLA B011306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0114
+* b_pv_2_1_1 ts
+RCC B011401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+ZCC B011501 0 0 5.0
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+XYP B011502 -2.5
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+XYP B011503 2.5
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+ZCC B011504 0 0 2.5
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+PLA B011505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0115
+* b2_pv ts2
+PLA B011506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0116
+* b_pv_2_1_2 ts
+RCC B011601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+ZCC B011701 0 0 5.0
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+XYP B011702 -2.5
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+XYP B011703 2.5
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+ZCC B011704 0 0 2.5
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+PLA B011705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0117
+* b2_pv ts2
+PLA B011706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0118
+* b_pv_2_1_3 ts
+RCC B011801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+ZCC B011901 0 0 5.0
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+XYP B011902 -2.5
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+XYP B011903 2.5
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+ZCC B011904 0 0 2.5
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+PLA B011905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0119
+* b2_pv ts2
+PLA B011906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0120
+* b_pv_2_1_4 ts
+RCC B012001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+ZCC B012101 0 0 5.0
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+XYP B012102 -2.5
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+XYP B012103 2.5
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+ZCC B012104 0 0 2.5
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+PLA B012105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0121
+* b2_pv ts2
+PLA B012106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0122
+* b_pv_2_2_0 ts
+RCC B012201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+ZCC B012301 0 0 5.0
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+XYP B012302 -2.5
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+XYP B012303 2.5
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+ZCC B012304 0 0 2.5
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+PLA B012305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0123
+* b2_pv ts2
+PLA B012306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0124
+* b_pv_2_2_1 ts
+RCC B012401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+ZCC B012501 0 0 5.0
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+XYP B012502 -2.5
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+XYP B012503 2.5
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+ZCC B012504 0 0 2.5
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+PLA B012505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0125
+* b2_pv ts2
+PLA B012506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0126
+* b_pv_2_2_2 ts
+RCC B012601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+ZCC B012701 0 0 5.0
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+XYP B012702 -2.5
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+XYP B012703 2.5
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+ZCC B012704 0 0 2.5
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+PLA B012705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0127
+* b2_pv ts2
+PLA B012706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0128
+* b_pv_2_2_3 ts
+RCC B012801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+ZCC B012901 0 0 5.0
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+XYP B012902 -2.5
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+XYP B012903 2.5
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+ZCC B012904 0 0 2.5
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+PLA B012905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0129
+* b2_pv ts2
+PLA B012906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0130
+* b_pv_2_2_4 ts
+RCC B013001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+ZCC B013101 0 0 5.0
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+XYP B013102 -2.5
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+XYP B013103 2.5
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+ZCC B013104 0 0 2.5
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+PLA B013105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0131
+* b2_pv ts2
+PLA B013106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0132
+* b_pv_2_3_0 ts
+RCC B013201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+ZCC B013301 0 0 5.0
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+XYP B013302 -2.5
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+XYP B013303 2.5
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+ZCC B013304 0 0 2.5
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+PLA B013305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0133
+* b2_pv ts2
+PLA B013306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0134
+* b_pv_2_3_1 ts
+RCC B013401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+ZCC B013501 0 0 5.0
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+XYP B013502 -2.5
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+XYP B013503 2.5
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+ZCC B013504 0 0 2.5
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+PLA B013505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0135
+* b2_pv ts2
+PLA B013506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0136
+* b_pv_2_3_2 ts
+RCC B013601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+ZCC B013701 0 0 5.0
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+XYP B013702 -2.5
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+XYP B013703 2.5
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+ZCC B013704 0 0 2.5
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+PLA B013705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0137
+* b2_pv ts2
+PLA B013706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0138
+* b_pv_2_3_3 ts
+RCC B013801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+ZCC B013901 0 0 5.0
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+XYP B013902 -2.5
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+XYP B013903 2.5
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+ZCC B013904 0 0 2.5
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+PLA B013905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0139
+* b2_pv ts2
+PLA B013906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0140
+* b_pv_2_3_4 ts
+RCC B014001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+ZCC B014101 0 0 5.0
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+XYP B014102 -2.5
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+XYP B014103 2.5
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+ZCC B014104 0 0 2.5
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+PLA B014105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0141
+* b2_pv ts2
+PLA B014106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0142
+* b_pv_2_4_0 ts
+RCC B014201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+ZCC B014301 0 0 5.0
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+XYP B014302 -2.5
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+XYP B014303 2.5
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+ZCC B014304 0 0 2.5
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+PLA B014305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0143
+* b2_pv ts2
+PLA B014306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0144
+* b_pv_2_4_1 ts
+RCC B014401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+ZCC B014501 0 0 5.0
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+XYP B014502 -2.5
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+XYP B014503 2.5
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+ZCC B014504 0 0 2.5
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+PLA B014505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0145
+* b2_pv ts2
+PLA B014506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0146
+* b_pv_2_4_2 ts
+RCC B014601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+ZCC B014701 0 0 5.0
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+XYP B014702 -2.5
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+XYP B014703 2.5
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+ZCC B014704 0 0 2.5
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+PLA B014705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0147
+* b2_pv ts2
+PLA B014706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0148
+* b_pv_2_4_3 ts
+RCC B014801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+ZCC B014901 0 0 5.0
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+XYP B014902 -2.5
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+XYP B014903 2.5
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+ZCC B014904 0 0 2.5
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+PLA B014905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0149
+* b2_pv ts2
+PLA B014906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0150
+* b_pv_2_4_4 ts
+RCC B015001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+ZCC B015101 0 0 5.0
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+XYP B015102 -2.5
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+XYP B015103 2.5
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+ZCC B015104 0 0 2.5
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+PLA B015105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0151
+* b2_pv ts2
+PLA B015106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0152
+* b_pv_3_0_0 ts
+RCC B015201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+ZCC B015301 0 0 5.0
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+XYP B015302 -2.5
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+XYP B015303 2.5
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+ZCC B015304 0 0 2.5
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+PLA B015305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0153
+* b2_pv ts2
+PLA B015306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0154
+* b_pv_3_0_1 ts
+RCC B015401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+ZCC B015501 0 0 5.0
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+XYP B015502 -2.5
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+XYP B015503 2.5
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+ZCC B015504 0 0 2.5
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+PLA B015505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0155
+* b2_pv ts2
+PLA B015506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0156
+* b_pv_3_0_2 ts
+RCC B015601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+ZCC B015701 0 0 5.0
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+XYP B015702 -2.5
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+XYP B015703 2.5
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+ZCC B015704 0 0 2.5
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+PLA B015705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0157
+* b2_pv ts2
+PLA B015706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0158
+* b_pv_3_0_3 ts
+RCC B015801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+ZCC B015901 0 0 5.0
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+XYP B015902 -2.5
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+XYP B015903 2.5
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+ZCC B015904 0 0 2.5
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+PLA B015905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0159
+* b2_pv ts2
+PLA B015906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0160
+* b_pv_3_0_4 ts
+RCC B016001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+ZCC B016101 0 0 5.0
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+XYP B016102 -2.5
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+XYP B016103 2.5
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+ZCC B016104 0 0 2.5
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+PLA B016105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0161
+* b2_pv ts2
+PLA B016106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0162
+* b_pv_3_1_0 ts
+RCC B016201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+ZCC B016301 0 0 5.0
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+XYP B016302 -2.5
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+XYP B016303 2.5
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+ZCC B016304 0 0 2.5
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+PLA B016305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0163
+* b2_pv ts2
+PLA B016306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0164
+* b_pv_3_1_1 ts
+RCC B016401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+ZCC B016501 0 0 5.0
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+XYP B016502 -2.5
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+XYP B016503 2.5
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+ZCC B016504 0 0 2.5
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+PLA B016505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0165
+* b2_pv ts2
+PLA B016506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0166
+* b_pv_3_1_2 ts
+RCC B016601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+ZCC B016701 0 0 5.0
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+XYP B016702 -2.5
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+XYP B016703 2.5
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+ZCC B016704 0 0 2.5
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+PLA B016705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0167
+* b2_pv ts2
+PLA B016706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0168
+* b_pv_3_1_3 ts
+RCC B016801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+ZCC B016901 0 0 5.0
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+XYP B016902 -2.5
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+XYP B016903 2.5
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+ZCC B016904 0 0 2.5
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+PLA B016905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0169
+* b2_pv ts2
+PLA B016906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0170
+* b_pv_3_1_4 ts
+RCC B017001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+ZCC B017101 0 0 5.0
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+XYP B017102 -2.5
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+XYP B017103 2.5
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+ZCC B017104 0 0 2.5
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+PLA B017105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0171
+* b2_pv ts2
+PLA B017106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0172
+* b_pv_3_2_0 ts
+RCC B017201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+ZCC B017301 0 0 5.0
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+XYP B017302 -2.5
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+XYP B017303 2.5
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+ZCC B017304 0 0 2.5
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+PLA B017305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0173
+* b2_pv ts2
+PLA B017306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0174
+* b_pv_3_2_1 ts
+RCC B017401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+ZCC B017501 0 0 5.0
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+XYP B017502 -2.5
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+XYP B017503 2.5
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+ZCC B017504 0 0 2.5
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+PLA B017505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0175
+* b2_pv ts2
+PLA B017506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0176
+* b_pv_3_2_2 ts
+RCC B017601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+ZCC B017701 0 0 5.0
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+XYP B017702 -2.5
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+XYP B017703 2.5
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+ZCC B017704 0 0 2.5
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+PLA B017705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0177
+* b2_pv ts2
+PLA B017706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0178
+* b_pv_3_2_3 ts
+RCC B017801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+ZCC B017901 0 0 5.0
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+XYP B017902 -2.5
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+XYP B017903 2.5
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+ZCC B017904 0 0 2.5
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+PLA B017905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0179
+* b2_pv ts2
+PLA B017906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0180
+* b_pv_3_2_4 ts
+RCC B018001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+ZCC B018101 0 0 5.0
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+XYP B018102 -2.5
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+XYP B018103 2.5
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+ZCC B018104 0 0 2.5
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+PLA B018105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0181
+* b2_pv ts2
+PLA B018106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0182
+* b_pv_3_3_0 ts
+RCC B018201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+ZCC B018301 0 0 5.0
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+XYP B018302 -2.5
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+XYP B018303 2.5
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+ZCC B018304 0 0 2.5
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+PLA B018305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0183
+* b2_pv ts2
+PLA B018306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0184
+* b_pv_3_3_1 ts
+RCC B018401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+ZCC B018501 0 0 5.0
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+XYP B018502 -2.5
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+XYP B018503 2.5
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+ZCC B018504 0 0 2.5
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+PLA B018505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0185
+* b2_pv ts2
+PLA B018506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0186
+* b_pv_3_3_2 ts
+RCC B018601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+ZCC B018701 0 0 5.0
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+XYP B018702 -2.5
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+XYP B018703 2.5
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+ZCC B018704 0 0 2.5
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+PLA B018705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0187
+* b2_pv ts2
+PLA B018706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0188
+* b_pv_3_3_3 ts
+RCC B018801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+ZCC B018901 0 0 5.0
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+XYP B018902 -2.5
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+XYP B018903 2.5
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+ZCC B018904 0 0 2.5
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+PLA B018905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0189
+* b2_pv ts2
+PLA B018906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0190
+* b_pv_3_3_4 ts
+RCC B019001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+ZCC B019101 0 0 5.0
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+XYP B019102 -2.5
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+XYP B019103 2.5
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+ZCC B019104 0 0 2.5
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+PLA B019105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0191
+* b2_pv ts2
+PLA B019106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0192
+* b_pv_3_4_0 ts
+RCC B019201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+ZCC B019301 0 0 5.0
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+XYP B019302 -2.5
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+XYP B019303 2.5
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+ZCC B019304 0 0 2.5
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+PLA B019305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0193
+* b2_pv ts2
+PLA B019306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0194
+* b_pv_3_4_1 ts
+RCC B019401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+ZCC B019501 0 0 5.0
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+XYP B019502 -2.5
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+XYP B019503 2.5
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+ZCC B019504 0 0 2.5
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+PLA B019505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0195
+* b2_pv ts2
+PLA B019506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0196
+* b_pv_3_4_2 ts
+RCC B019601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+ZCC B019701 0 0 5.0
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+XYP B019702 -2.5
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+XYP B019703 2.5
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+ZCC B019704 0 0 2.5
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+PLA B019705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0197
+* b2_pv ts2
+PLA B019706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0198
+* b_pv_3_4_3 ts
+RCC B019801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+ZCC B019901 0 0 5.0
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+XYP B019902 -2.5
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+XYP B019903 2.5
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+ZCC B019904 0 0 2.5
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+PLA B019905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0199
+* b2_pv ts2
+PLA B019906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0200
+* b_pv_3_4_4 ts
+RCC B020001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+ZCC B020101 0 0 5.0
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+XYP B020102 -2.5
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+XYP B020103 2.5
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+ZCC B020104 0 0 2.5
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+PLA B020105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0201
+* b2_pv ts2
+PLA B020106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0202
+* b_pv_4_0_0 ts
+RCC B020201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+ZCC B020301 0 0 5.0
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+XYP B020302 -2.5
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+XYP B020303 2.5
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+ZCC B020304 0 0 2.5
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+PLA B020305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0203
+* b2_pv ts2
+PLA B020306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0204
+* b_pv_4_0_1 ts
+RCC B020401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+ZCC B020501 0 0 5.0
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+XYP B020502 -2.5
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+XYP B020503 2.5
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+ZCC B020504 0 0 2.5
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+PLA B020505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0205
+* b2_pv ts2
+PLA B020506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0206
+* b_pv_4_0_2 ts
+RCC B020601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+ZCC B020701 0 0 5.0
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+XYP B020702 -2.5
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+XYP B020703 2.5
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+ZCC B020704 0 0 2.5
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+PLA B020705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0207
+* b2_pv ts2
+PLA B020706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0208
+* b_pv_4_0_3 ts
+RCC B020801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+ZCC B020901 0 0 5.0
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+XYP B020902 -2.5
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+XYP B020903 2.5
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+ZCC B020904 0 0 2.5
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+PLA B020905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0209
+* b2_pv ts2
+PLA B020906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0210
+* b_pv_4_0_4 ts
+RCC B021001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+ZCC B021101 0 0 5.0
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+XYP B021102 -2.5
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+XYP B021103 2.5
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+ZCC B021104 0 0 2.5
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+PLA B021105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0211
+* b2_pv ts2
+PLA B021106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0212
+* b_pv_4_1_0 ts
+RCC B021201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+ZCC B021301 0 0 5.0
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+XYP B021302 -2.5
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+XYP B021303 2.5
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+ZCC B021304 0 0 2.5
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+PLA B021305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0213
+* b2_pv ts2
+PLA B021306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0214
+* b_pv_4_1_1 ts
+RCC B021401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+ZCC B021501 0 0 5.0
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+XYP B021502 -2.5
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+XYP B021503 2.5
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+ZCC B021504 0 0 2.5
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+PLA B021505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0215
+* b2_pv ts2
+PLA B021506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0216
+* b_pv_4_1_2 ts
+RCC B021601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+ZCC B021701 0 0 5.0
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+XYP B021702 -2.5
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+XYP B021703 2.5
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+ZCC B021704 0 0 2.5
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+PLA B021705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0217
+* b2_pv ts2
+PLA B021706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0218
+* b_pv_4_1_3 ts
+RCC B021801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+ZCC B021901 0 0 5.0
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+XYP B021902 -2.5
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+XYP B021903 2.5
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+ZCC B021904 0 0 2.5
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+PLA B021905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0219
+* b2_pv ts2
+PLA B021906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0220
+* b_pv_4_1_4 ts
+RCC B022001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+ZCC B022101 0 0 5.0
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+XYP B022102 -2.5
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+XYP B022103 2.5
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+ZCC B022104 0 0 2.5
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+PLA B022105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0221
+* b2_pv ts2
+PLA B022106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0222
+* b_pv_4_2_0 ts
+RCC B022201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+ZCC B022301 0 0 5.0
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+XYP B022302 -2.5
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+XYP B022303 2.5
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+ZCC B022304 0 0 2.5
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+PLA B022305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0223
+* b2_pv ts2
+PLA B022306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0224
+* b_pv_4_2_1 ts
+RCC B022401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+ZCC B022501 0 0 5.0
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+XYP B022502 -2.5
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+XYP B022503 2.5
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+ZCC B022504 0 0 2.5
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+PLA B022505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0225
+* b2_pv ts2
+PLA B022506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0226
+* b_pv_4_2_2 ts
+RCC B022601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+ZCC B022701 0 0 5.0
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+XYP B022702 -2.5
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+XYP B022703 2.5
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+ZCC B022704 0 0 2.5
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+PLA B022705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0227
+* b2_pv ts2
+PLA B022706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0228
+* b_pv_4_2_3 ts
+RCC B022801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+ZCC B022901 0 0 5.0
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+XYP B022902 -2.5
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+XYP B022903 2.5
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+ZCC B022904 0 0 2.5
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+PLA B022905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0229
+* b2_pv ts2
+PLA B022906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0230
+* b_pv_4_2_4 ts
+RCC B023001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+ZCC B023101 0 0 5.0
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+XYP B023102 -2.5
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+XYP B023103 2.5
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+ZCC B023104 0 0 2.5
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+PLA B023105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0231
+* b2_pv ts2
+PLA B023106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0232
+* b_pv_4_3_0 ts
+RCC B023201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+ZCC B023301 0 0 5.0
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+XYP B023302 -2.5
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+XYP B023303 2.5
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+ZCC B023304 0 0 2.5
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+PLA B023305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0233
+* b2_pv ts2
+PLA B023306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0234
+* b_pv_4_3_1 ts
+RCC B023401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+ZCC B023501 0 0 5.0
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+XYP B023502 -2.5
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+XYP B023503 2.5
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+ZCC B023504 0 0 2.5
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+PLA B023505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0235
+* b2_pv ts2
+PLA B023506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0236
+* b_pv_4_3_2 ts
+RCC B023601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+ZCC B023701 0 0 5.0
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+XYP B023702 -2.5
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+XYP B023703 2.5
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+ZCC B023704 0 0 2.5
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+PLA B023705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0237
+* b2_pv ts2
+PLA B023706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0238
+* b_pv_4_3_3 ts
+RCC B023801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+ZCC B023901 0 0 5.0
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+XYP B023902 -2.5
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+XYP B023903 2.5
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+ZCC B023904 0 0 2.5
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+PLA B023905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0239
+* b2_pv ts2
+PLA B023906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0240
+* b_pv_4_3_4 ts
+RCC B024001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+ZCC B024101 0 0 5.0
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+XYP B024102 -2.5
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+XYP B024103 2.5
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+ZCC B024104 0 0 2.5
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+PLA B024105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0241
+* b2_pv ts2
+PLA B024106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0242
+* b_pv_4_4_0 ts
+RCC B024201 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+ZCC B024301 0 0 5.0
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+XYP B024302 -2.5
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+XYP B024303 2.5
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+ZCC B024304 0 0 2.5
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+PLA B024305 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0243
+* b2_pv ts2
+PLA B024306 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0244
+* b_pv_4_4_1 ts
+RCC B024401 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+ZCC B024501 0 0 5.0
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+XYP B024502 -2.5
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+XYP B024503 2.5
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+ZCC B024504 0 0 2.5
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+PLA B024505 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0245
+* b2_pv ts2
+PLA B024506 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0246
+* b_pv_4_4_2 ts
+RCC B024601 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+ZCC B024701 0 0 5.0
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+XYP B024702 -2.5
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+XYP B024703 2.5
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+ZCC B024704 0 0 2.5
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+PLA B024705 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0247
+* b2_pv ts2
+PLA B024706 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0248
+* b_pv_4_4_3 ts
+RCC B024801 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+ZCC B024901 0 0 5.0
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+XYP B024902 -2.5
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+XYP B024903 2.5
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+ZCC B024904 0 0 2.5
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+PLA B024905 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0249
+* b2_pv ts2
+PLA B024906 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0250
+* b_pv_4_4_4 ts
+RCC B025001 0.0 0.0 -2.5500000000000003 0.0 0.0 5.1000000000000005 5.1000000000000005
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+ZCC B025101 0 0 5.0
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+XYP B025102 -2.5
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+XYP B025103 2.5
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+ZCC B025104 0 0 2.5
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+PLA B025105 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0251
+* b2_pv ts2
+PLA B025106 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
+$end_transform
+END
+* b2_pv
+R0003 5 | +B000301 +B000303 -B000302 -B000304 -( +B000305 -B000306)
+* b_pv_0_0_0
+R0002 5 | +B000201 -( +B000301 +B000303 -B000302 -B000304 -( +B000305 -B000306))
+* b2_pv
+R0005 5 | +B000501 +B000503 -B000502 -B000504 -( +B000505 -B000506)
+* b_pv_0_0_1
+R0004 5 | +B000401 -( +B000501 +B000503 -B000502 -B000504 -( +B000505 -B000506))
+* b2_pv
+R0007 5 | +B000701 +B000703 -B000702 -B000704 -( +B000705 -B000706)
+* b_pv_0_0_2
+R0006 5 | +B000601 -( +B000701 +B000703 -B000702 -B000704 -( +B000705 -B000706))
+* b2_pv
+R0009 5 | +B000901 +B000903 -B000902 -B000904 -( +B000905 -B000906)
+* b_pv_0_0_3
+R0008 5 | +B000801 -( +B000901 +B000903 -B000902 -B000904 -( +B000905 -B000906))
+* b2_pv
+R0011 5 | +B001101 +B001103 -B001102 -B001104 -( +B001105 -B001106)
+* b_pv_0_0_4
+R0010 5 | +B001001 -( +B001101 +B001103 -B001102 -B001104 -( +B001105 -B001106))
+* b2_pv
+R0013 5 | +B001301 +B001303 -B001302 -B001304 -( +B001305 -B001306)
+* b_pv_0_1_0
+R0012 5 | +B001201 -( +B001301 +B001303 -B001302 -B001304 -( +B001305 -B001306))
+* b2_pv
+R0015 5 | +B001501 +B001503 -B001502 -B001504 -( +B001505 -B001506)
+* b_pv_0_1_1
+R0014 5 | +B001401 -( +B001501 +B001503 -B001502 -B001504 -( +B001505 -B001506))
+* b2_pv
+R0017 5 | +B001701 +B001703 -B001702 -B001704 -( +B001705 -B001706)
+* b_pv_0_1_2
+R0016 5 | +B001601 -( +B001701 +B001703 -B001702 -B001704 -( +B001705 -B001706))
+* b2_pv
+R0019 5 | +B001901 +B001903 -B001902 -B001904 -( +B001905 -B001906)
+* b_pv_0_1_3
+R0018 5 | +B001801 -( +B001901 +B001903 -B001902 -B001904 -( +B001905 -B001906))
+* b2_pv
+R0021 5 | +B002101 +B002103 -B002102 -B002104 -( +B002105 -B002106)
+* b_pv_0_1_4
+R0020 5 | +B002001 -( +B002101 +B002103 -B002102 -B002104 -( +B002105 -B002106))
+* b2_pv
+R0023 5 | +B002301 +B002303 -B002302 -B002304 -( +B002305 -B002306)
+* b_pv_0_2_0
+R0022 5 | +B002201 -( +B002301 +B002303 -B002302 -B002304 -( +B002305 -B002306))
+* b2_pv
+R0025 5 | +B002501 +B002503 -B002502 -B002504 -( +B002505 -B002506)
+* b_pv_0_2_1
+R0024 5 | +B002401 -( +B002501 +B002503 -B002502 -B002504 -( +B002505 -B002506))
+* b2_pv
+R0027 5 | +B002701 +B002703 -B002702 -B002704 -( +B002705 -B002706)
+* b_pv_0_2_2
+R0026 5 | +B002601 -( +B002701 +B002703 -B002702 -B002704 -( +B002705 -B002706))
+* b2_pv
+R0029 5 | +B002901 +B002903 -B002902 -B002904 -( +B002905 -B002906)
+* b_pv_0_2_3
+R0028 5 | +B002801 -( +B002901 +B002903 -B002902 -B002904 -( +B002905 -B002906))
+* b2_pv
+R0031 5 | +B003101 +B003103 -B003102 -B003104 -( +B003105 -B003106)
+* b_pv_0_2_4
+R0030 5 | +B003001 -( +B003101 +B003103 -B003102 -B003104 -( +B003105 -B003106))
+* b2_pv
+R0033 5 | +B003301 +B003303 -B003302 -B003304 -( +B003305 -B003306)
+* b_pv_0_3_0
+R0032 5 | +B003201 -( +B003301 +B003303 -B003302 -B003304 -( +B003305 -B003306))
+* b2_pv
+R0035 5 | +B003501 +B003503 -B003502 -B003504 -( +B003505 -B003506)
+* b_pv_0_3_1
+R0034 5 | +B003401 -( +B003501 +B003503 -B003502 -B003504 -( +B003505 -B003506))
+* b2_pv
+R0037 5 | +B003701 +B003703 -B003702 -B003704 -( +B003705 -B003706)
+* b_pv_0_3_2
+R0036 5 | +B003601 -( +B003701 +B003703 -B003702 -B003704 -( +B003705 -B003706))
+* b2_pv
+R0039 5 | +B003901 +B003903 -B003902 -B003904 -( +B003905 -B003906)
+* b_pv_0_3_3
+R0038 5 | +B003801 -( +B003901 +B003903 -B003902 -B003904 -( +B003905 -B003906))
+* b2_pv
+R0041 5 | +B004101 +B004103 -B004102 -B004104 -( +B004105 -B004106)
+* b_pv_0_3_4
+R0040 5 | +B004001 -( +B004101 +B004103 -B004102 -B004104 -( +B004105 -B004106))
+* b2_pv
+R0043 5 | +B004301 +B004303 -B004302 -B004304 -( +B004305 -B004306)
+* b_pv_0_4_0
+R0042 5 | +B004201 -( +B004301 +B004303 -B004302 -B004304 -( +B004305 -B004306))
+* b2_pv
+R0045 5 | +B004501 +B004503 -B004502 -B004504 -( +B004505 -B004506)
+* b_pv_0_4_1
+R0044 5 | +B004401 -( +B004501 +B004503 -B004502 -B004504 -( +B004505 -B004506))
+* b2_pv
+R0047 5 | +B004701 +B004703 -B004702 -B004704 -( +B004705 -B004706)
+* b_pv_0_4_2
+R0046 5 | +B004601 -( +B004701 +B004703 -B004702 -B004704 -( +B004705 -B004706))
+* b2_pv
+R0049 5 | +B004901 +B004903 -B004902 -B004904 -( +B004905 -B004906)
+* b_pv_0_4_3
+R0048 5 | +B004801 -( +B004901 +B004903 -B004902 -B004904 -( +B004905 -B004906))
+* b2_pv
+R0051 5 | +B005101 +B005103 -B005102 -B005104 -( +B005105 -B005106)
+* b_pv_0_4_4
+R0050 5 | +B005001 -( +B005101 +B005103 -B005102 -B005104 -( +B005105 -B005106))
+* b2_pv
+R0053 5 | +B005301 +B005303 -B005302 -B005304 -( +B005305 -B005306)
+* b_pv_1_0_0
+R0052 5 | +B005201 -( +B005301 +B005303 -B005302 -B005304 -( +B005305 -B005306))
+* b2_pv
+R0055 5 | +B005501 +B005503 -B005502 -B005504 -( +B005505 -B005506)
+* b_pv_1_0_1
+R0054 5 | +B005401 -( +B005501 +B005503 -B005502 -B005504 -( +B005505 -B005506))
+* b2_pv
+R0057 5 | +B005701 +B005703 -B005702 -B005704 -( +B005705 -B005706)
+* b_pv_1_0_2
+R0056 5 | +B005601 -( +B005701 +B005703 -B005702 -B005704 -( +B005705 -B005706))
+* b2_pv
+R0059 5 | +B005901 +B005903 -B005902 -B005904 -( +B005905 -B005906)
+* b_pv_1_0_3
+R0058 5 | +B005801 -( +B005901 +B005903 -B005902 -B005904 -( +B005905 -B005906))
+* b2_pv
+R0061 5 | +B006101 +B006103 -B006102 -B006104 -( +B006105 -B006106)
+* b_pv_1_0_4
+R0060 5 | +B006001 -( +B006101 +B006103 -B006102 -B006104 -( +B006105 -B006106))
+* b2_pv
+R0063 5 | +B006301 +B006303 -B006302 -B006304 -( +B006305 -B006306)
+* b_pv_1_1_0
+R0062 5 | +B006201 -( +B006301 +B006303 -B006302 -B006304 -( +B006305 -B006306))
+* b2_pv
+R0065 5 | +B006501 +B006503 -B006502 -B006504 -( +B006505 -B006506)
+* b_pv_1_1_1
+R0064 5 | +B006401 -( +B006501 +B006503 -B006502 -B006504 -( +B006505 -B006506))
+* b2_pv
+R0067 5 | +B006701 +B006703 -B006702 -B006704 -( +B006705 -B006706)
+* b_pv_1_1_2
+R0066 5 | +B006601 -( +B006701 +B006703 -B006702 -B006704 -( +B006705 -B006706))
+* b2_pv
+R0069 5 | +B006901 +B006903 -B006902 -B006904 -( +B006905 -B006906)
+* b_pv_1_1_3
+R0068 5 | +B006801 -( +B006901 +B006903 -B006902 -B006904 -( +B006905 -B006906))
+* b2_pv
+R0071 5 | +B007101 +B007103 -B007102 -B007104 -( +B007105 -B007106)
+* b_pv_1_1_4
+R0070 5 | +B007001 -( +B007101 +B007103 -B007102 -B007104 -( +B007105 -B007106))
+* b2_pv
+R0073 5 | +B007301 +B007303 -B007302 -B007304 -( +B007305 -B007306)
+* b_pv_1_2_0
+R0072 5 | +B007201 -( +B007301 +B007303 -B007302 -B007304 -( +B007305 -B007306))
+* b2_pv
+R0075 5 | +B007501 +B007503 -B007502 -B007504 -( +B007505 -B007506)
+* b_pv_1_2_1
+R0074 5 | +B007401 -( +B007501 +B007503 -B007502 -B007504 -( +B007505 -B007506))
+* b2_pv
+R0077 5 | +B007701 +B007703 -B007702 -B007704 -( +B007705 -B007706)
+* b_pv_1_2_2
+R0076 5 | +B007601 -( +B007701 +B007703 -B007702 -B007704 -( +B007705 -B007706))
+* b2_pv
+R0079 5 | +B007901 +B007903 -B007902 -B007904 -( +B007905 -B007906)
+* b_pv_1_2_3
+R0078 5 | +B007801 -( +B007901 +B007903 -B007902 -B007904 -( +B007905 -B007906))
+* b2_pv
+R0081 5 | +B008101 +B008103 -B008102 -B008104 -( +B008105 -B008106)
+* b_pv_1_2_4
+R0080 5 | +B008001 -( +B008101 +B008103 -B008102 -B008104 -( +B008105 -B008106))
+* b2_pv
+R0083 5 | +B008301 +B008303 -B008302 -B008304 -( +B008305 -B008306)
+* b_pv_1_3_0
+R0082 5 | +B008201 -( +B008301 +B008303 -B008302 -B008304 -( +B008305 -B008306))
+* b2_pv
+R0085 5 | +B008501 +B008503 -B008502 -B008504 -( +B008505 -B008506)
+* b_pv_1_3_1
+R0084 5 | +B008401 -( +B008501 +B008503 -B008502 -B008504 -( +B008505 -B008506))
+* b2_pv
+R0087 5 | +B008701 +B008703 -B008702 -B008704 -( +B008705 -B008706)
+* b_pv_1_3_2
+R0086 5 | +B008601 -( +B008701 +B008703 -B008702 -B008704 -( +B008705 -B008706))
+* b2_pv
+R0089 5 | +B008901 +B008903 -B008902 -B008904 -( +B008905 -B008906)
+* b_pv_1_3_3
+R0088 5 | +B008801 -( +B008901 +B008903 -B008902 -B008904 -( +B008905 -B008906))
+* b2_pv
+R0091 5 | +B009101 +B009103 -B009102 -B009104 -( +B009105 -B009106)
+* b_pv_1_3_4
+R0090 5 | +B009001 -( +B009101 +B009103 -B009102 -B009104 -( +B009105 -B009106))
+* b2_pv
+R0093 5 | +B009301 +B009303 -B009302 -B009304 -( +B009305 -B009306)
+* b_pv_1_4_0
+R0092 5 | +B009201 -( +B009301 +B009303 -B009302 -B009304 -( +B009305 -B009306))
+* b2_pv
+R0095 5 | +B009501 +B009503 -B009502 -B009504 -( +B009505 -B009506)
+* b_pv_1_4_1
+R0094 5 | +B009401 -( +B009501 +B009503 -B009502 -B009504 -( +B009505 -B009506))
+* b2_pv
+R0097 5 | +B009701 +B009703 -B009702 -B009704 -( +B009705 -B009706)
+* b_pv_1_4_2
+R0096 5 | +B009601 -( +B009701 +B009703 -B009702 -B009704 -( +B009705 -B009706))
+* b2_pv
+R0099 5 | +B009901 +B009903 -B009902 -B009904 -( +B009905 -B009906)
+* b_pv_1_4_3
+R0098 5 | +B009801 -( +B009901 +B009903 -B009902 -B009904 -( +B009905 -B009906))
+* b2_pv
+R0101 5 | +B010101 +B010103 -B010102 -B010104 -( +B010105 -B010106)
+* b_pv_1_4_4
+R0100 5 | +B010001 -( +B010101 +B010103 -B010102 -B010104 -( +B010105 -B010106))
+* b2_pv
+R0103 5 | +B010301 +B010303 -B010302 -B010304 -( +B010305 -B010306)
+* b_pv_2_0_0
+R0102 5 | +B010201 -( +B010301 +B010303 -B010302 -B010304 -( +B010305 -B010306))
+* b2_pv
+R0105 5 | +B010501 +B010503 -B010502 -B010504 -( +B010505 -B010506)
+* b_pv_2_0_1
+R0104 5 | +B010401 -( +B010501 +B010503 -B010502 -B010504 -( +B010505 -B010506))
+* b2_pv
+R0107 5 | +B010701 +B010703 -B010702 -B010704 -( +B010705 -B010706)
+* b_pv_2_0_2
+R0106 5 | +B010601 -( +B010701 +B010703 -B010702 -B010704 -( +B010705 -B010706))
+* b2_pv
+R0109 5 | +B010901 +B010903 -B010902 -B010904 -( +B010905 -B010906)
+* b_pv_2_0_3
+R0108 5 | +B010801 -( +B010901 +B010903 -B010902 -B010904 -( +B010905 -B010906))
+* b2_pv
+R0111 5 | +B011101 +B011103 -B011102 -B011104 -( +B011105 -B011106)
+* b_pv_2_0_4
+R0110 5 | +B011001 -( +B011101 +B011103 -B011102 -B011104 -( +B011105 -B011106))
+* b2_pv
+R0113 5 | +B011301 +B011303 -B011302 -B011304 -( +B011305 -B011306)
+* b_pv_2_1_0
+R0112 5 | +B011201 -( +B011301 +B011303 -B011302 -B011304 -( +B011305 -B011306))
+* b2_pv
+R0115 5 | +B011501 +B011503 -B011502 -B011504 -( +B011505 -B011506)
+* b_pv_2_1_1
+R0114 5 | +B011401 -( +B011501 +B011503 -B011502 -B011504 -( +B011505 -B011506))
+* b2_pv
+R0117 5 | +B011701 +B011703 -B011702 -B011704 -( +B011705 -B011706)
+* b_pv_2_1_2
+R0116 5 | +B011601 -( +B011701 +B011703 -B011702 -B011704 -( +B011705 -B011706))
+* b2_pv
+R0119 5 | +B011901 +B011903 -B011902 -B011904 -( +B011905 -B011906)
+* b_pv_2_1_3
+R0118 5 | +B011801 -( +B011901 +B011903 -B011902 -B011904 -( +B011905 -B011906))
+* b2_pv
+R0121 5 | +B012101 +B012103 -B012102 -B012104 -( +B012105 -B012106)
+* b_pv_2_1_4
+R0120 5 | +B012001 -( +B012101 +B012103 -B012102 -B012104 -( +B012105 -B012106))
+* b2_pv
+R0123 5 | +B012301 +B012303 -B012302 -B012304 -( +B012305 -B012306)
+* b_pv_2_2_0
+R0122 5 | +B012201 -( +B012301 +B012303 -B012302 -B012304 -( +B012305 -B012306))
+* b2_pv
+R0125 5 | +B012501 +B012503 -B012502 -B012504 -( +B012505 -B012506)
+* b_pv_2_2_1
+R0124 5 | +B012401 -( +B012501 +B012503 -B012502 -B012504 -( +B012505 -B012506))
+* b2_pv
+R0127 5 | +B012701 +B012703 -B012702 -B012704 -( +B012705 -B012706)
+* b_pv_2_2_2
+R0126 5 | +B012601 -( +B012701 +B012703 -B012702 -B012704 -( +B012705 -B012706))
+* b2_pv
+R0129 5 | +B012901 +B012903 -B012902 -B012904 -( +B012905 -B012906)
+* b_pv_2_2_3
+R0128 5 | +B012801 -( +B012901 +B012903 -B012902 -B012904 -( +B012905 -B012906))
+* b2_pv
+R0131 5 | +B013101 +B013103 -B013102 -B013104 -( +B013105 -B013106)
+* b_pv_2_2_4
+R0130 5 | +B013001 -( +B013101 +B013103 -B013102 -B013104 -( +B013105 -B013106))
+* b2_pv
+R0133 5 | +B013301 +B013303 -B013302 -B013304 -( +B013305 -B013306)
+* b_pv_2_3_0
+R0132 5 | +B013201 -( +B013301 +B013303 -B013302 -B013304 -( +B013305 -B013306))
+* b2_pv
+R0135 5 | +B013501 +B013503 -B013502 -B013504 -( +B013505 -B013506)
+* b_pv_2_3_1
+R0134 5 | +B013401 -( +B013501 +B013503 -B013502 -B013504 -( +B013505 -B013506))
+* b2_pv
+R0137 5 | +B013701 +B013703 -B013702 -B013704 -( +B013705 -B013706)
+* b_pv_2_3_2
+R0136 5 | +B013601 -( +B013701 +B013703 -B013702 -B013704 -( +B013705 -B013706))
+* b2_pv
+R0139 5 | +B013901 +B013903 -B013902 -B013904 -( +B013905 -B013906)
+* b_pv_2_3_3
+R0138 5 | +B013801 -( +B013901 +B013903 -B013902 -B013904 -( +B013905 -B013906))
+* b2_pv
+R0141 5 | +B014101 +B014103 -B014102 -B014104 -( +B014105 -B014106)
+* b_pv_2_3_4
+R0140 5 | +B014001 -( +B014101 +B014103 -B014102 -B014104 -( +B014105 -B014106))
+* b2_pv
+R0143 5 | +B014301 +B014303 -B014302 -B014304 -( +B014305 -B014306)
+* b_pv_2_4_0
+R0142 5 | +B014201 -( +B014301 +B014303 -B014302 -B014304 -( +B014305 -B014306))
+* b2_pv
+R0145 5 | +B014501 +B014503 -B014502 -B014504 -( +B014505 -B014506)
+* b_pv_2_4_1
+R0144 5 | +B014401 -( +B014501 +B014503 -B014502 -B014504 -( +B014505 -B014506))
+* b2_pv
+R0147 5 | +B014701 +B014703 -B014702 -B014704 -( +B014705 -B014706)
+* b_pv_2_4_2
+R0146 5 | +B014601 -( +B014701 +B014703 -B014702 -B014704 -( +B014705 -B014706))
+* b2_pv
+R0149 5 | +B014901 +B014903 -B014902 -B014904 -( +B014905 -B014906)
+* b_pv_2_4_3
+R0148 5 | +B014801 -( +B014901 +B014903 -B014902 -B014904 -( +B014905 -B014906))
+* b2_pv
+R0151 5 | +B015101 +B015103 -B015102 -B015104 -( +B015105 -B015106)
+* b_pv_2_4_4
+R0150 5 | +B015001 -( +B015101 +B015103 -B015102 -B015104 -( +B015105 -B015106))
+* b2_pv
+R0153 5 | +B015301 +B015303 -B015302 -B015304 -( +B015305 -B015306)
+* b_pv_3_0_0
+R0152 5 | +B015201 -( +B015301 +B015303 -B015302 -B015304 -( +B015305 -B015306))
+* b2_pv
+R0155 5 | +B015501 +B015503 -B015502 -B015504 -( +B015505 -B015506)
+* b_pv_3_0_1
+R0154 5 | +B015401 -( +B015501 +B015503 -B015502 -B015504 -( +B015505 -B015506))
+* b2_pv
+R0157 5 | +B015701 +B015703 -B015702 -B015704 -( +B015705 -B015706)
+* b_pv_3_0_2
+R0156 5 | +B015601 -( +B015701 +B015703 -B015702 -B015704 -( +B015705 -B015706))
+* b2_pv
+R0159 5 | +B015901 +B015903 -B015902 -B015904 -( +B015905 -B015906)
+* b_pv_3_0_3
+R0158 5 | +B015801 -( +B015901 +B015903 -B015902 -B015904 -( +B015905 -B015906))
+* b2_pv
+R0161 5 | +B016101 +B016103 -B016102 -B016104 -( +B016105 -B016106)
+* b_pv_3_0_4
+R0160 5 | +B016001 -( +B016101 +B016103 -B016102 -B016104 -( +B016105 -B016106))
+* b2_pv
+R0163 5 | +B016301 +B016303 -B016302 -B016304 -( +B016305 -B016306)
+* b_pv_3_1_0
+R0162 5 | +B016201 -( +B016301 +B016303 -B016302 -B016304 -( +B016305 -B016306))
+* b2_pv
+R0165 5 | +B016501 +B016503 -B016502 -B016504 -( +B016505 -B016506)
+* b_pv_3_1_1
+R0164 5 | +B016401 -( +B016501 +B016503 -B016502 -B016504 -( +B016505 -B016506))
+* b2_pv
+R0167 5 | +B016701 +B016703 -B016702 -B016704 -( +B016705 -B016706)
+* b_pv_3_1_2
+R0166 5 | +B016601 -( +B016701 +B016703 -B016702 -B016704 -( +B016705 -B016706))
+* b2_pv
+R0169 5 | +B016901 +B016903 -B016902 -B016904 -( +B016905 -B016906)
+* b_pv_3_1_3
+R0168 5 | +B016801 -( +B016901 +B016903 -B016902 -B016904 -( +B016905 -B016906))
+* b2_pv
+R0171 5 | +B017101 +B017103 -B017102 -B017104 -( +B017105 -B017106)
+* b_pv_3_1_4
+R0170 5 | +B017001 -( +B017101 +B017103 -B017102 -B017104 -( +B017105 -B017106))
+* b2_pv
+R0173 5 | +B017301 +B017303 -B017302 -B017304 -( +B017305 -B017306)
+* b_pv_3_2_0
+R0172 5 | +B017201 -( +B017301 +B017303 -B017302 -B017304 -( +B017305 -B017306))
+* b2_pv
+R0175 5 | +B017501 +B017503 -B017502 -B017504 -( +B017505 -B017506)
+* b_pv_3_2_1
+R0174 5 | +B017401 -( +B017501 +B017503 -B017502 -B017504 -( +B017505 -B017506))
+* b2_pv
+R0177 5 | +B017701 +B017703 -B017702 -B017704 -( +B017705 -B017706)
+* b_pv_3_2_2
+R0176 5 | +B017601 -( +B017701 +B017703 -B017702 -B017704 -( +B017705 -B017706))
+* b2_pv
+R0179 5 | +B017901 +B017903 -B017902 -B017904 -( +B017905 -B017906)
+* b_pv_3_2_3
+R0178 5 | +B017801 -( +B017901 +B017903 -B017902 -B017904 -( +B017905 -B017906))
+* b2_pv
+R0181 5 | +B018101 +B018103 -B018102 -B018104 -( +B018105 -B018106)
+* b_pv_3_2_4
+R0180 5 | +B018001 -( +B018101 +B018103 -B018102 -B018104 -( +B018105 -B018106))
+* b2_pv
+R0183 5 | +B018301 +B018303 -B018302 -B018304 -( +B018305 -B018306)
+* b_pv_3_3_0
+R0182 5 | +B018201 -( +B018301 +B018303 -B018302 -B018304 -( +B018305 -B018306))
+* b2_pv
+R0185 5 | +B018501 +B018503 -B018502 -B018504 -( +B018505 -B018506)
+* b_pv_3_3_1
+R0184 5 | +B018401 -( +B018501 +B018503 -B018502 -B018504 -( +B018505 -B018506))
+* b2_pv
+R0187 5 | +B018701 +B018703 -B018702 -B018704 -( +B018705 -B018706)
+* b_pv_3_3_2
+R0186 5 | +B018601 -( +B018701 +B018703 -B018702 -B018704 -( +B018705 -B018706))
+* b2_pv
+R0189 5 | +B018901 +B018903 -B018902 -B018904 -( +B018905 -B018906)
+* b_pv_3_3_3
+R0188 5 | +B018801 -( +B018901 +B018903 -B018902 -B018904 -( +B018905 -B018906))
+* b2_pv
+R0191 5 | +B019101 +B019103 -B019102 -B019104 -( +B019105 -B019106)
+* b_pv_3_3_4
+R0190 5 | +B019001 -( +B019101 +B019103 -B019102 -B019104 -( +B019105 -B019106))
+* b2_pv
+R0193 5 | +B019301 +B019303 -B019302 -B019304 -( +B019305 -B019306)
+* b_pv_3_4_0
+R0192 5 | +B019201 -( +B019301 +B019303 -B019302 -B019304 -( +B019305 -B019306))
+* b2_pv
+R0195 5 | +B019501 +B019503 -B019502 -B019504 -( +B019505 -B019506)
+* b_pv_3_4_1
+R0194 5 | +B019401 -( +B019501 +B019503 -B019502 -B019504 -( +B019505 -B019506))
+* b2_pv
+R0197 5 | +B019701 +B019703 -B019702 -B019704 -( +B019705 -B019706)
+* b_pv_3_4_2
+R0196 5 | +B019601 -( +B019701 +B019703 -B019702 -B019704 -( +B019705 -B019706))
+* b2_pv
+R0199 5 | +B019901 +B019903 -B019902 -B019904 -( +B019905 -B019906)
+* b_pv_3_4_3
+R0198 5 | +B019801 -( +B019901 +B019903 -B019902 -B019904 -( +B019905 -B019906))
+* b2_pv
+R0201 5 | +B020101 +B020103 -B020102 -B020104 -( +B020105 -B020106)
+* b_pv_3_4_4
+R0200 5 | +B020001 -( +B020101 +B020103 -B020102 -B020104 -( +B020105 -B020106))
+* b2_pv
+R0203 5 | +B020301 +B020303 -B020302 -B020304 -( +B020305 -B020306)
+* b_pv_4_0_0
+R0202 5 | +B020201 -( +B020301 +B020303 -B020302 -B020304 -( +B020305 -B020306))
+* b2_pv
+R0205 5 | +B020501 +B020503 -B020502 -B020504 -( +B020505 -B020506)
+* b_pv_4_0_1
+R0204 5 | +B020401 -( +B020501 +B020503 -B020502 -B020504 -( +B020505 -B020506))
+* b2_pv
+R0207 5 | +B020701 +B020703 -B020702 -B020704 -( +B020705 -B020706)
+* b_pv_4_0_2
+R0206 5 | +B020601 -( +B020701 +B020703 -B020702 -B020704 -( +B020705 -B020706))
+* b2_pv
+R0209 5 | +B020901 +B020903 -B020902 -B020904 -( +B020905 -B020906)
+* b_pv_4_0_3
+R0208 5 | +B020801 -( +B020901 +B020903 -B020902 -B020904 -( +B020905 -B020906))
+* b2_pv
+R0211 5 | +B021101 +B021103 -B021102 -B021104 -( +B021105 -B021106)
+* b_pv_4_0_4
+R0210 5 | +B021001 -( +B021101 +B021103 -B021102 -B021104 -( +B021105 -B021106))
+* b2_pv
+R0213 5 | +B021301 +B021303 -B021302 -B021304 -( +B021305 -B021306)
+* b_pv_4_1_0
+R0212 5 | +B021201 -( +B021301 +B021303 -B021302 -B021304 -( +B021305 -B021306))
+* b2_pv
+R0215 5 | +B021501 +B021503 -B021502 -B021504 -( +B021505 -B021506)
+* b_pv_4_1_1
+R0214 5 | +B021401 -( +B021501 +B021503 -B021502 -B021504 -( +B021505 -B021506))
+* b2_pv
+R0217 5 | +B021701 +B021703 -B021702 -B021704 -( +B021705 -B021706)
+* b_pv_4_1_2
+R0216 5 | +B021601 -( +B021701 +B021703 -B021702 -B021704 -( +B021705 -B021706))
+* b2_pv
+R0219 5 | +B021901 +B021903 -B021902 -B021904 -( +B021905 -B021906)
+* b_pv_4_1_3
+R0218 5 | +B021801 -( +B021901 +B021903 -B021902 -B021904 -( +B021905 -B021906))
+* b2_pv
+R0221 5 | +B022101 +B022103 -B022102 -B022104 -( +B022105 -B022106)
+* b_pv_4_1_4
+R0220 5 | +B022001 -( +B022101 +B022103 -B022102 -B022104 -( +B022105 -B022106))
+* b2_pv
+R0223 5 | +B022301 +B022303 -B022302 -B022304 -( +B022305 -B022306)
+* b_pv_4_2_0
+R0222 5 | +B022201 -( +B022301 +B022303 -B022302 -B022304 -( +B022305 -B022306))
+* b2_pv
+R0225 5 | +B022501 +B022503 -B022502 -B022504 -( +B022505 -B022506)
+* b_pv_4_2_1
+R0224 5 | +B022401 -( +B022501 +B022503 -B022502 -B022504 -( +B022505 -B022506))
+* b2_pv
+R0227 5 | +B022701 +B022703 -B022702 -B022704 -( +B022705 -B022706)
+* b_pv_4_2_2
+R0226 5 | +B022601 -( +B022701 +B022703 -B022702 -B022704 -( +B022705 -B022706))
+* b2_pv
+R0229 5 | +B022901 +B022903 -B022902 -B022904 -( +B022905 -B022906)
+* b_pv_4_2_3
+R0228 5 | +B022801 -( +B022901 +B022903 -B022902 -B022904 -( +B022905 -B022906))
+* b2_pv
+R0231 5 | +B023101 +B023103 -B023102 -B023104 -( +B023105 -B023106)
+* b_pv_4_2_4
+R0230 5 | +B023001 -( +B023101 +B023103 -B023102 -B023104 -( +B023105 -B023106))
+* b2_pv
+R0233 5 | +B023301 +B023303 -B023302 -B023304 -( +B023305 -B023306)
+* b_pv_4_3_0
+R0232 5 | +B023201 -( +B023301 +B023303 -B023302 -B023304 -( +B023305 -B023306))
+* b2_pv
+R0235 5 | +B023501 +B023503 -B023502 -B023504 -( +B023505 -B023506)
+* b_pv_4_3_1
+R0234 5 | +B023401 -( +B023501 +B023503 -B023502 -B023504 -( +B023505 -B023506))
+* b2_pv
+R0237 5 | +B023701 +B023703 -B023702 -B023704 -( +B023705 -B023706)
+* b_pv_4_3_2
+R0236 5 | +B023601 -( +B023701 +B023703 -B023702 -B023704 -( +B023705 -B023706))
+* b2_pv
+R0239 5 | +B023901 +B023903 -B023902 -B023904 -( +B023905 -B023906)
+* b_pv_4_3_3
+R0238 5 | +B023801 -( +B023901 +B023903 -B023902 -B023904 -( +B023905 -B023906))
+* b2_pv
+R0241 5 | +B024101 +B024103 -B024102 -B024104 -( +B024105 -B024106)
+* b_pv_4_3_4
+R0240 5 | +B024001 -( +B024101 +B024103 -B024102 -B024104 -( +B024105 -B024106))
+* b2_pv
+R0243 5 | +B024301 +B024303 -B024302 -B024304 -( +B024305 -B024306)
+* b_pv_4_4_0
+R0242 5 | +B024201 -( +B024301 +B024303 -B024302 -B024304 -( +B024305 -B024306))
+* b2_pv
+R0245 5 | +B024501 +B024503 -B024502 -B024504 -( +B024505 -B024506)
+* b_pv_4_4_1
+R0244 5 | +B024401 -( +B024501 +B024503 -B024502 -B024504 -( +B024505 -B024506))
+* b2_pv
+R0247 5 | +B024701 +B024703 -B024702 -B024704 -( +B024705 -B024706)
+* b_pv_4_4_2
+R0246 5 | +B024601 -( +B024701 +B024703 -B024702 -B024704 -( +B024705 -B024706))
+* b2_pv
+R0249 5 | +B024901 +B024903 -B024902 -B024904 -( +B024905 -B024906)
+* b_pv_4_4_3
+R0248 5 | +B024801 -( +B024901 +B024903 -B024902 -B024904 -( +B024905 -B024906))
+* b2_pv
+R0251 5 | +B025101 +B025103 -B025102 -B025104 -( +B025105 -B025106)
+* b_pv_4_4_4
+R0250 5 | +B025001 -( +B025101 +B025103 -B025102 -B025104 -( +B025105 -B025106))
+BLKHOLE 5 | +BLKBODY -( +B000001)
+R0000 5 | +B000001 -( +B000201) -( +B000401) -( +B000601) -( +B000801) -( +B001001) -( +B001201) -( +B001401) -(
+        +B001601) -( +B001801) -( +B002001) -( +B002201) -( +B002401) -( +B002601) -( +B002801) -( +B003001) -( +B003201) -(
+        +B003401) -( +B003601) -( +B003801) -( +B004001) -( +B004201) -( +B004401) -( +B004601) -( +B004801) -( +B005001) -(
+        +B005201) -( +B005401) -( +B005601) -( +B005801) -( +B006001) -( +B006201) -( +B006401) -( +B006601) -( +B006801) -(
+        +B007001) -( +B007201) -( +B007401) -( +B007601) -( +B007801) -( +B008001) -( +B008201) -( +B008401) -( +B008601) -(
+        +B008801) -( +B009001) -( +B009201) -( +B009401) -( +B009601) -( +B009801) -( +B010001) -( +B010201) -( +B010401) -(
+        +B010601) -( +B010801) -( +B011001) -( +B011201) -( +B011401) -( +B011601) -( +B011801) -( +B012001) -( +B012201) -(
+        +B012401) -( +B012601) -( +B012801) -( +B013001) -( +B013201) -( +B013401) -( +B013601) -( +B013801) -( +B014001) -(
+        +B014201) -( +B014401) -( +B014601) -( +B014801) -( +B015001) -( +B015201) -( +B015401) -( +B015601) -( +B015801) -(
+        +B016001) -( +B016201) -( +B016401) -( +B016601) -( +B016801) -( +B017001) -( +B017201) -( +B017401) -( +B017601) -(
+        +B017801) -( +B018001) -( +B018201) -( +B018401) -( +B018601) -( +B018801) -( +B019001) -( +B019201) -( +B019401) -(
+        +B019601) -( +B019801) -( +B020001) -( +B020201) -( +B020401) -( +B020601) -( +B020801) -( +B021001) -( +B021201) -(
+        +B021401) -( +B021601) -( +B021801) -( +B022001) -( +B022201) -( +B022401) -( +B022601) -( +B022801) -( +B023001) -(
+        +B023201) -( +B023401) -( +B023601) -( +B023801) -( +B024001) -( +B024201) -( +B024401) -( +B024601) -( +B024801) -(
+        +B025001)
+END
+GEOEND
+FREE
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+* isotope: G4_H_1
+MATERIAL, 1.0, 1.007825, 10.0, , , 1.0, M0000000
+* isotope: G4_H_2
+MATERIAL, 1.0, 2.014102, 10.0, , , 2.0, M0000001
+* element-composite: G4_H
+MATERIAL, , , 0.123456789, , , , M00000
+COMPOUND, 0.999885, M0000000, 0.000115, M0000001, , , M00000
+* material-composite: G4_Galactic
+MATERIAL, , , 1e-25, , , , M000
+COMPOUND, -1.0, M00000, , , , , M000
+* element-simple: G4_Au
+MATERIAL, 79.0, , 19.32, , , 197.0, M00100
+* material-composite: Material_G4_Au
+MATERIAL, , , 19.32, , , , M001
+COMPOUND, -1.0, M00100, , , , , M001
+ASSIGNMA M001 R0003
+ASSIGNMA M001 R0002
+ASSIGNMA M001 R0005
+ASSIGNMA M001 R0004
+ASSIGNMA M001 R0007
+ASSIGNMA M001 R0006
+ASSIGNMA M001 R0009
+ASSIGNMA M001 R0008
+ASSIGNMA M001 R0011
+ASSIGNMA M001 R0010
+ASSIGNMA M001 R0013
+ASSIGNMA M001 R0012
+ASSIGNMA M001 R0015
+ASSIGNMA M001 R0014
+ASSIGNMA M001 R0017
+ASSIGNMA M001 R0016
+ASSIGNMA M001 R0019
+ASSIGNMA M001 R0018
+ASSIGNMA M001 R0021
+ASSIGNMA M001 R0020
+ASSIGNMA M001 R0023
+ASSIGNMA M001 R0022
+ASSIGNMA M001 R0025
+ASSIGNMA M001 R0024
+ASSIGNMA M001 R0027
+ASSIGNMA M001 R0026
+ASSIGNMA M001 R0029
+ASSIGNMA M001 R0028
+ASSIGNMA M001 R0031
+ASSIGNMA M001 R0030
+ASSIGNMA M001 R0033
+ASSIGNMA M001 R0032
+ASSIGNMA M001 R0035
+ASSIGNMA M001 R0034
+ASSIGNMA M001 R0037
+ASSIGNMA M001 R0036
+ASSIGNMA M001 R0039
+ASSIGNMA M001 R0038
+ASSIGNMA M001 R0041
+ASSIGNMA M001 R0040
+ASSIGNMA M001 R0043
+ASSIGNMA M001 R0042
+ASSIGNMA M001 R0045
+ASSIGNMA M001 R0044
+ASSIGNMA M001 R0047
+ASSIGNMA M001 R0046
+ASSIGNMA M001 R0049
+ASSIGNMA M001 R0048
+ASSIGNMA M001 R0051
+ASSIGNMA M001 R0050
+ASSIGNMA M001 R0053
+ASSIGNMA M001 R0052
+ASSIGNMA M001 R0055
+ASSIGNMA M001 R0054
+ASSIGNMA M001 R0057
+ASSIGNMA M001 R0056
+ASSIGNMA M001 R0059
+ASSIGNMA M001 R0058
+ASSIGNMA M001 R0061
+ASSIGNMA M001 R0060
+ASSIGNMA M001 R0063
+ASSIGNMA M001 R0062
+ASSIGNMA M001 R0065
+ASSIGNMA M001 R0064
+ASSIGNMA M001 R0067
+ASSIGNMA M001 R0066
+ASSIGNMA M001 R0069
+ASSIGNMA M001 R0068
+ASSIGNMA M001 R0071
+ASSIGNMA M001 R0070
+ASSIGNMA M001 R0073
+ASSIGNMA M001 R0072
+ASSIGNMA M001 R0075
+ASSIGNMA M001 R0074
+ASSIGNMA M001 R0077
+ASSIGNMA M001 R0076
+ASSIGNMA M001 R0079
+ASSIGNMA M001 R0078
+ASSIGNMA M001 R0081
+ASSIGNMA M001 R0080
+ASSIGNMA M001 R0083
+ASSIGNMA M001 R0082
+ASSIGNMA M001 R0085
+ASSIGNMA M001 R0084
+ASSIGNMA M001 R0087
+ASSIGNMA M001 R0086
+ASSIGNMA M001 R0089
+ASSIGNMA M001 R0088
+ASSIGNMA M001 R0091
+ASSIGNMA M001 R0090
+ASSIGNMA M001 R0093
+ASSIGNMA M001 R0092
+ASSIGNMA M001 R0095
+ASSIGNMA M001 R0094
+ASSIGNMA M001 R0097
+ASSIGNMA M001 R0096
+ASSIGNMA M001 R0099
+ASSIGNMA M001 R0098
+ASSIGNMA M001 R0101
+ASSIGNMA M001 R0100
+ASSIGNMA M001 R0103
+ASSIGNMA M001 R0102
+ASSIGNMA M001 R0105
+ASSIGNMA M001 R0104
+ASSIGNMA M001 R0107
+ASSIGNMA M001 R0106
+ASSIGNMA M001 R0109
+ASSIGNMA M001 R0108
+ASSIGNMA M001 R0111
+ASSIGNMA M001 R0110
+ASSIGNMA M001 R0113
+ASSIGNMA M001 R0112
+ASSIGNMA M001 R0115
+ASSIGNMA M001 R0114
+ASSIGNMA M001 R0117
+ASSIGNMA M001 R0116
+ASSIGNMA M001 R0119
+ASSIGNMA M001 R0118
+ASSIGNMA M001 R0121
+ASSIGNMA M001 R0120
+ASSIGNMA M001 R0123
+ASSIGNMA M001 R0122
+ASSIGNMA M001 R0125
+ASSIGNMA M001 R0124
+ASSIGNMA M001 R0127
+ASSIGNMA M001 R0126
+ASSIGNMA M001 R0129
+ASSIGNMA M001 R0128
+ASSIGNMA M001 R0131
+ASSIGNMA M001 R0130
+ASSIGNMA M001 R0133
+ASSIGNMA M001 R0132
+ASSIGNMA M001 R0135
+ASSIGNMA M001 R0134
+ASSIGNMA M001 R0137
+ASSIGNMA M001 R0136
+ASSIGNMA M001 R0139
+ASSIGNMA M001 R0138
+ASSIGNMA M001 R0141
+ASSIGNMA M001 R0140
+ASSIGNMA M001 R0143
+ASSIGNMA M001 R0142
+ASSIGNMA M001 R0145
+ASSIGNMA M001 R0144
+ASSIGNMA M001 R0147
+ASSIGNMA M001 R0146
+ASSIGNMA M001 R0149
+ASSIGNMA M001 R0148
+ASSIGNMA M001 R0151
+ASSIGNMA M001 R0150
+ASSIGNMA M001 R0153
+ASSIGNMA M001 R0152
+ASSIGNMA M001 R0155
+ASSIGNMA M001 R0154
+ASSIGNMA M001 R0157
+ASSIGNMA M001 R0156
+ASSIGNMA M001 R0159
+ASSIGNMA M001 R0158
+ASSIGNMA M001 R0161
+ASSIGNMA M001 R0160
+ASSIGNMA M001 R0163
+ASSIGNMA M001 R0162
+ASSIGNMA M001 R0165
+ASSIGNMA M001 R0164
+ASSIGNMA M001 R0167
+ASSIGNMA M001 R0166
+ASSIGNMA M001 R0169
+ASSIGNMA M001 R0168
+ASSIGNMA M001 R0171
+ASSIGNMA M001 R0170
+ASSIGNMA M001 R0173
+ASSIGNMA M001 R0172
+ASSIGNMA M001 R0175
+ASSIGNMA M001 R0174
+ASSIGNMA M001 R0177
+ASSIGNMA M001 R0176
+ASSIGNMA M001 R0179
+ASSIGNMA M001 R0178
+ASSIGNMA M001 R0181
+ASSIGNMA M001 R0180
+ASSIGNMA M001 R0183
+ASSIGNMA M001 R0182
+ASSIGNMA M001 R0185
+ASSIGNMA M001 R0184
+ASSIGNMA M001 R0187
+ASSIGNMA M001 R0186
+ASSIGNMA M001 R0189
+ASSIGNMA M001 R0188
+ASSIGNMA M001 R0191
+ASSIGNMA M001 R0190
+ASSIGNMA M001 R0193
+ASSIGNMA M001 R0192
+ASSIGNMA M001 R0195
+ASSIGNMA M001 R0194
+ASSIGNMA M001 R0197
+ASSIGNMA M001 R0196
+ASSIGNMA M001 R0199
+ASSIGNMA M001 R0198
+ASSIGNMA M001 R0201
+ASSIGNMA M001 R0200
+ASSIGNMA M001 R0203
+ASSIGNMA M001 R0202
+ASSIGNMA M001 R0205
+ASSIGNMA M001 R0204
+ASSIGNMA M001 R0207
+ASSIGNMA M001 R0206
+ASSIGNMA M001 R0209
+ASSIGNMA M001 R0208
+ASSIGNMA M001 R0211
+ASSIGNMA M001 R0210
+ASSIGNMA M001 R0213
+ASSIGNMA M001 R0212
+ASSIGNMA M001 R0215
+ASSIGNMA M001 R0214
+ASSIGNMA M001 R0217
+ASSIGNMA M001 R0216
+ASSIGNMA M001 R0219
+ASSIGNMA M001 R0218
+ASSIGNMA M001 R0221
+ASSIGNMA M001 R0220
+ASSIGNMA M001 R0223
+ASSIGNMA M001 R0222
+ASSIGNMA M001 R0225
+ASSIGNMA M001 R0224
+ASSIGNMA M001 R0227
+ASSIGNMA M001 R0226
+ASSIGNMA M001 R0229
+ASSIGNMA M001 R0228
+ASSIGNMA M001 R0231
+ASSIGNMA M001 R0230
+ASSIGNMA M001 R0233
+ASSIGNMA M001 R0232
+ASSIGNMA M001 R0235
+ASSIGNMA M001 R0234
+ASSIGNMA M001 R0237
+ASSIGNMA M001 R0236
+ASSIGNMA M001 R0239
+ASSIGNMA M001 R0238
+ASSIGNMA M001 R0241
+ASSIGNMA M001 R0240
+ASSIGNMA M001 R0243
+ASSIGNMA M001 R0242
+ASSIGNMA M001 R0245
+ASSIGNMA M001 R0244
+ASSIGNMA M001 R0247
+ASSIGNMA M001 R0246
+ASSIGNMA M001 R0249
+ASSIGNMA M001 R0248
+ASSIGNMA M001 R0251
+ASSIGNMA M001 R0250
+ASSIGNMA BLCKHOLE BLKHOLE
+ASSIGNMA M000 R0000
+ROT-DEFI, 2001.0, 0.0, 78.84279625629642, 0.0, 0.0, 0.0, T0002
+ROT-DEFI, 2002.0, 0.0, 21.99011049550518, 0.0, 0.0, 0.0, T0002
+ROT-DEFI, 2003.0, 0.0, 83.31919396795416, 0.0, 0.0, 0.0, T0002
+ROT-DEFI, 2000.0, 0.0, 0.0, -40.0, -40.0, -40.0, T0002
+ROT-DEFI, 3001.0, 0.0, 78.84279625629642, 0.0, 0.0, 0.0, T0003
+ROT-DEFI, 3002.0, 0.0, 21.99011049550518, 0.0, 0.0, 0.0, T0003
+ROT-DEFI, 3003.0, 0.0, 83.31919396795416, 0.0, 0.0, 0.0, T0003
+ROT-DEFI, 3000.0, 0.0, 0.0, -40.0, -40.0, -40.0, T0003
+ROT-DEFI, 4001.0, 0.0, -97.91068629929165, 0.0, 0.0, 0.0, T0004
+ROT-DEFI, 4002.0, 0.0, 14.208016472495572, 0.0, 0.0, 0.0, T0004
+ROT-DEFI, 4003.0, 0.0, -89.48406787042106, 0.0, 0.0, 0.0, T0004
+ROT-DEFI, 4000.0, 0.0, 0.0, -40.0, -40.0, -20.0, T0004
+ROT-DEFI, 5001.0, 0.0, -97.91068629929165, 0.0, 0.0, 0.0, T0005
+ROT-DEFI, 5002.0, 0.0, 14.208016472495572, 0.0, 0.0, 0.0, T0005
+ROT-DEFI, 5003.0, 0.0, -89.48406787042106, 0.0, 0.0, 0.0, T0005
+ROT-DEFI, 5000.0, 0.0, 0.0, -40.0, -40.0, -20.0, T0005
+ROT-DEFI, 6001.0, 0.0, 70.7937288911128, 0.0, 0.0, 0.0, T0006
+ROT-DEFI, 6002.0, 0.0, 83.83471680996995, 0.0, 0.0, 0.0, T0006
+ROT-DEFI, 6003.0, 0.0, 51.612501251484474, 0.0, 0.0, 0.0, T0006
+ROT-DEFI, 6000.0, 0.0, 0.0, -40.0, -40.0, 0.0, T0006
+ROT-DEFI, 7001.0, 0.0, 70.7937288911128, 0.0, 0.0, 0.0, T0007
+ROT-DEFI, 7002.0, 0.0, 83.83471680996995, 0.0, 0.0, 0.0, T0007
+ROT-DEFI, 7003.0, 0.0, 51.612501251484474, 0.0, 0.0, 0.0, T0007
+ROT-DEFI, 7000.0, 0.0, 0.0, -40.0, -40.0, 0.0, T0007
+ROT-DEFI, 8001.0, 0.0, -111.87621965366691, 0.0, 0.0, 0.0, T0008
+ROT-DEFI, 8002.0, 0.0, -85.47307244054024, 0.0, 0.0, 0.0, T0008
+ROT-DEFI, 8003.0, 0.0, -109.57467092284695, 0.0, 0.0, 0.0, T0008
+ROT-DEFI, 8000.0, 0.0, 0.0, -40.0, -40.0, 20.0, T0008
+ROT-DEFI, 9001.0, 0.0, -111.87621965366691, 0.0, 0.0, 0.0, T0009
+ROT-DEFI, 9002.0, 0.0, -85.47307244054024, 0.0, 0.0, 0.0, T0009
+ROT-DEFI, 9003.0, 0.0, -109.57467092284695, 0.0, 0.0, 0.0, T0009
+ROT-DEFI, 9000.0, 0.0, 0.0, -40.0, -40.0, 20.0, T0009
+ROT-DEFI, 10001.0, 0.0, 152.98607976449676, 0.0, 0.0, 0.0, T0010
+ROT-DEFI, 10002.0, 0.0, -69.87109026398846, 0.0, 0.0, 0.0, T0010
+ROT-DEFI, 10003.0, 0.0, -8.594422931988777, 0.0, 0.0, 0.0, T0010
+ROT-DEFI, 10000.0, 0.0, 0.0, -40.0, -40.0, 40.0, T0010
+ROT-DEFI, 11001.0, 0.0, 152.98607976449676, 0.0, 0.0, 0.0, T0011
+ROT-DEFI, 11002.0, 0.0, -69.87109026398846, 0.0, 0.0, 0.0, T0011
+ROT-DEFI, 11003.0, 0.0, -8.594422931988777, 0.0, 0.0, 0.0, T0011
+ROT-DEFI, 11000.0, 0.0, 0.0, -40.0, -40.0, 40.0, T0011
+ROT-DEFI, 12001.0, 0.0, 99.09348157133724, 0.0, 0.0, 0.0, T0012
+ROT-DEFI, 12002.0, 0.0, 53.9062694101317, 0.0, 0.0, 0.0, T0012
+ROT-DEFI, 12003.0, 0.0, 87.31745506179725, 0.0, 0.0, 0.0, T0012
+ROT-DEFI, 12000.0, 0.0, 0.0, -40.0, -20.0, -40.0, T0012
+ROT-DEFI, 13001.0, 0.0, 99.09348157133724, 0.0, 0.0, 0.0, T0013
+ROT-DEFI, 13002.0, 0.0, 53.9062694101317, 0.0, 0.0, 0.0, T0013
+ROT-DEFI, 13003.0, 0.0, 87.31745506179725, 0.0, 0.0, 0.0, T0013
+ROT-DEFI, 13000.0, 0.0, 0.0, -40.0, -20.0, -40.0, T0013
+ROT-DEFI, 14001.0, 0.0, 88.41174388728277, 0.0, 0.0, 0.0, T0014
+ROT-DEFI, 14002.0, 0.0, 29.063870940864604, 0.0, 0.0, 0.0, T0014
+ROT-DEFI, 14003.0, 0.0, 173.18466055307564, 0.0, 0.0, 0.0, T0014
+ROT-DEFI, 14000.0, 0.0, 0.0, -40.0, -20.0, -20.0, T0014
+ROT-DEFI, 15001.0, 0.0, 88.41174388728277, 0.0, 0.0, 0.0, T0015
+ROT-DEFI, 15002.0, 0.0, 29.063870940864604, 0.0, 0.0, 0.0, T0015
+ROT-DEFI, 15003.0, 0.0, 173.18466055307564, 0.0, 0.0, 0.0, T0015
+ROT-DEFI, 15000.0, 0.0, 0.0, -40.0, -20.0, -20.0, T0015
+ROT-DEFI, 16001.0, 0.0, 60.27078711789069, 0.0, 0.0, 0.0, T0016
+ROT-DEFI, 16002.0, 0.0, -7.056547296108115, 0.0, 0.0, 0.0, T0016
+ROT-DEFI, 16003.0, 0.0, 32.17899509834617, 0.0, 0.0, 0.0, T0016
+ROT-DEFI, 16000.0, 0.0, 0.0, -40.0, -20.0, 0.0, T0016
+ROT-DEFI, 17001.0, 0.0, 60.27078711789069, 0.0, 0.0, 0.0, T0017
+ROT-DEFI, 17002.0, 0.0, -7.056547296108115, 0.0, 0.0, 0.0, T0017
+ROT-DEFI, 17003.0, 0.0, 32.17899509834617, 0.0, 0.0, 0.0, T0017
+ROT-DEFI, 17000.0, 0.0, 0.0, -40.0, -20.0, 0.0, T0017
+ROT-DEFI, 18001.0, 0.0, 90.28535784604342, 0.0, 0.0, 0.0, T0018
+ROT-DEFI, 18002.0, 0.0, -32.738041558397335, 0.0, 0.0, 0.0, T0018
+ROT-DEFI, 18003.0, 0.0, 179.6129786241079, 0.0, 0.0, 0.0, T0018
+ROT-DEFI, 18000.0, 0.0, 0.0, -40.0, -20.0, 20.0, T0018
+ROT-DEFI, 19001.0, 0.0, 90.28535784604342, 0.0, 0.0, 0.0, T0019
+ROT-DEFI, 19002.0, 0.0, -32.738041558397335, 0.0, 0.0, 0.0, T0019
+ROT-DEFI, 19003.0, 0.0, 179.6129786241079, 0.0, 0.0, 0.0, T0019
+ROT-DEFI, 19000.0, 0.0, 0.0, -40.0, -20.0, 20.0, T0019
+ROT-DEFI, 20001.0, 0.0, 62.01205643123605, 0.0, 0.0, 0.0, T0020
+ROT-DEFI, 20002.0, 0.0, -40.74564437953932, 0.0, 0.0, 0.0, T0020
+ROT-DEFI, 20003.0, 0.0, -76.62440693024733, 0.0, 0.0, 0.0, T0020
+ROT-DEFI, 20000.0, 0.0, 0.0, -40.0, -20.0, 40.0, T0020
+ROT-DEFI, 21001.0, 0.0, 62.01205643123605, 0.0, 0.0, 0.0, T0021
+ROT-DEFI, 21002.0, 0.0, -40.74564437953932, 0.0, 0.0, 0.0, T0021
+ROT-DEFI, 21003.0, 0.0, -76.62440693024733, 0.0, 0.0, 0.0, T0021
+ROT-DEFI, 21000.0, 0.0, 0.0, -40.0, -20.0, 40.0, T0021
+ROT-DEFI, 22001.0, 0.0, 115.5232925517552, 0.0, 0.0, 0.0, T0022
+ROT-DEFI, 22002.0, 0.0, -38.16002021598588, 0.0, 0.0, 0.0, T0022
+ROT-DEFI, 22003.0, 0.0, -176.037581924373, 0.0, 0.0, 0.0, T0022
+ROT-DEFI, 22000.0, 0.0, 0.0, -40.0, 0.0, -40.0, T0022
+ROT-DEFI, 23001.0, 0.0, 115.5232925517552, 0.0, 0.0, 0.0, T0023
+ROT-DEFI, 23002.0, 0.0, -38.16002021598588, 0.0, 0.0, 0.0, T0023
+ROT-DEFI, 23003.0, 0.0, -176.037581924373, 0.0, 0.0, 0.0, T0023
+ROT-DEFI, 23000.0, 0.0, 0.0, -40.0, 0.0, -40.0, T0023
+ROT-DEFI, 24001.0, 0.0, 145.7753568910822, 0.0, 0.0, 0.0, T0024
+ROT-DEFI, 24002.0, 0.0, -27.927023689549237, 0.0, 0.0, 0.0, T0024
+ROT-DEFI, 24003.0, 0.0, -89.24020768753579, 0.0, 0.0, 0.0, T0024
+ROT-DEFI, 24000.0, 0.0, 0.0, -40.0, 0.0, -20.0, T0024
+ROT-DEFI, 25001.0, 0.0, 145.7753568910822, 0.0, 0.0, 0.0, T0025
+ROT-DEFI, 25002.0, 0.0, -27.927023689549237, 0.0, 0.0, 0.0, T0025
+ROT-DEFI, 25003.0, 0.0, -89.24020768753579, 0.0, 0.0, 0.0, T0025
+ROT-DEFI, 25000.0, 0.0, 0.0, -40.0, 0.0, -20.0, T0025
+ROT-DEFI, 26001.0, 0.0, -101.15225992288487, 0.0, 0.0, 0.0, T0026
+ROT-DEFI, 26002.0, 0.0, -46.621184696374726, 0.0, 0.0, 0.0, T0026
+ROT-DEFI, 26003.0, 0.0, 32.545261506771375, 0.0, 0.0, 0.0, T0026
+ROT-DEFI, 26000.0, 0.0, 0.0, -40.0, 0.0, 0.0, T0026
+ROT-DEFI, 27001.0, 0.0, -101.15225992288487, 0.0, 0.0, 0.0, T0027
+ROT-DEFI, 27002.0, 0.0, -46.621184696374726, 0.0, 0.0, 0.0, T0027
+ROT-DEFI, 27003.0, 0.0, 32.545261506771375, 0.0, 0.0, 0.0, T0027
+ROT-DEFI, 27000.0, 0.0, 0.0, -40.0, 0.0, 0.0, T0027
+ROT-DEFI, 28001.0, 0.0, -42.690628845697724, 0.0, 0.0, 0.0, T0028
+ROT-DEFI, 28002.0, 0.0, 37.8298086148315, 0.0, 0.0, 0.0, T0028
+ROT-DEFI, 28003.0, 0.0, 102.30194489382725, 0.0, 0.0, 0.0, T0028
+ROT-DEFI, 28000.0, 0.0, 0.0, -40.0, 0.0, 20.0, T0028
+ROT-DEFI, 29001.0, 0.0, -42.690628845697724, 0.0, 0.0, 0.0, T0029
+ROT-DEFI, 29002.0, 0.0, 37.8298086148315, 0.0, 0.0, 0.0, T0029
+ROT-DEFI, 29003.0, 0.0, 102.30194489382725, 0.0, 0.0, 0.0, T0029
+ROT-DEFI, 29000.0, 0.0, 0.0, -40.0, 0.0, 20.0, T0029
+ROT-DEFI, 30001.0, 0.0, -101.47639560756322, 0.0, 0.0, 0.0, T0030
+ROT-DEFI, 30002.0, 0.0, 25.008072849724023, 0.0, 0.0, 0.0, T0030
+ROT-DEFI, 30003.0, 0.0, -18.075471541595594, 0.0, 0.0, 0.0, T0030
+ROT-DEFI, 30000.0, 0.0, 0.0, -40.0, 0.0, 40.0, T0030
+ROT-DEFI, 31001.0, 0.0, -101.47639560756322, 0.0, 0.0, 0.0, T0031
+ROT-DEFI, 31002.0, 0.0, 25.008072849724023, 0.0, 0.0, 0.0, T0031
+ROT-DEFI, 31003.0, 0.0, -18.075471541595594, 0.0, 0.0, 0.0, T0031
+ROT-DEFI, 31000.0, 0.0, 0.0, -40.0, 0.0, 40.0, T0031
+ROT-DEFI, 32001.0, 0.0, -89.99762178722534, 0.0, 0.0, 0.0, T0032
+ROT-DEFI, 32002.0, 0.0, 0.9494448430173256, 0.0, 0.0, 0.0, T0032
+ROT-DEFI, 32003.0, 0.0, -89.99958164420285, 0.0, 0.0, 0.0, T0032
+ROT-DEFI, 32000.0, 0.0, 0.0, -40.0, 20.0, -40.0, T0032
+ROT-DEFI, 33001.0, 0.0, -89.99762178722534, 0.0, 0.0, 0.0, T0033
+ROT-DEFI, 33002.0, 0.0, 0.9494448430173256, 0.0, 0.0, 0.0, T0033
+ROT-DEFI, 33003.0, 0.0, -89.99958164420285, 0.0, 0.0, 0.0, T0033
+ROT-DEFI, 33000.0, 0.0, 0.0, -40.0, 20.0, -40.0, T0033
+ROT-DEFI, 34001.0, 0.0, 94.69617145717748, 0.0, 0.0, 0.0, T0034
+ROT-DEFI, 34002.0, 0.0, 60.376123020586824, 0.0, 0.0, 0.0, T0034
+ROT-DEFI, 34003.0, 0.0, -133.15728733765116, 0.0, 0.0, 0.0, T0034
+ROT-DEFI, 34000.0, 0.0, 0.0, -40.0, 20.0, -20.0, T0034
+ROT-DEFI, 35001.0, 0.0, 94.69617145717748, 0.0, 0.0, 0.0, T0035
+ROT-DEFI, 35002.0, 0.0, 60.376123020586824, 0.0, 0.0, 0.0, T0035
+ROT-DEFI, 35003.0, 0.0, -133.15728733765116, 0.0, 0.0, 0.0, T0035
+ROT-DEFI, 35000.0, 0.0, 0.0, -40.0, 20.0, -20.0, T0035
+ROT-DEFI, 36001.0, 0.0, 88.50579920061847, 0.0, 0.0, 0.0, T0036
+ROT-DEFI, 36002.0, 0.0, 62.413547896271, 0.0, 0.0, 0.0, T0036
+ROT-DEFI, 36003.0, 0.0, -110.91114497574932, 0.0, 0.0, 0.0, T0036
+ROT-DEFI, 36000.0, 0.0, 0.0, -40.0, 20.0, 0.0, T0036
+ROT-DEFI, 37001.0, 0.0, 88.50579920061847, 0.0, 0.0, 0.0, T0037
+ROT-DEFI, 37002.0, 0.0, 62.413547896271, 0.0, 0.0, 0.0, T0037
+ROT-DEFI, 37003.0, 0.0, -110.91114497574932, 0.0, 0.0, 0.0, T0037
+ROT-DEFI, 37000.0, 0.0, 0.0, -40.0, 20.0, 0.0, T0037
+ROT-DEFI, 38001.0, 0.0, 86.4836483031836, 0.0, 0.0, 0.0, T0038
+ROT-DEFI, 38002.0, 0.0, -24.28394696947106, 0.0, 0.0, 0.0, T0038
+ROT-DEFI, 38003.0, 0.0, -92.4109581672627, 0.0, 0.0, 0.0, T0038
+ROT-DEFI, 38000.0, 0.0, 0.0, -40.0, 20.0, 20.0, T0038
+ROT-DEFI, 39001.0, 0.0, 86.4836483031836, 0.0, 0.0, 0.0, T0039
+ROT-DEFI, 39002.0, 0.0, -24.28394696947106, 0.0, 0.0, 0.0, T0039
+ROT-DEFI, 39003.0, 0.0, -92.4109581672627, 0.0, 0.0, 0.0, T0039
+ROT-DEFI, 39000.0, 0.0, 0.0, -40.0, 20.0, 20.0, T0039
+ROT-DEFI, 40001.0, 0.0, -79.73736055483192, 0.0, 0.0, 0.0, T0040
+ROT-DEFI, 40002.0, 0.0, -32.182075698852934, 0.0, 0.0, 0.0, T0040
+ROT-DEFI, 40003.0, 0.0, 64.07348729513365, 0.0, 0.0, 0.0, T0040
+ROT-DEFI, 40000.0, 0.0, 0.0, -40.0, 20.0, 40.0, T0040
+ROT-DEFI, 41001.0, 0.0, -79.73736055483192, 0.0, 0.0, 0.0, T0041
+ROT-DEFI, 41002.0, 0.0, -32.182075698852934, 0.0, 0.0, 0.0, T0041
+ROT-DEFI, 41003.0, 0.0, 64.07348729513365, 0.0, 0.0, 0.0, T0041
+ROT-DEFI, 41000.0, 0.0, 0.0, -40.0, 20.0, 40.0, T0041
+ROT-DEFI, 42001.0, 0.0, 102.26681675732327, 0.0, 0.0, 0.0, T0042
+ROT-DEFI, 42002.0, 0.0, -29.08818725053208, 0.0, 0.0, 0.0, T0042
+ROT-DEFI, 42003.0, 0.0, -18.62779824502016, 0.0, 0.0, 0.0, T0042
+ROT-DEFI, 42000.0, 0.0, 0.0, -40.0, 40.0, -40.0, T0042
+ROT-DEFI, 43001.0, 0.0, 102.26681675732327, 0.0, 0.0, 0.0, T0043
+ROT-DEFI, 43002.0, 0.0, -29.08818725053208, 0.0, 0.0, 0.0, T0043
+ROT-DEFI, 43003.0, 0.0, -18.62779824502016, 0.0, 0.0, 0.0, T0043
+ROT-DEFI, 43000.0, 0.0, 0.0, -40.0, 40.0, -40.0, T0043
+ROT-DEFI, 44001.0, 0.0, -27.34735781432133, 0.0, 0.0, 0.0, T0044
+ROT-DEFI, 44002.0, 0.0, -26.57994668415324, 0.0, 0.0, 0.0, T0044
+ROT-DEFI, 44003.0, 0.0, -145.70848785848955, 0.0, 0.0, 0.0, T0044
+ROT-DEFI, 44000.0, 0.0, 0.0, -40.0, 40.0, -20.0, T0044
+ROT-DEFI, 45001.0, 0.0, -27.34735781432133, 0.0, 0.0, 0.0, T0045
+ROT-DEFI, 45002.0, 0.0, -26.57994668415324, 0.0, 0.0, 0.0, T0045
+ROT-DEFI, 45003.0, 0.0, -145.70848785848955, 0.0, 0.0, 0.0, T0045
+ROT-DEFI, 45000.0, 0.0, 0.0, -40.0, 40.0, -20.0, T0045
+ROT-DEFI, 46001.0, 0.0, -87.16817275532581, 0.0, 0.0, 0.0, T0046
+ROT-DEFI, 46002.0, 0.0, 20.146287813251572, 0.0, 0.0, 0.0, T0046
+ROT-DEFI, 46003.0, 0.0, -171.9265538109366, 0.0, 0.0, 0.0, T0046
+ROT-DEFI, 46000.0, 0.0, 0.0, -40.0, 40.0, 0.0, T0046
+ROT-DEFI, 47001.0, 0.0, -87.16817275532581, 0.0, 0.0, 0.0, T0047
+ROT-DEFI, 47002.0, 0.0, 20.146287813251572, 0.0, 0.0, 0.0, T0047
+ROT-DEFI, 47003.0, 0.0, -171.9265538109366, 0.0, 0.0, 0.0, T0047
+ROT-DEFI, 47000.0, 0.0, 0.0, -40.0, 40.0, 0.0, T0047
+ROT-DEFI, 48001.0, 0.0, -64.95948109219307, 0.0, 0.0, 0.0, T0048
+ROT-DEFI, 48002.0, 0.0, 52.991547002475855, 0.0, 0.0, 0.0, T0048
+ROT-DEFI, 48003.0, 0.0, 96.38444935728023, 0.0, 0.0, 0.0, T0048
+ROT-DEFI, 48000.0, 0.0, 0.0, -40.0, 40.0, 20.0, T0048
+ROT-DEFI, 49001.0, 0.0, -64.95948109219307, 0.0, 0.0, 0.0, T0049
+ROT-DEFI, 49002.0, 0.0, 52.991547002475855, 0.0, 0.0, 0.0, T0049
+ROT-DEFI, 49003.0, 0.0, 96.38444935728023, 0.0, 0.0, 0.0, T0049
+ROT-DEFI, 49000.0, 0.0, 0.0, -40.0, 40.0, 20.0, T0049
+ROT-DEFI, 50001.0, 0.0, -103.34257310262753, 0.0, 0.0, 0.0, T0050
+ROT-DEFI, 50002.0, 0.0, 15.723200340137865, 0.0, 0.0, 0.0, T0050
+ROT-DEFI, 50003.0, 0.0, -70.77036985112181, 0.0, 0.0, 0.0, T0050
+ROT-DEFI, 50000.0, 0.0, 0.0, -40.0, 40.0, 40.0, T0050
+ROT-DEFI, 51001.0, 0.0, -103.34257310262753, 0.0, 0.0, 0.0, T0051
+ROT-DEFI, 51002.0, 0.0, 15.723200340137865, 0.0, 0.0, 0.0, T0051
+ROT-DEFI, 51003.0, 0.0, -70.77036985112181, 0.0, 0.0, 0.0, T0051
+ROT-DEFI, 51000.0, 0.0, 0.0, -40.0, 40.0, 40.0, T0051
+ROT-DEFI, 52001.0, 0.0, -110.90066565295383, 0.0, 0.0, 0.0, T0052
+ROT-DEFI, 52002.0, 0.0, -21.97369423488433, 0.0, 0.0, 0.0, T0052
+ROT-DEFI, 52003.0, 0.0, 3.281596066615556, 0.0, 0.0, 0.0, T0052
+ROT-DEFI, 52000.0, 0.0, 0.0, -20.0, -40.0, -40.0, T0052
+ROT-DEFI, 53001.0, 0.0, -110.90066565295383, 0.0, 0.0, 0.0, T0053
+ROT-DEFI, 53002.0, 0.0, -21.97369423488433, 0.0, 0.0, 0.0, T0053
+ROT-DEFI, 53003.0, 0.0, 3.281596066615556, 0.0, 0.0, 0.0, T0053
+ROT-DEFI, 53000.0, 0.0, 0.0, -20.0, -40.0, -40.0, T0053
+ROT-DEFI, 54001.0, 0.0, 115.41471993291104, 0.0, 0.0, 0.0, T0054
+ROT-DEFI, 54002.0, 0.0, 35.78694992111249, 0.0, 0.0, 0.0, T0054
+ROT-DEFI, 54003.0, 0.0, 55.152679977183695, 0.0, 0.0, 0.0, T0054
+ROT-DEFI, 54000.0, 0.0, 0.0, -20.0, -40.0, -20.0, T0054
+ROT-DEFI, 55001.0, 0.0, 115.41471993291104, 0.0, 0.0, 0.0, T0055
+ROT-DEFI, 55002.0, 0.0, 35.78694992111249, 0.0, 0.0, 0.0, T0055
+ROT-DEFI, 55003.0, 0.0, 55.152679977183695, 0.0, 0.0, 0.0, T0055
+ROT-DEFI, 55000.0, 0.0, 0.0, -20.0, -40.0, -20.0, T0055
+ROT-DEFI, 56001.0, 0.0, -65.01919240202909, 0.0, 0.0, 0.0, T0056
+ROT-DEFI, 56002.0, 0.0, 10.498406904976283, 0.0, 0.0, 0.0, T0056
+ROT-DEFI, 56003.0, 0.0, 7.609610142347383, 0.0, 0.0, 0.0, T0056
+ROT-DEFI, 56000.0, 0.0, 0.0, -20.0, -40.0, 0.0, T0056
+ROT-DEFI, 57001.0, 0.0, -65.01919240202909, 0.0, 0.0, 0.0, T0057
+ROT-DEFI, 57002.0, 0.0, 10.498406904976283, 0.0, 0.0, 0.0, T0057
+ROT-DEFI, 57003.0, 0.0, 7.609610142347383, 0.0, 0.0, 0.0, T0057
+ROT-DEFI, 57000.0, 0.0, 0.0, -20.0, -40.0, 0.0, T0057
+ROT-DEFI, 58001.0, 0.0, -19.13046120328016, 0.0, 0.0, 0.0, T0058
+ROT-DEFI, 58002.0, 0.0, 60.12362856860082, 0.0, 0.0, 0.0, T0058
+ROT-DEFI, 58003.0, 0.0, -52.22542031951085, 0.0, 0.0, 0.0, T0058
+ROT-DEFI, 58000.0, 0.0, 0.0, -20.0, -40.0, 20.0, T0058
+ROT-DEFI, 59001.0, 0.0, -19.13046120328016, 0.0, 0.0, 0.0, T0059
+ROT-DEFI, 59002.0, 0.0, 60.12362856860082, 0.0, 0.0, 0.0, T0059
+ROT-DEFI, 59003.0, 0.0, -52.22542031951085, 0.0, 0.0, 0.0, T0059
+ROT-DEFI, 59000.0, 0.0, 0.0, -20.0, -40.0, 20.0, T0059
+ROT-DEFI, 60001.0, 0.0, -77.28784868892085, 0.0, 0.0, 0.0, T0060
+ROT-DEFI, 60002.0, 0.0, 28.374694328949914, 0.0, 0.0, 0.0, T0060
+ROT-DEFI, 60003.0, 0.0, 35.40391216783793, 0.0, 0.0, 0.0, T0060
+ROT-DEFI, 60000.0, 0.0, 0.0, -20.0, -40.0, 40.0, T0060
+ROT-DEFI, 61001.0, 0.0, -77.28784868892085, 0.0, 0.0, 0.0, T0061
+ROT-DEFI, 61002.0, 0.0, 28.374694328949914, 0.0, 0.0, 0.0, T0061
+ROT-DEFI, 61003.0, 0.0, 35.40391216783793, 0.0, 0.0, 0.0, T0061
+ROT-DEFI, 61000.0, 0.0, 0.0, -20.0, -40.0, 40.0, T0061
+ROT-DEFI, 62001.0, 0.0, -102.21859644467345, 0.0, 0.0, 0.0, T0062
+ROT-DEFI, 62002.0, 0.0, 37.6787499718015, 0.0, 0.0, 0.0, T0062
+ROT-DEFI, 62003.0, 0.0, -172.8490772925627, 0.0, 0.0, 0.0, T0062
+ROT-DEFI, 62000.0, 0.0, 0.0, -20.0, -20.0, -40.0, T0062
+ROT-DEFI, 63001.0, 0.0, -102.21859644467345, 0.0, 0.0, 0.0, T0063
+ROT-DEFI, 63002.0, 0.0, 37.6787499718015, 0.0, 0.0, 0.0, T0063
+ROT-DEFI, 63003.0, 0.0, -172.8490772925627, 0.0, 0.0, 0.0, T0063
+ROT-DEFI, 63000.0, 0.0, 0.0, -20.0, -20.0, -40.0, T0063
+ROT-DEFI, 64001.0, 0.0, 70.35119956700922, 0.0, 0.0, 0.0, T0064
+ROT-DEFI, 64002.0, 0.0, 25.331567344566484, 0.0, 0.0, 0.0, T0064
+ROT-DEFI, 64003.0, 0.0, 131.608937486354, 0.0, 0.0, 0.0, T0064
+ROT-DEFI, 64000.0, 0.0, 0.0, -20.0, -20.0, -20.0, T0064
+ROT-DEFI, 65001.0, 0.0, 70.35119956700922, 0.0, 0.0, 0.0, T0065
+ROT-DEFI, 65002.0, 0.0, 25.331567344566484, 0.0, 0.0, 0.0, T0065
+ROT-DEFI, 65003.0, 0.0, 131.608937486354, 0.0, 0.0, 0.0, T0065
+ROT-DEFI, 65000.0, 0.0, 0.0, -20.0, -20.0, -20.0, T0065
+ROT-DEFI, 66001.0, 0.0, -106.08930013477412, 0.0, 0.0, 0.0, T0066
+ROT-DEFI, 66002.0, 0.0, 39.428984046178236, 0.0, 0.0, 0.0, T0066
+ROT-DEFI, 66003.0, 0.0, -38.58483171181949, 0.0, 0.0, 0.0, T0066
+ROT-DEFI, 66000.0, 0.0, 0.0, -20.0, -20.0, 0.0, T0066
+ROT-DEFI, 67001.0, 0.0, -106.08930013477412, 0.0, 0.0, 0.0, T0067
+ROT-DEFI, 67002.0, 0.0, 39.428984046178236, 0.0, 0.0, 0.0, T0067
+ROT-DEFI, 67003.0, 0.0, -38.58483171181949, 0.0, 0.0, 0.0, T0067
+ROT-DEFI, 67000.0, 0.0, 0.0, -20.0, -20.0, 0.0, T0067
+ROT-DEFI, 68001.0, 0.0, 59.187538621042705, 0.0, 0.0, 0.0, T0068
+ROT-DEFI, 68002.0, 0.0, -2.968695427207249, 0.0, 0.0, 0.0, T0068
+ROT-DEFI, 68003.0, 0.0, 139.50920915915086, 0.0, 0.0, 0.0, T0068
+ROT-DEFI, 68000.0, 0.0, 0.0, -20.0, -20.0, 20.0, T0068
+ROT-DEFI, 69001.0, 0.0, 59.187538621042705, 0.0, 0.0, 0.0, T0069
+ROT-DEFI, 69002.0, 0.0, -2.968695427207249, 0.0, 0.0, 0.0, T0069
+ROT-DEFI, 69003.0, 0.0, 139.50920915915086, 0.0, 0.0, 0.0, T0069
+ROT-DEFI, 69000.0, 0.0, 0.0, -20.0, -20.0, 20.0, T0069
+ROT-DEFI, 70001.0, 0.0, 92.89402440984233, 0.0, 0.0, 0.0, T0070
+ROT-DEFI, 70002.0, 0.0, 8.023008349848624, 0.0, 0.0, 0.0, T0070
+ROT-DEFI, 70003.0, 0.0, -102.69442561349469, 0.0, 0.0, 0.0, T0070
+ROT-DEFI, 70000.0, 0.0, 0.0, -20.0, -20.0, 40.0, T0070
+ROT-DEFI, 71001.0, 0.0, 92.89402440984233, 0.0, 0.0, 0.0, T0071
+ROT-DEFI, 71002.0, 0.0, 8.023008349848624, 0.0, 0.0, 0.0, T0071
+ROT-DEFI, 71003.0, 0.0, -102.69442561349469, 0.0, 0.0, 0.0, T0071
+ROT-DEFI, 71000.0, 0.0, 0.0, -20.0, -20.0, 40.0, T0071
+ROT-DEFI, 72001.0, 0.0, 24.051110451296445, 0.0, 0.0, 0.0, T0072
+ROT-DEFI, 72002.0, 0.0, 78.41677508953765, 0.0, 0.0, 0.0, T0072
+ROT-DEFI, 72003.0, 0.0, 160.56866252614046, 0.0, 0.0, 0.0, T0072
+ROT-DEFI, 72000.0, 0.0, 0.0, -20.0, 0.0, -40.0, T0072
+ROT-DEFI, 73001.0, 0.0, 24.051110451296445, 0.0, 0.0, 0.0, T0073
+ROT-DEFI, 73002.0, 0.0, 78.41677508953765, 0.0, 0.0, 0.0, T0073
+ROT-DEFI, 73003.0, 0.0, 160.56866252614046, 0.0, 0.0, 0.0, T0073
+ROT-DEFI, 73000.0, 0.0, 0.0, -20.0, 0.0, -40.0, T0073
+ROT-DEFI, 74001.0, 0.0, 100.63772217068437, 0.0, 0.0, 0.0, T0074
+ROT-DEFI, 74002.0, 0.0, 10.456679587510223, 0.0, 0.0, 0.0, T0074
+ROT-DEFI, 74003.0, 0.0, -0.1311042354714542, 0.0, 0.0, 0.0, T0074
+ROT-DEFI, 74000.0, 0.0, 0.0, -20.0, 0.0, -20.0, T0074
+ROT-DEFI, 75001.0, 0.0, 100.63772217068437, 0.0, 0.0, 0.0, T0075
+ROT-DEFI, 75002.0, 0.0, 10.456679587510223, 0.0, 0.0, 0.0, T0075
+ROT-DEFI, 75003.0, 0.0, -0.1311042354714542, 0.0, 0.0, 0.0, T0075
+ROT-DEFI, 75000.0, 0.0, 0.0, -20.0, 0.0, -20.0, T0075
+ROT-DEFI, 76001.0, 0.0, 177.39444107614995, 0.0, 0.0, 0.0, T0076
+ROT-DEFI, 76002.0, 0.0, -20.144449066807606, 0.0, 0.0, 0.0, T0076
+ROT-DEFI, 76003.0, 0.0, 12.203866540922856, 0.0, 0.0, 0.0, T0076
+ROT-DEFI, 76000.0, 0.0, 0.0, -20.0, 0.0, 0.0, T0076
+ROT-DEFI, 77001.0, 0.0, 177.39444107614995, 0.0, 0.0, 0.0, T0077
+ROT-DEFI, 77002.0, 0.0, -20.144449066807606, 0.0, 0.0, 0.0, T0077
+ROT-DEFI, 77003.0, 0.0, 12.203866540922856, 0.0, 0.0, 0.0, T0077
+ROT-DEFI, 77000.0, 0.0, 0.0, -20.0, 0.0, 0.0, T0077
+ROT-DEFI, 78001.0, 0.0, 47.62232155970433, 0.0, 0.0, 0.0, T0078
+ROT-DEFI, 78002.0, 0.0, -14.620880170261273, 0.0, 0.0, 0.0, T0078
+ROT-DEFI, 78003.0, 0.0, 106.53666589853063, 0.0, 0.0, 0.0, T0078
+ROT-DEFI, 78000.0, 0.0, 0.0, -20.0, 0.0, 20.0, T0078
+ROT-DEFI, 79001.0, 0.0, 47.62232155970433, 0.0, 0.0, 0.0, T0079
+ROT-DEFI, 79002.0, 0.0, -14.620880170261273, 0.0, 0.0, 0.0, T0079
+ROT-DEFI, 79003.0, 0.0, 106.53666589853063, 0.0, 0.0, 0.0, T0079
+ROT-DEFI, 79000.0, 0.0, 0.0, -20.0, 0.0, 20.0, T0079
+ROT-DEFI, 80001.0, 0.0, -131.99613259122842, 0.0, 0.0, 0.0, T0080
+ROT-DEFI, 80002.0, 0.0, 41.93070901980156, 0.0, 0.0, 0.0, T0080
+ROT-DEFI, 80003.0, 0.0, -80.1900703052682, 0.0, 0.0, 0.0, T0080
+ROT-DEFI, 80000.0, 0.0, 0.0, -20.0, 0.0, 40.0, T0080
+ROT-DEFI, 81001.0, 0.0, -131.99613259122842, 0.0, 0.0, 0.0, T0081
+ROT-DEFI, 81002.0, 0.0, 41.93070901980156, 0.0, 0.0, 0.0, T0081
+ROT-DEFI, 81003.0, 0.0, -80.1900703052682, 0.0, 0.0, 0.0, T0081
+ROT-DEFI, 81000.0, 0.0, 0.0, -20.0, 0.0, 40.0, T0081
+ROT-DEFI, 82001.0, 0.0, -95.14345560121345, 0.0, 0.0, 0.0, T0082
+ROT-DEFI, 82002.0, 0.0, -33.298881561977495, 0.0, 0.0, 0.0, T0082
+ROT-DEFI, 82003.0, 0.0, 84.68590549930815, 0.0, 0.0, 0.0, T0082
+ROT-DEFI, 82000.0, 0.0, 0.0, -20.0, 20.0, -40.0, T0082
+ROT-DEFI, 83001.0, 0.0, -95.14345560121345, 0.0, 0.0, 0.0, T0083
+ROT-DEFI, 83002.0, 0.0, -33.298881561977495, 0.0, 0.0, 0.0, T0083
+ROT-DEFI, 83003.0, 0.0, 84.68590549930815, 0.0, 0.0, 0.0, T0083
+ROT-DEFI, 83000.0, 0.0, 0.0, -20.0, 20.0, -40.0, T0083
+ROT-DEFI, 84001.0, 0.0, 73.7532583406852, 0.0, 0.0, 0.0, T0084
+ROT-DEFI, 84002.0, 0.0, 86.55994677850548, 0.0, 0.0, 0.0, T0084
+ROT-DEFI, 84003.0, 0.0, 106.20575556170988, 0.0, 0.0, 0.0, T0084
+ROT-DEFI, 84000.0, 0.0, 0.0, -20.0, 20.0, -20.0, T0084
+ROT-DEFI, 85001.0, 0.0, 73.7532583406852, 0.0, 0.0, 0.0, T0085
+ROT-DEFI, 85002.0, 0.0, 86.55994677850548, 0.0, 0.0, 0.0, T0085
+ROT-DEFI, 85003.0, 0.0, 106.20575556170988, 0.0, 0.0, 0.0, T0085
+ROT-DEFI, 85000.0, 0.0, 0.0, -20.0, 20.0, -20.0, T0085
+ROT-DEFI, 86001.0, 0.0, -92.24124966296218, 0.0, 0.0, 0.0, T0086
+ROT-DEFI, 86002.0, 0.0, -3.975641766113442, 0.0, 0.0, 0.0, T0086
+ROT-DEFI, 86003.0, 0.0, 127.08810434034919, 0.0, 0.0, 0.0, T0086
+ROT-DEFI, 86000.0, 0.0, 0.0, -20.0, 20.0, 0.0, T0086
+ROT-DEFI, 87001.0, 0.0, -92.24124966296218, 0.0, 0.0, 0.0, T0087
+ROT-DEFI, 87002.0, 0.0, -3.975641766113442, 0.0, 0.0, 0.0, T0087
+ROT-DEFI, 87003.0, 0.0, 127.08810434034919, 0.0, 0.0, 0.0, T0087
+ROT-DEFI, 87000.0, 0.0, 0.0, -20.0, 20.0, 0.0, T0087
+ROT-DEFI, 88001.0, 0.0, 106.00428935369663, 0.0, 0.0, 0.0, T0088
+ROT-DEFI, 88002.0, 0.0, -56.569008811317744, 0.0, 0.0, 0.0, T0088
+ROT-DEFI, 88003.0, 0.0, 109.6608116688408, 0.0, 0.0, 0.0, T0088
+ROT-DEFI, 88000.0, 0.0, 0.0, -20.0, 20.0, 20.0, T0088
+ROT-DEFI, 89001.0, 0.0, 106.00428935369663, 0.0, 0.0, 0.0, T0089
+ROT-DEFI, 89002.0, 0.0, -56.569008811317744, 0.0, 0.0, 0.0, T0089
+ROT-DEFI, 89003.0, 0.0, 109.6608116688408, 0.0, 0.0, 0.0, T0089
+ROT-DEFI, 89000.0, 0.0, 0.0, -20.0, 20.0, 20.0, T0089
+ROT-DEFI, 90001.0, 0.0, -72.44980729427317, 0.0, 0.0, 0.0, T0090
+ROT-DEFI, 90002.0, 0.0, -30.292546513155717, 0.0, 0.0, 0.0, T0090
+ROT-DEFI, 90003.0, 0.0, -78.18526573814879, 0.0, 0.0, 0.0, T0090
+ROT-DEFI, 90000.0, 0.0, 0.0, -20.0, 20.0, 40.0, T0090
+ROT-DEFI, 91001.0, 0.0, -72.44980729427317, 0.0, 0.0, 0.0, T0091
+ROT-DEFI, 91002.0, 0.0, -30.292546513155717, 0.0, 0.0, 0.0, T0091
+ROT-DEFI, 91003.0, 0.0, -78.18526573814879, 0.0, 0.0, 0.0, T0091
+ROT-DEFI, 91000.0, 0.0, 0.0, -20.0, 20.0, 40.0, T0091
+ROT-DEFI, 92001.0, 0.0, 83.4107463575767, 0.0, 0.0, 0.0, T0092
+ROT-DEFI, 92002.0, 0.0, -44.2279861808649, 0.0, 0.0, 0.0, T0092
+ROT-DEFI, 92003.0, 0.0, -63.79464665445278, 0.0, 0.0, 0.0, T0092
+ROT-DEFI, 92000.0, 0.0, 0.0, -20.0, 40.0, -40.0, T0092
+ROT-DEFI, 93001.0, 0.0, 83.4107463575767, 0.0, 0.0, 0.0, T0093
+ROT-DEFI, 93002.0, 0.0, -44.2279861808649, 0.0, 0.0, 0.0, T0093
+ROT-DEFI, 93003.0, 0.0, -63.79464665445278, 0.0, 0.0, 0.0, T0093
+ROT-DEFI, 93000.0, 0.0, 0.0, -20.0, 40.0, -40.0, T0093
+ROT-DEFI, 94001.0, 0.0, -48.24968884691444, 0.0, 0.0, 0.0, T0094
+ROT-DEFI, 94002.0, 0.0, -44.803435584867465, 0.0, 0.0, 0.0, T0094
+ROT-DEFI, 94003.0, 0.0, -12.559516574043437, 0.0, 0.0, 0.0, T0094
+ROT-DEFI, 94000.0, 0.0, 0.0, -20.0, 40.0, -20.0, T0094
+ROT-DEFI, 95001.0, 0.0, -48.24968884691444, 0.0, 0.0, 0.0, T0095
+ROT-DEFI, 95002.0, 0.0, -44.803435584867465, 0.0, 0.0, 0.0, T0095
+ROT-DEFI, 95003.0, 0.0, -12.559516574043437, 0.0, 0.0, 0.0, T0095
+ROT-DEFI, 95000.0, 0.0, 0.0, -20.0, 40.0, -20.0, T0095
+ROT-DEFI, 96001.0, 0.0, 14.145265483496356, 0.0, 0.0, 0.0, T0096
+ROT-DEFI, 96002.0, 0.0, -50.05747194362792, 0.0, 0.0, 0.0, T0096
+ROT-DEFI, 96003.0, 0.0, 22.345940460748494, 0.0, 0.0, 0.0, T0096
+ROT-DEFI, 96000.0, 0.0, 0.0, -20.0, 40.0, 0.0, T0096
+ROT-DEFI, 97001.0, 0.0, 14.145265483496356, 0.0, 0.0, 0.0, T0097
+ROT-DEFI, 97002.0, 0.0, -50.05747194362792, 0.0, 0.0, 0.0, T0097
+ROT-DEFI, 97003.0, 0.0, 22.345940460748494, 0.0, 0.0, 0.0, T0097
+ROT-DEFI, 97000.0, 0.0, 0.0, -20.0, 40.0, 0.0, T0097
+ROT-DEFI, 98001.0, 0.0, 169.42681372947175, 0.0, 0.0, 0.0, T0098
+ROT-DEFI, 98002.0, 0.0, -1.3834840236994757, 0.0, 0.0, 0.0, T0098
+ROT-DEFI, 98003.0, 0.0, -29.908981739898714, 0.0, 0.0, 0.0, T0098
+ROT-DEFI, 98000.0, 0.0, 0.0, -20.0, 40.0, 20.0, T0098
+ROT-DEFI, 99001.0, 0.0, 169.42681372947175, 0.0, 0.0, 0.0, T0099
+ROT-DEFI, 99002.0, 0.0, -1.3834840236994757, 0.0, 0.0, 0.0, T0099
+ROT-DEFI, 99003.0, 0.0, -29.908981739898714, 0.0, 0.0, 0.0, T0099
+ROT-DEFI, 99000.0, 0.0, 0.0, -20.0, 40.0, 20.0, T0099
+ROT-DEFI, 100001.0, 0.0, -7.076736132139222, 0.0, 0.0, 0.0, T0100
+ROT-DEFI, 100002.0, 0.0, 23.302068149177455, 0.0, 0.0, 0.0, T0100
+ROT-DEFI, 100003.0, 0.0, -62.663671975013706, 0.0, 0.0, 0.0, T0100
+ROT-DEFI, 100000.0, 0.0, 0.0, -20.0, 40.0, 40.0, T0100
+ROT-DEFI, 101001.0, 0.0, -7.076736132139222, 0.0, 0.0, 0.0, T0101
+ROT-DEFI, 101002.0, 0.0, 23.302068149177455, 0.0, 0.0, 0.0, T0101
+ROT-DEFI, 101003.0, 0.0, -62.663671975013706, 0.0, 0.0, 0.0, T0101
+ROT-DEFI, 101000.0, 0.0, 0.0, -20.0, 40.0, 40.0, T0101
+ROT-DEFI, 102001.0, 0.0, 177.5221463639288, 0.0, 0.0, 0.0, T0102
+ROT-DEFI, 102002.0, 0.0, -10.880794485895835, 0.0, 0.0, 0.0, T0102
+ROT-DEFI, 102003.0, 0.0, -167.70316325141823, 0.0, 0.0, 0.0, T0102
+ROT-DEFI, 102000.0, 0.0, 0.0, 0.0, -40.0, -40.0, T0102
+ROT-DEFI, 103001.0, 0.0, 177.5221463639288, 0.0, 0.0, 0.0, T0103
+ROT-DEFI, 103002.0, 0.0, -10.880794485895835, 0.0, 0.0, 0.0, T0103
+ROT-DEFI, 103003.0, 0.0, -167.70316325141823, 0.0, 0.0, 0.0, T0103
+ROT-DEFI, 103000.0, 0.0, 0.0, 0.0, -40.0, -40.0, T0103
+ROT-DEFI, 104001.0, 0.0, 129.50891849585844, 0.0, 0.0, 0.0, T0104
+ROT-DEFI, 104002.0, 0.0, 50.273796682001716, 0.0, 0.0, 0.0, T0104
+ROT-DEFI, 104003.0, 0.0, 18.498822920796083, 0.0, 0.0, 0.0, T0104
+ROT-DEFI, 104000.0, 0.0, 0.0, 0.0, -40.0, -20.0, T0104
+ROT-DEFI, 105001.0, 0.0, 129.50891849585844, 0.0, 0.0, 0.0, T0105
+ROT-DEFI, 105002.0, 0.0, 50.273796682001716, 0.0, 0.0, 0.0, T0105
+ROT-DEFI, 105003.0, 0.0, 18.498822920796083, 0.0, 0.0, 0.0, T0105
+ROT-DEFI, 105000.0, 0.0, 0.0, 0.0, -40.0, -20.0, T0105
+ROT-DEFI, 106001.0, 0.0, 110.42551549594917, 0.0, 0.0, 0.0, T0106
+ROT-DEFI, 106002.0, 0.0, 14.80275962994417, 0.0, 0.0, 0.0, T0106
+ROT-DEFI, 106003.0, 0.0, -83.86675084404912, 0.0, 0.0, 0.0, T0106
+ROT-DEFI, 106000.0, 0.0, 0.0, 0.0, -40.0, 0.0, T0106
+ROT-DEFI, 107001.0, 0.0, 110.42551549594917, 0.0, 0.0, 0.0, T0107
+ROT-DEFI, 107002.0, 0.0, 14.80275962994417, 0.0, 0.0, 0.0, T0107
+ROT-DEFI, 107003.0, 0.0, -83.86675084404912, 0.0, 0.0, 0.0, T0107
+ROT-DEFI, 107000.0, 0.0, 0.0, 0.0, -40.0, 0.0, T0107
+ROT-DEFI, 108001.0, 0.0, 139.59533072101672, 0.0, 0.0, 0.0, T0108
+ROT-DEFI, 108002.0, 0.0, -2.5065456893356064, 0.0, 0.0, 0.0, T0108
+ROT-DEFI, 108003.0, 0.0, 143.88541930126937, 0.0, 0.0, 0.0, T0108
+ROT-DEFI, 108000.0, 0.0, 0.0, 0.0, -40.0, 20.0, T0108
+ROT-DEFI, 109001.0, 0.0, 139.59533072101672, 0.0, 0.0, 0.0, T0109
+ROT-DEFI, 109002.0, 0.0, -2.5065456893356064, 0.0, 0.0, 0.0, T0109
+ROT-DEFI, 109003.0, 0.0, 143.88541930126937, 0.0, 0.0, 0.0, T0109
+ROT-DEFI, 109000.0, 0.0, 0.0, 0.0, -40.0, 20.0, T0109
+ROT-DEFI, 110001.0, 0.0, -147.00405294186, 0.0, 0.0, 0.0, T0110
+ROT-DEFI, 110002.0, 0.0, 31.430469748382176, 0.0, 0.0, 0.0, T0110
+ROT-DEFI, 110003.0, 0.0, 102.22349460727288, 0.0, 0.0, 0.0, T0110
+ROT-DEFI, 110000.0, 0.0, 0.0, 0.0, -40.0, 40.0, T0110
+ROT-DEFI, 111001.0, 0.0, -147.00405294186, 0.0, 0.0, 0.0, T0111
+ROT-DEFI, 111002.0, 0.0, 31.430469748382176, 0.0, 0.0, 0.0, T0111
+ROT-DEFI, 111003.0, 0.0, 102.22349460727288, 0.0, 0.0, 0.0, T0111
+ROT-DEFI, 111000.0, 0.0, 0.0, 0.0, -40.0, 40.0, T0111
+ROT-DEFI, 112001.0, 0.0, 122.79308829354804, 0.0, 0.0, 0.0, T0112
+ROT-DEFI, 112002.0, 0.0, 20.94377824189971, 0.0, 0.0, 0.0, T0112
+ROT-DEFI, 112003.0, 0.0, 134.3011478480022, 0.0, 0.0, 0.0, T0112
+ROT-DEFI, 112000.0, 0.0, 0.0, 0.0, -20.0, -40.0, T0112
+ROT-DEFI, 113001.0, 0.0, 122.79308829354804, 0.0, 0.0, 0.0, T0113
+ROT-DEFI, 113002.0, 0.0, 20.94377824189971, 0.0, 0.0, 0.0, T0113
+ROT-DEFI, 113003.0, 0.0, 134.3011478480022, 0.0, 0.0, 0.0, T0113
+ROT-DEFI, 113000.0, 0.0, 0.0, 0.0, -20.0, -40.0, T0113
+ROT-DEFI, 114001.0, 0.0, 108.57789328586671, 0.0, 0.0, 0.0, T0114
+ROT-DEFI, 114002.0, 0.0, 52.44845298028913, 0.0, 0.0, 0.0, T0114
+ROT-DEFI, 114003.0, 0.0, -62.033312745246924, 0.0, 0.0, 0.0, T0114
+ROT-DEFI, 114000.0, 0.0, 0.0, 0.0, -20.0, -20.0, T0114
+ROT-DEFI, 115001.0, 0.0, 108.57789328586671, 0.0, 0.0, 0.0, T0115
+ROT-DEFI, 115002.0, 0.0, 52.44845298028913, 0.0, 0.0, 0.0, T0115
+ROT-DEFI, 115003.0, 0.0, -62.033312745246924, 0.0, 0.0, 0.0, T0115
+ROT-DEFI, 115000.0, 0.0, 0.0, 0.0, -20.0, -20.0, T0115
+ROT-DEFI, 116001.0, 0.0, 108.34310214042156, 0.0, 0.0, 0.0, T0116
+ROT-DEFI, 116002.0, 0.0, -21.089497966821906, 0.0, 0.0, 0.0, T0116
+ROT-DEFI, 116003.0, 0.0, 112.36315327127687, 0.0, 0.0, 0.0, T0116
+ROT-DEFI, 116000.0, 0.0, 0.0, 0.0, -20.0, 0.0, T0116
+ROT-DEFI, 117001.0, 0.0, 108.34310214042156, 0.0, 0.0, 0.0, T0117
+ROT-DEFI, 117002.0, 0.0, -21.089497966821906, 0.0, 0.0, 0.0, T0117
+ROT-DEFI, 117003.0, 0.0, 112.36315327127687, 0.0, 0.0, 0.0, T0117
+ROT-DEFI, 117000.0, 0.0, 0.0, 0.0, -20.0, 0.0, T0117
+ROT-DEFI, 118001.0, 0.0, 138.00064395560213, 0.0, 0.0, 0.0, T0118
+ROT-DEFI, 118002.0, 0.0, -17.665851544654053, 0.0, 0.0, 0.0, T0118
+ROT-DEFI, 118003.0, 0.0, -83.33863710844793, 0.0, 0.0, 0.0, T0118
+ROT-DEFI, 118000.0, 0.0, 0.0, 0.0, -20.0, 20.0, T0118
+ROT-DEFI, 119001.0, 0.0, 138.00064395560213, 0.0, 0.0, 0.0, T0119
+ROT-DEFI, 119002.0, 0.0, -17.665851544654053, 0.0, 0.0, 0.0, T0119
+ROT-DEFI, 119003.0, 0.0, -83.33863710844793, 0.0, 0.0, 0.0, T0119
+ROT-DEFI, 119000.0, 0.0, 0.0, 0.0, -20.0, 20.0, T0119
+ROT-DEFI, 120001.0, 0.0, 93.75710057650014, 0.0, 0.0, 0.0, T0120
+ROT-DEFI, 120002.0, 0.0, -11.45162492467936, 0.0, 0.0, 0.0, T0120
+ROT-DEFI, 120003.0, 0.0, 85.81715966221476, 0.0, 0.0, 0.0, T0120
+ROT-DEFI, 120000.0, 0.0, 0.0, 0.0, -20.0, 40.0, T0120
+ROT-DEFI, 121001.0, 0.0, 93.75710057650014, 0.0, 0.0, 0.0, T0121
+ROT-DEFI, 121002.0, 0.0, -11.45162492467936, 0.0, 0.0, 0.0, T0121
+ROT-DEFI, 121003.0, 0.0, 85.81715966221476, 0.0, 0.0, 0.0, T0121
+ROT-DEFI, 121000.0, 0.0, 0.0, 0.0, -20.0, 40.0, T0121
+ROT-DEFI, 122001.0, 0.0, -95.14373726128352, 0.0, 0.0, 0.0, T0122
+ROT-DEFI, 122002.0, 0.0, 2.209675919469548, 0.0, 0.0, 0.0, T0122
+ROT-DEFI, 122003.0, 0.0, -137.36809051015425, 0.0, 0.0, 0.0, T0122
+ROT-DEFI, 122000.0, 0.0, 0.0, 0.0, 0.0, -40.0, T0122
+ROT-DEFI, 123001.0, 0.0, -95.14373726128352, 0.0, 0.0, 0.0, T0123
+ROT-DEFI, 123002.0, 0.0, 2.209675919469548, 0.0, 0.0, 0.0, T0123
+ROT-DEFI, 123003.0, 0.0, -137.36809051015425, 0.0, 0.0, 0.0, T0123
+ROT-DEFI, 123000.0, 0.0, 0.0, 0.0, 0.0, -40.0, T0123
+ROT-DEFI, 124001.0, 0.0, -40.872739148734674, 0.0, 0.0, 0.0, T0124
+ROT-DEFI, 124002.0, 0.0, 25.060736477233288, 0.0, 0.0, 0.0, T0124
+ROT-DEFI, 124003.0, 0.0, -48.142649179995935, 0.0, 0.0, 0.0, T0124
+ROT-DEFI, 124000.0, 0.0, 0.0, 0.0, 0.0, -20.0, T0124
+ROT-DEFI, 125001.0, 0.0, -40.872739148734674, 0.0, 0.0, 0.0, T0125
+ROT-DEFI, 125002.0, 0.0, 25.060736477233288, 0.0, 0.0, 0.0, T0125
+ROT-DEFI, 125003.0, 0.0, -48.142649179995935, 0.0, 0.0, 0.0, T0125
+ROT-DEFI, 125000.0, 0.0, 0.0, 0.0, 0.0, -20.0, T0125
+ROT-DEFI, 126001.0, 0.0, 144.73447501985893, 0.0, 0.0, 0.0, T0126
+ROT-DEFI, 126002.0, 0.0, -14.302713021634698, 0.0, 0.0, 0.0, T0126
+ROT-DEFI, 126003.0, 0.0, -88.87282254192834, 0.0, 0.0, 0.0, T0126
+ROT-DEFI, 127001.0, 0.0, 144.73447501985893, 0.0, 0.0, 0.0, T0127
+ROT-DEFI, 127002.0, 0.0, -14.302713021634698, 0.0, 0.0, 0.0, T0127
+ROT-DEFI, 127003.0, 0.0, -88.87282254192834, 0.0, 0.0, 0.0, T0127
+ROT-DEFI, 128001.0, 0.0, -156.48949927376202, 0.0, 0.0, 0.0, T0128
+ROT-DEFI, 128002.0, 0.0, -71.44448721387819, 0.0, 0.0, 0.0, T0128
+ROT-DEFI, 128003.0, 0.0, -176.48313464147557, 0.0, 0.0, 0.0, T0128
+ROT-DEFI, 128000.0, 0.0, 0.0, 0.0, 0.0, 20.0, T0128
+ROT-DEFI, 129001.0, 0.0, -156.48949927376202, 0.0, 0.0, 0.0, T0129
+ROT-DEFI, 129002.0, 0.0, -71.44448721387819, 0.0, 0.0, 0.0, T0129
+ROT-DEFI, 129003.0, 0.0, -176.48313464147557, 0.0, 0.0, 0.0, T0129
+ROT-DEFI, 129000.0, 0.0, 0.0, 0.0, 0.0, 20.0, T0129
+ROT-DEFI, 130001.0, 0.0, 94.68485332462204, 0.0, 0.0, 0.0, T0130
+ROT-DEFI, 130002.0, 0.0, 40.27325846553354, 0.0, 0.0, 0.0, T0130
+ROT-DEFI, 130003.0, 0.0, 88.01751399152865, 0.0, 0.0, 0.0, T0130
+ROT-DEFI, 130000.0, 0.0, 0.0, 0.0, 0.0, 40.0, T0130
+ROT-DEFI, 131001.0, 0.0, 94.68485332462204, 0.0, 0.0, 0.0, T0131
+ROT-DEFI, 131002.0, 0.0, 40.27325846553354, 0.0, 0.0, 0.0, T0131
+ROT-DEFI, 131003.0, 0.0, 88.01751399152865, 0.0, 0.0, 0.0, T0131
+ROT-DEFI, 131000.0, 0.0, 0.0, 0.0, 0.0, 40.0, T0131
+ROT-DEFI, 132001.0, 0.0, -99.53047590760296, 0.0, 0.0, 0.0, T0132
+ROT-DEFI, 132002.0, 0.0, -19.062026409775015, 0.0, 0.0, 0.0, T0132
+ROT-DEFI, 132003.0, 0.0, 103.54130439810994, 0.0, 0.0, 0.0, T0132
+ROT-DEFI, 132000.0, 0.0, 0.0, 0.0, 20.0, -40.0, T0132
+ROT-DEFI, 133001.0, 0.0, -99.53047590760296, 0.0, 0.0, 0.0, T0133
+ROT-DEFI, 133002.0, 0.0, -19.062026409775015, 0.0, 0.0, 0.0, T0133
+ROT-DEFI, 133003.0, 0.0, 103.54130439810994, 0.0, 0.0, 0.0, T0133
+ROT-DEFI, 133000.0, 0.0, 0.0, 0.0, 20.0, -40.0, T0133
+ROT-DEFI, 134001.0, 0.0, -129.686892510494, 0.0, 0.0, 0.0, T0134
+ROT-DEFI, 134002.0, 0.0, -1.1203658074207934, 0.0, 0.0, 0.0, T0134
+ROT-DEFI, 134003.0, 0.0, -144.89029363976752, 0.0, 0.0, 0.0, T0134
+ROT-DEFI, 134000.0, 0.0, 0.0, 0.0, 20.0, -20.0, T0134
+ROT-DEFI, 135001.0, 0.0, -129.686892510494, 0.0, 0.0, 0.0, T0135
+ROT-DEFI, 135002.0, 0.0, -1.1203658074207934, 0.0, 0.0, 0.0, T0135
+ROT-DEFI, 135003.0, 0.0, -144.89029363976752, 0.0, 0.0, 0.0, T0135
+ROT-DEFI, 135000.0, 0.0, 0.0, 0.0, 20.0, -20.0, T0135
+ROT-DEFI, 136001.0, 0.0, 111.84872455020158, 0.0, 0.0, 0.0, T0136
+ROT-DEFI, 136002.0, 0.0, -83.91278109484574, 0.0, 0.0, 0.0, T0136
+ROT-DEFI, 136003.0, 0.0, -16.53200880870308, 0.0, 0.0, 0.0, T0136
+ROT-DEFI, 136000.0, 0.0, 0.0, 0.0, 20.0, 0.0, T0136
+ROT-DEFI, 137001.0, 0.0, 111.84872455020158, 0.0, 0.0, 0.0, T0137
+ROT-DEFI, 137002.0, 0.0, -83.91278109484574, 0.0, 0.0, 0.0, T0137
+ROT-DEFI, 137003.0, 0.0, -16.53200880870308, 0.0, 0.0, 0.0, T0137
+ROT-DEFI, 137000.0, 0.0, 0.0, 0.0, 20.0, 0.0, T0137
+ROT-DEFI, 138001.0, 0.0, 83.5218265914862, 0.0, 0.0, 0.0, T0138
+ROT-DEFI, 138002.0, 0.0, -19.30661336936619, 0.0, 0.0, 0.0, T0138
+ROT-DEFI, 138003.0, 0.0, -103.91996766109119, 0.0, 0.0, 0.0, T0138
+ROT-DEFI, 138000.0, 0.0, 0.0, 0.0, 20.0, 20.0, T0138
+ROT-DEFI, 139001.0, 0.0, 83.5218265914862, 0.0, 0.0, 0.0, T0139
+ROT-DEFI, 139002.0, 0.0, -19.30661336936619, 0.0, 0.0, 0.0, T0139
+ROT-DEFI, 139003.0, 0.0, -103.91996766109119, 0.0, 0.0, 0.0, T0139
+ROT-DEFI, 139000.0, 0.0, 0.0, 0.0, 20.0, 20.0, T0139
+ROT-DEFI, 140001.0, 0.0, 110.56485516902781, 0.0, 0.0, 0.0, T0140
+ROT-DEFI, 140002.0, 0.0, -16.94382556087099, 0.0, 0.0, 0.0, T0140
+ROT-DEFI, 140003.0, 0.0, 16.347076963339916, 0.0, 0.0, 0.0, T0140
+ROT-DEFI, 140000.0, 0.0, 0.0, 0.0, 20.0, 40.0, T0140
+ROT-DEFI, 141001.0, 0.0, 110.56485516902781, 0.0, 0.0, 0.0, T0141
+ROT-DEFI, 141002.0, 0.0, -16.94382556087099, 0.0, 0.0, 0.0, T0141
+ROT-DEFI, 141003.0, 0.0, 16.347076963339916, 0.0, 0.0, 0.0, T0141
+ROT-DEFI, 141000.0, 0.0, 0.0, 0.0, 20.0, 40.0, T0141
+ROT-DEFI, 142001.0, 0.0, 121.58506000794, 0.0, 0.0, 0.0, T0142
+ROT-DEFI, 142002.0, 0.0, 17.769492144240516, 0.0, 0.0, 0.0, T0142
+ROT-DEFI, 142003.0, 0.0, 93.14422361230088, 0.0, 0.0, 0.0, T0142
+ROT-DEFI, 142000.0, 0.0, 0.0, 0.0, 40.0, -40.0, T0142
+ROT-DEFI, 143001.0, 0.0, 121.58506000794, 0.0, 0.0, 0.0, T0143
+ROT-DEFI, 143002.0, 0.0, 17.769492144240516, 0.0, 0.0, 0.0, T0143
+ROT-DEFI, 143003.0, 0.0, 93.14422361230088, 0.0, 0.0, 0.0, T0143
+ROT-DEFI, 143000.0, 0.0, 0.0, 0.0, 40.0, -40.0, T0143
+ROT-DEFI, 144001.0, 0.0, 84.60541966313026, 0.0, 0.0, 0.0, T0144
+ROT-DEFI, 144002.0, 0.0, 10.528633091876584, 0.0, 0.0, 0.0, T0144
+ROT-DEFI, 144003.0, 0.0, 49.24117849018055, 0.0, 0.0, 0.0, T0144
+ROT-DEFI, 144000.0, 0.0, 0.0, 0.0, 40.0, -20.0, T0144
+ROT-DEFI, 145001.0, 0.0, 84.60541966313026, 0.0, 0.0, 0.0, T0145
+ROT-DEFI, 145002.0, 0.0, 10.528633091876584, 0.0, 0.0, 0.0, T0145
+ROT-DEFI, 145003.0, 0.0, 49.24117849018055, 0.0, 0.0, 0.0, T0145
+ROT-DEFI, 145000.0, 0.0, 0.0, 0.0, 40.0, -20.0, T0145
+ROT-DEFI, 146001.0, 0.0, 106.83491387836764, 0.0, 0.0, 0.0, T0146
+ROT-DEFI, 146002.0, 0.0, 37.971227110410815, 0.0, 0.0, 0.0, T0146
+ROT-DEFI, 146003.0, 0.0, -92.30591936971163, 0.0, 0.0, 0.0, T0146
+ROT-DEFI, 146000.0, 0.0, 0.0, 0.0, 40.0, 0.0, T0146
+ROT-DEFI, 147001.0, 0.0, 106.83491387836764, 0.0, 0.0, 0.0, T0147
+ROT-DEFI, 147002.0, 0.0, 37.971227110410815, 0.0, 0.0, 0.0, T0147
+ROT-DEFI, 147003.0, 0.0, -92.30591936971163, 0.0, 0.0, 0.0, T0147
+ROT-DEFI, 147000.0, 0.0, 0.0, 0.0, 40.0, 0.0, T0147
+ROT-DEFI, 148001.0, 0.0, -168.35008281555085, 0.0, 0.0, 0.0, T0148
+ROT-DEFI, 148002.0, 0.0, 61.460241940291134, 0.0, 0.0, 0.0, T0148
+ROT-DEFI, 148003.0, 0.0, 137.18802570296535, 0.0, 0.0, 0.0, T0148
+ROT-DEFI, 148000.0, 0.0, 0.0, 0.0, 40.0, 20.0, T0148
+ROT-DEFI, 149001.0, 0.0, -168.35008281555085, 0.0, 0.0, 0.0, T0149
+ROT-DEFI, 149002.0, 0.0, 61.460241940291134, 0.0, 0.0, 0.0, T0149
+ROT-DEFI, 149003.0, 0.0, 137.18802570296535, 0.0, 0.0, 0.0, T0149
+ROT-DEFI, 149000.0, 0.0, 0.0, 0.0, 40.0, 20.0, T0149
+ROT-DEFI, 150001.0, 0.0, 91.15727613475973, 0.0, 0.0, 0.0, T0150
+ROT-DEFI, 150002.0, 0.0, 0.30953912704821285, 0.0, 0.0, 0.0, T0150
+ROT-DEFI, 150003.0, 0.0, -90.65623907770716, 0.0, 0.0, 0.0, T0150
+ROT-DEFI, 150000.0, 0.0, 0.0, 0.0, 40.0, 40.0, T0150
+ROT-DEFI, 151001.0, 0.0, 91.15727613475973, 0.0, 0.0, 0.0, T0151
+ROT-DEFI, 151002.0, 0.0, 0.30953912704821285, 0.0, 0.0, 0.0, T0151
+ROT-DEFI, 151003.0, 0.0, -90.65623907770716, 0.0, 0.0, 0.0, T0151
+ROT-DEFI, 151000.0, 0.0, 0.0, 0.0, 40.0, 40.0, T0151
+ROT-DEFI, 152001.0, 0.0, 35.80056096937893, 0.0, 0.0, 0.0, T0152
+ROT-DEFI, 152002.0, 0.0, -19.577687685829446, 0.0, 0.0, 0.0, T0152
+ROT-DEFI, 152003.0, 0.0, 5.791459503805951, 0.0, 0.0, 0.0, T0152
+ROT-DEFI, 152000.0, 0.0, 0.0, 20.0, -40.0, -40.0, T0152
+ROT-DEFI, 153001.0, 0.0, 35.80056096937893, 0.0, 0.0, 0.0, T0153
+ROT-DEFI, 153002.0, 0.0, -19.577687685829446, 0.0, 0.0, 0.0, T0153
+ROT-DEFI, 153003.0, 0.0, 5.791459503805951, 0.0, 0.0, 0.0, T0153
+ROT-DEFI, 153000.0, 0.0, 0.0, 20.0, -40.0, -40.0, T0153
+ROT-DEFI, 154001.0, 0.0, -122.55588853752465, 0.0, 0.0, 0.0, T0154
+ROT-DEFI, 154002.0, 0.0, -64.20593798569713, 0.0, 0.0, 0.0, T0154
+ROT-DEFI, 154003.0, 0.0, 131.48828285096954, 0.0, 0.0, 0.0, T0154
+ROT-DEFI, 154000.0, 0.0, 0.0, 20.0, -40.0, -20.0, T0154
+ROT-DEFI, 155001.0, 0.0, -122.55588853752465, 0.0, 0.0, 0.0, T0155
+ROT-DEFI, 155002.0, 0.0, -64.20593798569713, 0.0, 0.0, 0.0, T0155
+ROT-DEFI, 155003.0, 0.0, 131.48828285096954, 0.0, 0.0, 0.0, T0155
+ROT-DEFI, 155000.0, 0.0, 0.0, 20.0, -40.0, -20.0, T0155
+ROT-DEFI, 156001.0, 0.0, 96.39397078997902, 0.0, 0.0, 0.0, T0156
+ROT-DEFI, 156002.0, 0.0, -8.391895556745572, 0.0, 0.0, 0.0, T0156
+ROT-DEFI, 156003.0, 0.0, 111.5476123300061, 0.0, 0.0, 0.0, T0156
+ROT-DEFI, 156000.0, 0.0, 0.0, 20.0, -40.0, 0.0, T0156
+ROT-DEFI, 157001.0, 0.0, 96.39397078997902, 0.0, 0.0, 0.0, T0157
+ROT-DEFI, 157002.0, 0.0, -8.391895556745572, 0.0, 0.0, 0.0, T0157
+ROT-DEFI, 157003.0, 0.0, 111.5476123300061, 0.0, 0.0, 0.0, T0157
+ROT-DEFI, 157000.0, 0.0, 0.0, 20.0, -40.0, 0.0, T0157
+ROT-DEFI, 158001.0, 0.0, 20.51438688371646, 0.0, 0.0, 0.0, T0158
+ROT-DEFI, 158002.0, 0.0, 45.616238133155015, 0.0, 0.0, 0.0, T0158
+ROT-DEFI, 158003.0, 0.0, -55.55524422303608, 0.0, 0.0, 0.0, T0158
+ROT-DEFI, 158000.0, 0.0, 0.0, 20.0, -40.0, 20.0, T0158
+ROT-DEFI, 159001.0, 0.0, 20.51438688371646, 0.0, 0.0, 0.0, T0159
+ROT-DEFI, 159002.0, 0.0, 45.616238133155015, 0.0, 0.0, 0.0, T0159
+ROT-DEFI, 159003.0, 0.0, -55.55524422303608, 0.0, 0.0, 0.0, T0159
+ROT-DEFI, 159000.0, 0.0, 0.0, 20.0, -40.0, 20.0, T0159
+ROT-DEFI, 160001.0, 0.0, -111.92590514964822, 0.0, 0.0, 0.0, T0160
+ROT-DEFI, 160002.0, 0.0, -85.02500708184749, 0.0, 0.0, 0.0, T0160
+ROT-DEFI, 160003.0, 0.0, 123.6105108349546, 0.0, 0.0, 0.0, T0160
+ROT-DEFI, 160000.0, 0.0, 0.0, 20.0, -40.0, 40.0, T0160
+ROT-DEFI, 161001.0, 0.0, -111.92590514964822, 0.0, 0.0, 0.0, T0161
+ROT-DEFI, 161002.0, 0.0, -85.02500708184749, 0.0, 0.0, 0.0, T0161
+ROT-DEFI, 161003.0, 0.0, 123.6105108349546, 0.0, 0.0, 0.0, T0161
+ROT-DEFI, 161000.0, 0.0, 0.0, 20.0, -40.0, 40.0, T0161
+ROT-DEFI, 162001.0, 0.0, 140.47149763078158, 0.0, 0.0, 0.0, T0162
+ROT-DEFI, 162002.0, 0.0, 73.19465261530819, 0.0, 0.0, 0.0, T0162
+ROT-DEFI, 162003.0, 0.0, -68.9609055139016, 0.0, 0.0, 0.0, T0162
+ROT-DEFI, 162000.0, 0.0, 0.0, 20.0, -20.0, -40.0, T0162
+ROT-DEFI, 163001.0, 0.0, 140.47149763078158, 0.0, 0.0, 0.0, T0163
+ROT-DEFI, 163002.0, 0.0, 73.19465261530819, 0.0, 0.0, 0.0, T0163
+ROT-DEFI, 163003.0, 0.0, -68.9609055139016, 0.0, 0.0, 0.0, T0163
+ROT-DEFI, 163000.0, 0.0, 0.0, 20.0, -20.0, -40.0, T0163
+ROT-DEFI, 164001.0, 0.0, 145.9676639856827, 0.0, 0.0, 0.0, T0164
+ROT-DEFI, 164002.0, 0.0, 26.084625749319876, 0.0, 0.0, 0.0, T0164
+ROT-DEFI, 164003.0, 0.0, -83.20889178294574, 0.0, 0.0, 0.0, T0164
+ROT-DEFI, 164000.0, 0.0, 0.0, 20.0, -20.0, -20.0, T0164
+ROT-DEFI, 165001.0, 0.0, 145.9676639856827, 0.0, 0.0, 0.0, T0165
+ROT-DEFI, 165002.0, 0.0, 26.084625749319876, 0.0, 0.0, 0.0, T0165
+ROT-DEFI, 165003.0, 0.0, -83.20889178294574, 0.0, 0.0, 0.0, T0165
+ROT-DEFI, 165000.0, 0.0, 0.0, 20.0, -20.0, -20.0, T0165
+ROT-DEFI, 166001.0, 0.0, -138.59385422230827, 0.0, 0.0, 0.0, T0166
+ROT-DEFI, 166002.0, 0.0, -19.381423883507885, 0.0, 0.0, 0.0, T0166
+ROT-DEFI, 166003.0, 0.0, 99.9034263245943, 0.0, 0.0, 0.0, T0166
+ROT-DEFI, 166000.0, 0.0, 0.0, 20.0, -20.0, 0.0, T0166
+ROT-DEFI, 167001.0, 0.0, -138.59385422230827, 0.0, 0.0, 0.0, T0167
+ROT-DEFI, 167002.0, 0.0, -19.381423883507885, 0.0, 0.0, 0.0, T0167
+ROT-DEFI, 167003.0, 0.0, 99.9034263245943, 0.0, 0.0, 0.0, T0167
+ROT-DEFI, 167000.0, 0.0, 0.0, 20.0, -20.0, 0.0, T0167
+ROT-DEFI, 168001.0, 0.0, 129.16979291495088, 0.0, 0.0, 0.0, T0168
+ROT-DEFI, 168002.0, 0.0, -47.99530402198097, 0.0, 0.0, 0.0, T0168
+ROT-DEFI, 168003.0, 0.0, -79.79368552497415, 0.0, 0.0, 0.0, T0168
+ROT-DEFI, 168000.0, 0.0, 0.0, 20.0, -20.0, 20.0, T0168
+ROT-DEFI, 169001.0, 0.0, 129.16979291495088, 0.0, 0.0, 0.0, T0169
+ROT-DEFI, 169002.0, 0.0, -47.99530402198097, 0.0, 0.0, 0.0, T0169
+ROT-DEFI, 169003.0, 0.0, -79.79368552497415, 0.0, 0.0, 0.0, T0169
+ROT-DEFI, 169000.0, 0.0, 0.0, 20.0, -20.0, 20.0, T0169
+ROT-DEFI, 170001.0, 0.0, -96.17474044118607, 0.0, 0.0, 0.0, T0170
+ROT-DEFI, 170002.0, 0.0, -3.5494260113554676, 0.0, 0.0, 0.0, T0170
+ROT-DEFI, 170003.0, 0.0, 79.53681355953253, 0.0, 0.0, 0.0, T0170
+ROT-DEFI, 170000.0, 0.0, 0.0, 20.0, -20.0, 40.0, T0170
+ROT-DEFI, 171001.0, 0.0, -96.17474044118607, 0.0, 0.0, 0.0, T0171
+ROT-DEFI, 171002.0, 0.0, -3.5494260113554676, 0.0, 0.0, 0.0, T0171
+ROT-DEFI, 171003.0, 0.0, 79.53681355953253, 0.0, 0.0, 0.0, T0171
+ROT-DEFI, 171000.0, 0.0, 0.0, 20.0, -20.0, 40.0, T0171
+ROT-DEFI, 172001.0, 0.0, 164.70346179241918, 0.0, 0.0, 0.0, T0172
+ROT-DEFI, 172002.0, 0.0, 39.53811060090431, 0.0, 0.0, 0.0, T0172
+ROT-DEFI, 172003.0, 0.0, 41.356968053879804, 0.0, 0.0, 0.0, T0172
+ROT-DEFI, 172000.0, 0.0, 0.0, 20.0, 0.0, -40.0, T0172
+ROT-DEFI, 173001.0, 0.0, 164.70346179241918, 0.0, 0.0, 0.0, T0173
+ROT-DEFI, 173002.0, 0.0, 39.53811060090431, 0.0, 0.0, 0.0, T0173
+ROT-DEFI, 173003.0, 0.0, 41.356968053879804, 0.0, 0.0, 0.0, T0173
+ROT-DEFI, 173000.0, 0.0, 0.0, 20.0, 0.0, -40.0, T0173
+ROT-DEFI, 174001.0, 0.0, -85.93635832886942, 0.0, 0.0, 0.0, T0174
+ROT-DEFI, 174002.0, 0.0, 21.210104580987085, 0.0, 0.0, 0.0, T0174
+ROT-DEFI, 174003.0, 0.0, 80.15867320755805, 0.0, 0.0, 0.0, T0174
+ROT-DEFI, 174000.0, 0.0, 0.0, 20.0, 0.0, -20.0, T0174
+ROT-DEFI, 175001.0, 0.0, -85.93635832886942, 0.0, 0.0, 0.0, T0175
+ROT-DEFI, 175002.0, 0.0, 21.210104580987085, 0.0, 0.0, 0.0, T0175
+ROT-DEFI, 175003.0, 0.0, 80.15867320755805, 0.0, 0.0, 0.0, T0175
+ROT-DEFI, 175000.0, 0.0, 0.0, 20.0, 0.0, -20.0, T0175
+ROT-DEFI, 176001.0, 0.0, -137.70820430666618, 0.0, 0.0, 0.0, T0176
+ROT-DEFI, 176002.0, 0.0, 35.4256224590347, 0.0, 0.0, 0.0, T0176
+ROT-DEFI, 176003.0, 0.0, -110.99840396917108, 0.0, 0.0, 0.0, T0176
+ROT-DEFI, 176000.0, 0.0, 0.0, 20.0, 0.0, 0.0, T0176
+ROT-DEFI, 177001.0, 0.0, -137.70820430666618, 0.0, 0.0, 0.0, T0177
+ROT-DEFI, 177002.0, 0.0, 35.4256224590347, 0.0, 0.0, 0.0, T0177
+ROT-DEFI, 177003.0, 0.0, -110.99840396917108, 0.0, 0.0, 0.0, T0177
+ROT-DEFI, 177000.0, 0.0, 0.0, 20.0, 0.0, 0.0, T0177
+ROT-DEFI, 178001.0, 0.0, 135.41356681237176, 0.0, 0.0, 0.0, T0178
+ROT-DEFI, 178002.0, 0.0, -49.956524314635644, 0.0, 0.0, 0.0, T0178
+ROT-DEFI, 178003.0, 0.0, -85.96241723362449, 0.0, 0.0, 0.0, T0178
+ROT-DEFI, 178000.0, 0.0, 0.0, 20.0, 0.0, 20.0, T0178
+ROT-DEFI, 179001.0, 0.0, 135.41356681237176, 0.0, 0.0, 0.0, T0179
+ROT-DEFI, 179002.0, 0.0, -49.956524314635644, 0.0, 0.0, 0.0, T0179
+ROT-DEFI, 179003.0, 0.0, -85.96241723362449, 0.0, 0.0, 0.0, T0179
+ROT-DEFI, 179000.0, 0.0, 0.0, 20.0, 0.0, 20.0, T0179
+ROT-DEFI, 180001.0, 0.0, 30.442211108442553, 0.0, 0.0, 0.0, T0180
+ROT-DEFI, 180002.0, 0.0, -12.277354025687304, 0.0, 0.0, 0.0, T0180
+ROT-DEFI, 180003.0, 0.0, 102.26248550159497, 0.0, 0.0, 0.0, T0180
+ROT-DEFI, 180000.0, 0.0, 0.0, 20.0, 0.0, 40.0, T0180
+ROT-DEFI, 181001.0, 0.0, 30.442211108442553, 0.0, 0.0, 0.0, T0181
+ROT-DEFI, 181002.0, 0.0, -12.277354025687304, 0.0, 0.0, 0.0, T0181
+ROT-DEFI, 181003.0, 0.0, 102.26248550159497, 0.0, 0.0, 0.0, T0181
+ROT-DEFI, 181000.0, 0.0, 0.0, 20.0, 0.0, 40.0, T0181
+ROT-DEFI, 182001.0, 0.0, -90.11493649186964, 0.0, 0.0, 0.0, T0182
+ROT-DEFI, 182002.0, 0.0, 3.2423586278999, 0.0, 0.0, 0.0, T0182
+ROT-DEFI, 182003.0, 0.0, 64.47039469622817, 0.0, 0.0, 0.0, T0182
+ROT-DEFI, 182000.0, 0.0, 0.0, 20.0, 20.0, -40.0, T0182
+ROT-DEFI, 183001.0, 0.0, -90.11493649186964, 0.0, 0.0, 0.0, T0183
+ROT-DEFI, 183002.0, 0.0, 3.2423586278999, 0.0, 0.0, 0.0, T0183
+ROT-DEFI, 183003.0, 0.0, 64.47039469622817, 0.0, 0.0, 0.0, T0183
+ROT-DEFI, 183000.0, 0.0, 0.0, 20.0, 20.0, -40.0, T0183
+ROT-DEFI, 184001.0, 0.0, -93.88483090283907, 0.0, 0.0, 0.0, T0184
+ROT-DEFI, 184002.0, 0.0, 7.883472681379425, 0.0, 0.0, 0.0, T0184
+ROT-DEFI, 184003.0, 0.0, -167.62415627290937, 0.0, 0.0, 0.0, T0184
+ROT-DEFI, 184000.0, 0.0, 0.0, 20.0, 20.0, -20.0, T0184
+ROT-DEFI, 185001.0, 0.0, -93.88483090283907, 0.0, 0.0, 0.0, T0185
+ROT-DEFI, 185002.0, 0.0, 7.883472681379425, 0.0, 0.0, 0.0, T0185
+ROT-DEFI, 185003.0, 0.0, -167.62415627290937, 0.0, 0.0, 0.0, T0185
+ROT-DEFI, 185000.0, 0.0, 0.0, 20.0, 20.0, -20.0, T0185
+ROT-DEFI, 186001.0, 0.0, 81.90835578187091, 0.0, 0.0, 0.0, T0186
+ROT-DEFI, 186002.0, 0.0, 33.14752056318406, 0.0, 0.0, 0.0, T0186
+ROT-DEFI, 186003.0, 0.0, 135.71281413430438, 0.0, 0.0, 0.0, T0186
+ROT-DEFI, 186000.0, 0.0, 0.0, 20.0, 20.0, 0.0, T0186
+ROT-DEFI, 187001.0, 0.0, 81.90835578187091, 0.0, 0.0, 0.0, T0187
+ROT-DEFI, 187002.0, 0.0, 33.14752056318406, 0.0, 0.0, 0.0, T0187
+ROT-DEFI, 187003.0, 0.0, 135.71281413430438, 0.0, 0.0, 0.0, T0187
+ROT-DEFI, 187000.0, 0.0, 0.0, 20.0, 20.0, 0.0, T0187
+ROT-DEFI, 188001.0, 0.0, 124.18115947750256, 0.0, 0.0, 0.0, T0188
+ROT-DEFI, 188002.0, 0.0, 86.01580025538433, 0.0, 0.0, 0.0, T0188
+ROT-DEFI, 188003.0, 0.0, 53.00171950411116, 0.0, 0.0, 0.0, T0188
+ROT-DEFI, 188000.0, 0.0, 0.0, 20.0, 20.0, 20.0, T0188
+ROT-DEFI, 189001.0, 0.0, 124.18115947750256, 0.0, 0.0, 0.0, T0189
+ROT-DEFI, 189002.0, 0.0, 86.01580025538433, 0.0, 0.0, 0.0, T0189
+ROT-DEFI, 189003.0, 0.0, 53.00171950411116, 0.0, 0.0, 0.0, T0189
+ROT-DEFI, 189000.0, 0.0, 0.0, 20.0, 20.0, 20.0, T0189
+ROT-DEFI, 190001.0, 0.0, -175.99657153837995, 0.0, 0.0, 0.0, T0190
+ROT-DEFI, 190002.0, 0.0, -60.62812606617564, 0.0, 0.0, 0.0, T0190
+ROT-DEFI, 190003.0, 0.0, 111.49801320489627, 0.0, 0.0, 0.0, T0190
+ROT-DEFI, 190000.0, 0.0, 0.0, 20.0, 20.0, 40.0, T0190
+ROT-DEFI, 191001.0, 0.0, -175.99657153837995, 0.0, 0.0, 0.0, T0191
+ROT-DEFI, 191002.0, 0.0, -60.62812606617564, 0.0, 0.0, 0.0, T0191
+ROT-DEFI, 191003.0, 0.0, 111.49801320489627, 0.0, 0.0, 0.0, T0191
+ROT-DEFI, 191000.0, 0.0, 0.0, 20.0, 20.0, 40.0, T0191
+ROT-DEFI, 192001.0, 0.0, -125.55943311333202, 0.0, 0.0, 0.0, T0192
+ROT-DEFI, 192002.0, 0.0, -44.75498637880092, 0.0, 0.0, 0.0, T0192
+ROT-DEFI, 192003.0, 0.0, 89.01261301949155, 0.0, 0.0, 0.0, T0192
+ROT-DEFI, 192000.0, 0.0, 0.0, 20.0, 40.0, -40.0, T0192
+ROT-DEFI, 193001.0, 0.0, -125.55943311333202, 0.0, 0.0, 0.0, T0193
+ROT-DEFI, 193002.0, 0.0, -44.75498637880092, 0.0, 0.0, 0.0, T0193
+ROT-DEFI, 193003.0, 0.0, 89.01261301949155, 0.0, 0.0, 0.0, T0193
+ROT-DEFI, 193000.0, 0.0, 0.0, 20.0, 40.0, -40.0, T0193
+ROT-DEFI, 194001.0, 0.0, 22.320630291628653, 0.0, 0.0, 0.0, T0194
+ROT-DEFI, 194002.0, 0.0, -3.4749718880805807, 0.0, 0.0, 0.0, T0194
+ROT-DEFI, 194003.0, 0.0, 109.02915889636698, 0.0, 0.0, 0.0, T0194
+ROT-DEFI, 194000.0, 0.0, 0.0, 20.0, 40.0, -20.0, T0194
+ROT-DEFI, 195001.0, 0.0, 22.320630291628653, 0.0, 0.0, 0.0, T0195
+ROT-DEFI, 195002.0, 0.0, -3.4749718880805807, 0.0, 0.0, 0.0, T0195
+ROT-DEFI, 195003.0, 0.0, 109.02915889636698, 0.0, 0.0, 0.0, T0195
+ROT-DEFI, 195000.0, 0.0, 0.0, 20.0, 40.0, -20.0, T0195
+ROT-DEFI, 196001.0, 0.0, 134.07364625938035, 0.0, 0.0, 0.0, T0196
+ROT-DEFI, 196002.0, 0.0, 8.17089132021132, 0.0, 0.0, 0.0, T0196
+ROT-DEFI, 196003.0, 0.0, -49.17402632945877, 0.0, 0.0, 0.0, T0196
+ROT-DEFI, 196000.0, 0.0, 0.0, 20.0, 40.0, 0.0, T0196
+ROT-DEFI, 197001.0, 0.0, 134.07364625938035, 0.0, 0.0, 0.0, T0197
+ROT-DEFI, 197002.0, 0.0, 8.17089132021132, 0.0, 0.0, 0.0, T0197
+ROT-DEFI, 197003.0, 0.0, -49.17402632945877, 0.0, 0.0, 0.0, T0197
+ROT-DEFI, 197000.0, 0.0, 0.0, 20.0, 40.0, 0.0, T0197
+ROT-DEFI, 198001.0, 0.0, -162.50184192429242, 0.0, 0.0, 0.0, T0198
+ROT-DEFI, 198002.0, 0.0, 0.3929694030850041, 0.0, 0.0, 0.0, T0198
+ROT-DEFI, 198003.0, 0.0, -7.42143263121672, 0.0, 0.0, 0.0, T0198
+ROT-DEFI, 198000.0, 0.0, 0.0, 20.0, 40.0, 20.0, T0198
+ROT-DEFI, 199001.0, 0.0, -162.50184192429242, 0.0, 0.0, 0.0, T0199
+ROT-DEFI, 199002.0, 0.0, 0.3929694030850041, 0.0, 0.0, 0.0, T0199
+ROT-DEFI, 199003.0, 0.0, -7.42143263121672, 0.0, 0.0, 0.0, T0199
+ROT-DEFI, 199000.0, 0.0, 0.0, 20.0, 40.0, 20.0, T0199
+ROT-DEFI, 200001.0, 0.0, 86.10166897819043, 0.0, 0.0, 0.0, T0200
+ROT-DEFI, 200002.0, 0.0, -48.5649679505107, 0.0, 0.0, 0.0, T0200
+ROT-DEFI, 200003.0, 0.0, -87.05486687110142, 0.0, 0.0, 0.0, T0200
+ROT-DEFI, 200000.0, 0.0, 0.0, 20.0, 40.0, 40.0, T0200
+ROT-DEFI, 201001.0, 0.0, 86.10166897819043, 0.0, 0.0, 0.0, T0201
+ROT-DEFI, 201002.0, 0.0, -48.5649679505107, 0.0, 0.0, 0.0, T0201
+ROT-DEFI, 201003.0, 0.0, -87.05486687110142, 0.0, 0.0, 0.0, T0201
+ROT-DEFI, 201000.0, 0.0, 0.0, 20.0, 40.0, 40.0, T0201
+ROT-DEFI, 202001.0, 0.0, 58.29661421735414, 0.0, 0.0, 0.0, T0202
+ROT-DEFI, 202002.0, 0.0, -39.74265429754456, 0.0, 0.0, 0.0, T0202
+ROT-DEFI, 202003.0, 0.0, 54.26286857346143, 0.0, 0.0, 0.0, T0202
+ROT-DEFI, 202000.0, 0.0, 0.0, 40.0, -40.0, -40.0, T0202
+ROT-DEFI, 203001.0, 0.0, 58.29661421735414, 0.0, 0.0, 0.0, T0203
+ROT-DEFI, 203002.0, 0.0, -39.74265429754456, 0.0, 0.0, 0.0, T0203
+ROT-DEFI, 203003.0, 0.0, 54.26286857346143, 0.0, 0.0, 0.0, T0203
+ROT-DEFI, 203000.0, 0.0, 0.0, 40.0, -40.0, -40.0, T0203
+ROT-DEFI, 204001.0, 0.0, -173.9254388477533, 0.0, 0.0, 0.0, T0204
+ROT-DEFI, 204002.0, 0.0, 87.46920007301325, 0.0, 0.0, 0.0, T0204
+ROT-DEFI, 204003.0, 0.0, 173.41083299704138, 0.0, 0.0, 0.0, T0204
+ROT-DEFI, 204000.0, 0.0, 0.0, 40.0, -40.0, -20.0, T0204
+ROT-DEFI, 205001.0, 0.0, -173.9254388477533, 0.0, 0.0, 0.0, T0205
+ROT-DEFI, 205002.0, 0.0, 87.46920007301325, 0.0, 0.0, 0.0, T0205
+ROT-DEFI, 205003.0, 0.0, 173.41083299704138, 0.0, 0.0, 0.0, T0205
+ROT-DEFI, 205000.0, 0.0, 0.0, 40.0, -40.0, -20.0, T0205
+ROT-DEFI, 206001.0, 0.0, -49.840325590060466, 0.0, 0.0, 0.0, T0206
+ROT-DEFI, 206002.0, 0.0, 30.09709011285063, 0.0, 0.0, 0.0, T0206
+ROT-DEFI, 206003.0, 0.0, 122.59297060694546, 0.0, 0.0, 0.0, T0206
+ROT-DEFI, 206000.0, 0.0, 0.0, 40.0, -40.0, 0.0, T0206
+ROT-DEFI, 207001.0, 0.0, -49.840325590060466, 0.0, 0.0, 0.0, T0207
+ROT-DEFI, 207002.0, 0.0, 30.09709011285063, 0.0, 0.0, 0.0, T0207
+ROT-DEFI, 207003.0, 0.0, 122.59297060694546, 0.0, 0.0, 0.0, T0207
+ROT-DEFI, 207000.0, 0.0, 0.0, 40.0, -40.0, 0.0, T0207
+ROT-DEFI, 208001.0, 0.0, 76.20004758554533, 0.0, 0.0, 0.0, T0208
+ROT-DEFI, 208002.0, 0.0, -84.64063748757819, 0.0, 0.0, 0.0, T0208
+ROT-DEFI, 208003.0, 0.0, -118.32758194976647, 0.0, 0.0, 0.0, T0208
+ROT-DEFI, 208000.0, 0.0, 0.0, 40.0, -40.0, 20.0, T0208
+ROT-DEFI, 209001.0, 0.0, 76.20004758554533, 0.0, 0.0, 0.0, T0209
+ROT-DEFI, 209002.0, 0.0, -84.64063748757819, 0.0, 0.0, 0.0, T0209
+ROT-DEFI, 209003.0, 0.0, -118.32758194976647, 0.0, 0.0, 0.0, T0209
+ROT-DEFI, 209000.0, 0.0, 0.0, 40.0, -40.0, 20.0, T0209
+ROT-DEFI, 210001.0, 0.0, -10.366724963687354, 0.0, 0.0, 0.0, T0210
+ROT-DEFI, 210002.0, 0.0, 21.841476493522578, 0.0, 0.0, 0.0, T0210
+ROT-DEFI, 210003.0, 0.0, -148.09996052925692, 0.0, 0.0, 0.0, T0210
+ROT-DEFI, 210000.0, 0.0, 0.0, 40.0, -40.0, 40.0, T0210
+ROT-DEFI, 211001.0, 0.0, -10.366724963687354, 0.0, 0.0, 0.0, T0211
+ROT-DEFI, 211002.0, 0.0, 21.841476493522578, 0.0, 0.0, 0.0, T0211
+ROT-DEFI, 211003.0, 0.0, -148.09996052925692, 0.0, 0.0, 0.0, T0211
+ROT-DEFI, 211000.0, 0.0, 0.0, 40.0, -40.0, 40.0, T0211
+ROT-DEFI, 212001.0, 0.0, 28.311555410138673, 0.0, 0.0, 0.0, T0212
+ROT-DEFI, 212002.0, 0.0, -1.9639835460863189, 0.0, 0.0, 0.0, T0212
+ROT-DEFI, 212003.0, 0.0, 32.36682362066835, 0.0, 0.0, 0.0, T0212
+ROT-DEFI, 212000.0, 0.0, 0.0, 40.0, -20.0, -40.0, T0212
+ROT-DEFI, 213001.0, 0.0, 28.311555410138673, 0.0, 0.0, 0.0, T0213
+ROT-DEFI, 213002.0, 0.0, -1.9639835460863189, 0.0, 0.0, 0.0, T0213
+ROT-DEFI, 213003.0, 0.0, 32.36682362066835, 0.0, 0.0, 0.0, T0213
+ROT-DEFI, 213000.0, 0.0, 0.0, 40.0, -20.0, -40.0, T0213
+ROT-DEFI, 214001.0, 0.0, -57.19684098141498, 0.0, 0.0, 0.0, T0214
+ROT-DEFI, 214002.0, 0.0, 8.313217648784576, 0.0, 0.0, 0.0, T0214
+ROT-DEFI, 214003.0, 0.0, 17.163830962529662, 0.0, 0.0, 0.0, T0214
+ROT-DEFI, 214000.0, 0.0, 0.0, 40.0, -20.0, -20.0, T0214
+ROT-DEFI, 215001.0, 0.0, -57.19684098141498, 0.0, 0.0, 0.0, T0215
+ROT-DEFI, 215002.0, 0.0, 8.313217648784576, 0.0, 0.0, 0.0, T0215
+ROT-DEFI, 215003.0, 0.0, 17.163830962529662, 0.0, 0.0, 0.0, T0215
+ROT-DEFI, 215000.0, 0.0, 0.0, 40.0, -20.0, -20.0, T0215
+ROT-DEFI, 216001.0, 0.0, 125.86136645232999, 0.0, 0.0, 0.0, T0216
+ROT-DEFI, 216002.0, 0.0, -12.90211496789605, 0.0, 0.0, 0.0, T0216
+ROT-DEFI, 216003.0, 0.0, -94.92999138010192, 0.0, 0.0, 0.0, T0216
+ROT-DEFI, 216000.0, 0.0, 0.0, 40.0, -20.0, 0.0, T0216
+ROT-DEFI, 217001.0, 0.0, 125.86136645232999, 0.0, 0.0, 0.0, T0217
+ROT-DEFI, 217002.0, 0.0, -12.90211496789605, 0.0, 0.0, 0.0, T0217
+ROT-DEFI, 217003.0, 0.0, -94.92999138010192, 0.0, 0.0, 0.0, T0217
+ROT-DEFI, 217000.0, 0.0, 0.0, 40.0, -20.0, 0.0, T0217
+ROT-DEFI, 218001.0, 0.0, -159.72575744632655, 0.0, 0.0, 0.0, T0218
+ROT-DEFI, 218002.0, 0.0, 35.36489931809519, 0.0, 0.0, 0.0, T0218
+ROT-DEFI, 218003.0, 0.0, -4.737016654628961, 0.0, 0.0, 0.0, T0218
+ROT-DEFI, 218000.0, 0.0, 0.0, 40.0, -20.0, 20.0, T0218
+ROT-DEFI, 219001.0, 0.0, -159.72575744632655, 0.0, 0.0, 0.0, T0219
+ROT-DEFI, 219002.0, 0.0, 35.36489931809519, 0.0, 0.0, 0.0, T0219
+ROT-DEFI, 219003.0, 0.0, -4.737016654628961, 0.0, 0.0, 0.0, T0219
+ROT-DEFI, 219000.0, 0.0, 0.0, 40.0, -20.0, 20.0, T0219
+ROT-DEFI, 220001.0, 0.0, 105.38580330667972, 0.0, 0.0, 0.0, T0220
+ROT-DEFI, 220002.0, 0.0, -5.826287446306389, 0.0, 0.0, 0.0, T0220
+ROT-DEFI, 220003.0, 0.0, -12.365641392331577, 0.0, 0.0, 0.0, T0220
+ROT-DEFI, 220000.0, 0.0, 0.0, 40.0, -20.0, 40.0, T0220
+ROT-DEFI, 221001.0, 0.0, 105.38580330667972, 0.0, 0.0, 0.0, T0221
+ROT-DEFI, 221002.0, 0.0, -5.826287446306389, 0.0, 0.0, 0.0, T0221
+ROT-DEFI, 221003.0, 0.0, -12.365641392331577, 0.0, 0.0, 0.0, T0221
+ROT-DEFI, 221000.0, 0.0, 0.0, 40.0, -20.0, 40.0, T0221
+ROT-DEFI, 222001.0, 0.0, 100.22673758399142, 0.0, 0.0, 0.0, T0222
+ROT-DEFI, 222002.0, 0.0, 60.46712667660292, 0.0, 0.0, 0.0, T0222
+ROT-DEFI, 222003.0, 0.0, 160.5477710161988, 0.0, 0.0, 0.0, T0222
+ROT-DEFI, 222000.0, 0.0, 0.0, 40.0, 0.0, -40.0, T0222
+ROT-DEFI, 223001.0, 0.0, 100.22673758399142, 0.0, 0.0, 0.0, T0223
+ROT-DEFI, 223002.0, 0.0, 60.46712667660292, 0.0, 0.0, 0.0, T0223
+ROT-DEFI, 223003.0, 0.0, 160.5477710161988, 0.0, 0.0, 0.0, T0223
+ROT-DEFI, 223000.0, 0.0, 0.0, 40.0, 0.0, -40.0, T0223
+ROT-DEFI, 224001.0, 0.0, -162.6472133414193, 0.0, 0.0, 0.0, T0224
+ROT-DEFI, 224002.0, 0.0, -13.52474225873786, 0.0, 0.0, 0.0, T0224
+ROT-DEFI, 224003.0, 0.0, 139.9453340710796, 0.0, 0.0, 0.0, T0224
+ROT-DEFI, 224000.0, 0.0, 0.0, 40.0, 0.0, -20.0, T0224
+ROT-DEFI, 225001.0, 0.0, -162.6472133414193, 0.0, 0.0, 0.0, T0225
+ROT-DEFI, 225002.0, 0.0, -13.52474225873786, 0.0, 0.0, 0.0, T0225
+ROT-DEFI, 225003.0, 0.0, 139.9453340710796, 0.0, 0.0, 0.0, T0225
+ROT-DEFI, 225000.0, 0.0, 0.0, 40.0, 0.0, -20.0, T0225
+ROT-DEFI, 226001.0, 0.0, 71.00492137738448, 0.0, 0.0, 0.0, T0226
+ROT-DEFI, 226002.0, 0.0, 20.305979411432048, 0.0, 0.0, 0.0, T0226
+ROT-DEFI, 226003.0, 0.0, 52.9814735312124, 0.0, 0.0, 0.0, T0226
+ROT-DEFI, 226000.0, 0.0, 0.0, 40.0, 0.0, 0.0, T0226
+ROT-DEFI, 227001.0, 0.0, 71.00492137738448, 0.0, 0.0, 0.0, T0227
+ROT-DEFI, 227002.0, 0.0, 20.305979411432048, 0.0, 0.0, 0.0, T0227
+ROT-DEFI, 227003.0, 0.0, 52.9814735312124, 0.0, 0.0, 0.0, T0227
+ROT-DEFI, 227000.0, 0.0, 0.0, 40.0, 0.0, 0.0, T0227
+ROT-DEFI, 228001.0, 0.0, -118.23504190849498, 0.0, 0.0, 0.0, T0228
+ROT-DEFI, 228002.0, 0.0, 16.33366286172568, 0.0, 0.0, 0.0, T0228
+ROT-DEFI, 228003.0, 0.0, -177.6779053118965, 0.0, 0.0, 0.0, T0228
+ROT-DEFI, 228000.0, 0.0, 0.0, 40.0, 0.0, 20.0, T0228
+ROT-DEFI, 229001.0, 0.0, -118.23504190849498, 0.0, 0.0, 0.0, T0229
+ROT-DEFI, 229002.0, 0.0, 16.33366286172568, 0.0, 0.0, 0.0, T0229
+ROT-DEFI, 229003.0, 0.0, -177.6779053118965, 0.0, 0.0, 0.0, T0229
+ROT-DEFI, 229000.0, 0.0, 0.0, 40.0, 0.0, 20.0, T0229
+ROT-DEFI, 230001.0, 0.0, 78.67873616242039, 0.0, 0.0, 0.0, T0230
+ROT-DEFI, 230002.0, 0.0, 7.996741565195797, 0.0, 0.0, 0.0, T0230
+ROT-DEFI, 230003.0, 0.0, -52.45380744849243, 0.0, 0.0, 0.0, T0230
+ROT-DEFI, 230000.0, 0.0, 0.0, 40.0, 0.0, 40.0, T0230
+ROT-DEFI, 231001.0, 0.0, 78.67873616242039, 0.0, 0.0, 0.0, T0231
+ROT-DEFI, 231002.0, 0.0, 7.996741565195797, 0.0, 0.0, 0.0, T0231
+ROT-DEFI, 231003.0, 0.0, -52.45380744849243, 0.0, 0.0, 0.0, T0231
+ROT-DEFI, 231000.0, 0.0, 0.0, 40.0, 0.0, 40.0, T0231
+ROT-DEFI, 232001.0, 0.0, -150.02447258206666, 0.0, 0.0, 0.0, T0232
+ROT-DEFI, 232002.0, 0.0, -25.60017816583119, 0.0, 0.0, 0.0, T0232
+ROT-DEFI, 232003.0, 0.0, -66.60981551324222, 0.0, 0.0, 0.0, T0232
+ROT-DEFI, 232000.0, 0.0, 0.0, 40.0, 20.0, -40.0, T0232
+ROT-DEFI, 233001.0, 0.0, -150.02447258206666, 0.0, 0.0, 0.0, T0233
+ROT-DEFI, 233002.0, 0.0, -25.60017816583119, 0.0, 0.0, 0.0, T0233
+ROT-DEFI, 233003.0, 0.0, -66.60981551324222, 0.0, 0.0, 0.0, T0233
+ROT-DEFI, 233000.0, 0.0, 0.0, 40.0, 20.0, -40.0, T0233
+ROT-DEFI, 234001.0, 0.0, 25.29424139598178, 0.0, 0.0, 0.0, T0234
+ROT-DEFI, 234002.0, 0.0, -42.18910201434243, 0.0, 0.0, 0.0, T0234
+ROT-DEFI, 234003.0, 0.0, 27.429250802138302, 0.0, 0.0, 0.0, T0234
+ROT-DEFI, 234000.0, 0.0, 0.0, 40.0, 20.0, -20.0, T0234
+ROT-DEFI, 235001.0, 0.0, 25.29424139598178, 0.0, 0.0, 0.0, T0235
+ROT-DEFI, 235002.0, 0.0, -42.18910201434243, 0.0, 0.0, 0.0, T0235
+ROT-DEFI, 235003.0, 0.0, 27.429250802138302, 0.0, 0.0, 0.0, T0235
+ROT-DEFI, 235000.0, 0.0, 0.0, 40.0, 20.0, -20.0, T0235
+ROT-DEFI, 236001.0, 0.0, 43.15963316593682, 0.0, 0.0, 0.0, T0236
+ROT-DEFI, 236002.0, 0.0, 16.614738337917522, 0.0, 0.0, 0.0, T0236
+ROT-DEFI, 236003.0, 0.0, -33.492034751011964, 0.0, 0.0, 0.0, T0236
+ROT-DEFI, 236000.0, 0.0, 0.0, 40.0, 20.0, 0.0, T0236
+ROT-DEFI, 237001.0, 0.0, 43.15963316593682, 0.0, 0.0, 0.0, T0237
+ROT-DEFI, 237002.0, 0.0, 16.614738337917522, 0.0, 0.0, 0.0, T0237
+ROT-DEFI, 237003.0, 0.0, -33.492034751011964, 0.0, 0.0, 0.0, T0237
+ROT-DEFI, 237000.0, 0.0, 0.0, 40.0, 20.0, 0.0, T0237
+ROT-DEFI, 238001.0, 0.0, 38.31178379857931, 0.0, 0.0, 0.0, T0238
+ROT-DEFI, 238002.0, 0.0, 26.295357052987324, 0.0, 0.0, 0.0, T0238
+ROT-DEFI, 238003.0, 0.0, 92.12716131745908, 0.0, 0.0, 0.0, T0238
+ROT-DEFI, 238000.0, 0.0, 0.0, 40.0, 20.0, 20.0, T0238
+ROT-DEFI, 239001.0, 0.0, 38.31178379857931, 0.0, 0.0, 0.0, T0239
+ROT-DEFI, 239002.0, 0.0, 26.295357052987324, 0.0, 0.0, 0.0, T0239
+ROT-DEFI, 239003.0, 0.0, 92.12716131745908, 0.0, 0.0, 0.0, T0239
+ROT-DEFI, 239000.0, 0.0, 0.0, 40.0, 20.0, 20.0, T0239
+ROT-DEFI, 240001.0, 0.0, 9.177237737513625, 0.0, 0.0, 0.0, T0240
+ROT-DEFI, 240002.0, 0.0, -27.179803784615437, 0.0, 0.0, 0.0, T0240
+ROT-DEFI, 240003.0, 0.0, 76.97711666373819, 0.0, 0.0, 0.0, T0240
+ROT-DEFI, 240000.0, 0.0, 0.0, 40.0, 20.0, 40.0, T0240
+ROT-DEFI, 241001.0, 0.0, 9.177237737513625, 0.0, 0.0, 0.0, T0241
+ROT-DEFI, 241002.0, 0.0, -27.179803784615437, 0.0, 0.0, 0.0, T0241
+ROT-DEFI, 241003.0, 0.0, 76.97711666373819, 0.0, 0.0, 0.0, T0241
+ROT-DEFI, 241000.0, 0.0, 0.0, 40.0, 20.0, 40.0, T0241
+ROT-DEFI, 242001.0, 0.0, -6.5490840087093565, 0.0, 0.0, 0.0, T0242
+ROT-DEFI, 242002.0, 0.0, 31.019168595719513, 0.0, 0.0, 0.0, T0242
+ROT-DEFI, 242003.0, 0.0, 174.8737821546527, 0.0, 0.0, 0.0, T0242
+ROT-DEFI, 242000.0, 0.0, 0.0, 40.0, 40.0, -40.0, T0242
+ROT-DEFI, 243001.0, 0.0, -6.5490840087093565, 0.0, 0.0, 0.0, T0243
+ROT-DEFI, 243002.0, 0.0, 31.019168595719513, 0.0, 0.0, 0.0, T0243
+ROT-DEFI, 243003.0, 0.0, 174.8737821546527, 0.0, 0.0, 0.0, T0243
+ROT-DEFI, 243000.0, 0.0, 0.0, 40.0, 40.0, -40.0, T0243
+ROT-DEFI, 244001.0, 0.0, -149.50072486148125, 0.0, 0.0, 0.0, T0244
+ROT-DEFI, 244002.0, 0.0, 35.490918482508555, 0.0, 0.0, 0.0, T0244
+ROT-DEFI, 244003.0, 0.0, -33.758908928817974, 0.0, 0.0, 0.0, T0244
+ROT-DEFI, 244000.0, 0.0, 0.0, 40.0, 40.0, -20.0, T0244
+ROT-DEFI, 245001.0, 0.0, -149.50072486148125, 0.0, 0.0, 0.0, T0245
+ROT-DEFI, 245002.0, 0.0, 35.490918482508555, 0.0, 0.0, 0.0, T0245
+ROT-DEFI, 245003.0, 0.0, -33.758908928817974, 0.0, 0.0, 0.0, T0245
+ROT-DEFI, 245000.0, 0.0, 0.0, 40.0, 40.0, -20.0, T0245
+ROT-DEFI, 246001.0, 0.0, 29.31537936323487, 0.0, 0.0, 0.0, T0246
+ROT-DEFI, 246002.0, 0.0, 10.828297876070488, 0.0, 0.0, 0.0, T0246
+ROT-DEFI, 246003.0, 0.0, -63.258235559889606, 0.0, 0.0, 0.0, T0246
+ROT-DEFI, 246000.0, 0.0, 0.0, 40.0, 40.0, 0.0, T0246
+ROT-DEFI, 247001.0, 0.0, 29.31537936323487, 0.0, 0.0, 0.0, T0247
+ROT-DEFI, 247002.0, 0.0, 10.828297876070488, 0.0, 0.0, 0.0, T0247
+ROT-DEFI, 247003.0, 0.0, -63.258235559889606, 0.0, 0.0, 0.0, T0247
+ROT-DEFI, 247000.0, 0.0, 0.0, 40.0, 40.0, 0.0, T0247
+ROT-DEFI, 248001.0, 0.0, 91.73185458239816, 0.0, 0.0, 0.0, T0248
+ROT-DEFI, 248002.0, 0.0, -1.6687441720664309, 0.0, 0.0, 0.0, T0248
+ROT-DEFI, 248003.0, 0.0, 93.91053967822324, 0.0, 0.0, 0.0, T0248
+ROT-DEFI, 248000.0, 0.0, 0.0, 40.0, 40.0, 20.0, T0248
+ROT-DEFI, 249001.0, 0.0, 91.73185458239816, 0.0, 0.0, 0.0, T0249
+ROT-DEFI, 249002.0, 0.0, -1.6687441720664309, 0.0, 0.0, 0.0, T0249
+ROT-DEFI, 249003.0, 0.0, 93.91053967822324, 0.0, 0.0, 0.0, T0249
+ROT-DEFI, 249000.0, 0.0, 0.0, 40.0, 40.0, 20.0, T0249
+ROT-DEFI, 250001.0, 0.0, 37.04590374578105, 0.0, 0.0, 0.0, T0250
+ROT-DEFI, 250002.0, 0.0, 49.57769762145257, 0.0, 0.0, 0.0, T0250
+ROT-DEFI, 250003.0, 0.0, -41.13207877899443, 0.0, 0.0, 0.0, T0250
+ROT-DEFI, 250000.0, 0.0, 0.0, 40.0, 40.0, 40.0, T0250
+ROT-DEFI, 251001.0, 0.0, 37.04590374578105, 0.0, 0.0, 0.0, T0251
+ROT-DEFI, 251002.0, 0.0, 49.57769762145257, 0.0, 0.0, 0.0, T0251
+ROT-DEFI, 251003.0, 0.0, -41.13207877899443, 0.0, 0.0, 0.0, T0251
+ROT-DEFI, 251000.0, 0.0, 0.0, 40.0, 40.0, 40.0, T0251
+USRBIN, 0.0, ENERGY, -21.0, 1.0, 1.0, 1.0, bin1
+USRBIN, -1.0, -1.0, -1.0, 10.0, 10.0, 10.0, &
+USRBIN, 0.0, ENERGY, -21.0, 1.0, 1.0, 1.0, bin2
+USRBIN, -1.0, -1.0, -1.0, 10.0, 10.0, 10.0, &
+LOW-MAT, M0000000, 1.0, 1.0, 296.0, , ,
+LOW-MAT, M0000001, 1.0, 2.0, 296.0, , ,
+LOW-MAT, M00100, 79.0, 197.0, 296.0, , ,
+RANDOMIZ, 1.0, 54217137.0, , , , ,
+START, 100.0, , , , , ,

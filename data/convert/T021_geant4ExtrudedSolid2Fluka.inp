@@ -4,62 +4,118 @@ GEOBEGIN , , , , , , , COMBNAME
 RPP BLKBODY -15.0 15.0 -15.0 15.0 -15.0 15.0
 * wl ws
 RPP B000001 -7.5 7.5 -7.5 7.5 -7.5 7.5
+$start_transform T0002
 * x_pv1 xs
 PLA B000200 0.0 0.0 -1.0 0.0 0.0 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000201 0.0 0.0 1.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000202 0.0 -0.8164965809277261 -0.4082482904638631 -0.5 1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000203 0.8164965809277261 -0.0 0.4082482904638631 2.5 1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000204 0.0 0.8164965809277261 0.4082482904638631 2.5 2.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000205 -0.5773502691896258 -0.5773502691896258 -0.5773502691896258 -1.5 2.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000206 0.8164965809277261 -0.0 0.4082482904638631 -0.5 -0.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000207 0.5773502691896258 0.5773502691896258 0.5773502691896258 -0.5 1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000208 -0.8164965809277261 -0.0 -0.4082482904638631 -1.5 2.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000209 0.5773502691896258 -0.5773502691896258 -0.0 -1.5 -1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000210 0.8164965809277261 -0.0 0.4082482904638631 2.5 -1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000211 0.0 0.8164965809277261 0.4082482904638631 2.5 -0.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000212 -0.5773502691896258 0.5773502691896258 -0.0 -0.5 -0.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000213 0.0 -0.8164965809277261 -0.4082482904638631 -1.5 -1.5 -2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000214 0.0 0.0 -1.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000215 0.0 0.0 1.0 0.0 0.0 2.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000216 -0.0 -0.7844645405527362 0.5883484054145521 -1.5 0.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000217 0.565685424949238 -0.0 -0.7071067811865475 1.5 0.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000218 -0.0 0.4923659639173309 -0.6154574548966636 1.5 1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000219 -0.39999999999999997 -0.39999999999999997 0.1999999999999999 -2.5 1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000220 0.9428090415820635 -0.0 0.23570226039551587 -1.5 -1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000221 0.5547001962252291 0.5547001962252291 -0.2773500981126145 -1.5 0.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000222 -0.565685424949238 -0.0 -0.4242640687119285 -2.5 1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000223 0.4850712500726658 -0.4850712500726658 -0.0 -2.5 -2.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000224 0.565685424949238 -0.0 -0.7071067811865475 1.5 -2.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000225 0.0 0.6172133998483676 0.1543033499620919 1.5 -1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000226 -0.6666666666666666 0.6666666666666666 -0.0 -1.5 -1.5 0.0
+$end_transform
+$start_transform T0002
 * x_pv1 xs
 PLA B000227 0.0 -0.6859943405700353 -0.5144957554275265 -2.5 -2.5 0.0
+$end_transform
 END
 * x_pv1
 R0002 5 | +B000200 +B000201 +B000202 +B000203 +B000204 +B000205 | +B000200 +B000201 +B000206 +B000207 +B000208 +B000209
@@ -102,3 +158,5 @@ COMPOUND, -1.0, M00100, , , , , M001
 ASSIGNMA M001 R0002
 ASSIGNMA BLCKHOLE BLKHOLE
 ASSIGNMA M000 R0000
+ROT-DEFI, 2001.0, 0.0, 44.999999999999986, 0.0, 0.0, 0.0, T0002
+ROT-DEFI, 2000.0, 0.0, 0.0, 0.0, 1.5, 0.0, T0002
