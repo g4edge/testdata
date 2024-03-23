@@ -1,26 +1,38 @@
 FREE
 GEOBEGIN , , , , , , , COMBNAME
     0    0
-RPP BLKBODY -20.0 20.0 -20.0 20.0 -20.0 20.0
+RPP BLKBODY -10.0 10.0 -10.0 10.0 -10.0 10.0
 * wl ws
-RPP B000001 -10.0 10.0 -10.0 10.0 -10.0 10.0
+RPP B000001 -5.0 5.0 -5.0 5.0 -5.0 5.0
 $start_transform T0002
 * t_pv1 ts
 ZCC B000201 0 0 1.0
 $end_transform
 $start_transform T0002
 * t_pv1 ts
-PLA B000202 -0.0 -0.0 1.0 0.0 0.0 -2.5
+XYP B000202 -2.5
 $end_transform
 $start_transform T0002
 * t_pv1 ts
-PLA B000203 0.0 0.0 1.0 0.0 0.0 2.5
+XYP B000203 2.5
+$end_transform
+$start_transform T0002
+* t_pv1 ts
+ZCC B000204 0 0 0.25
+$end_transform
+$start_transform T0002
+* t_pv1 ts
+PLA B000205 -0.0 1.0 0.0 0.0 0.0 0.0
+$end_transform
+$start_transform T0002
+* t_pv1 ts
+PLA B000206 1.0 -1.8369701987210297e-16 0.0 0.0 0.0 0.0
 $end_transform
 END
 * t_pv1
-R0002 5 | +B000201 +B000203 -B000202
+R0002 5 | +B000201 +B000203 -B000202 -B000204 -( +B000205 -B000206)
 BLKHOLE 5 | +BLKBODY -( +B000001)
-R0000 5 | +B000001 -( +B000201 +B000203 -B000202)
+R0000 5 | +B000001 -( +B000201 +B000203 -B000202 -B000204 -( +B000205 -B000206))
 END
 GEOEND
 FREE
