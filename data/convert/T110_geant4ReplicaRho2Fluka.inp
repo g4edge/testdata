@@ -5,9 +5,11 @@ RPP BLKBODY -100.0 100.0 -100.0 100.0 -100.0 100.0
 * wl ws
 RPP B000001 -50.0 50.0 -50.0 50.0 -50.0 50.0
 * ml_pv1 mts
-RCC B000201 0.0 0.0 -40.0 0.0 0.0 80.0 20.0
+RCC B000201 0.0 0.0 -40.0 
+ 0.0 0.0 80.0 20.0
 * mtl_replica_0 mtl_ts_replica_0
-RCC B000301 0.0 0.0 -40.0 0.0 0.0 80.0 2.5
+RCC B000301 0.0 0.0 -40.0 
+ 0.0 0.0 80.0 2.5
 * mtl_replica_1 mtl_ts_replica_1
 ZCC B000401 0 0 5.0
 * mtl_replica_1 mtl_ts_replica_1
