@@ -1,10 +1,10 @@
 FREE
 GEOBEGIN , , , , , , , COMBNAME
     0    0
-RCC target 0.0 0.0 -50.0 
+RCC target 0.0 0.0 -50.0
  0.0 0.0 100.0 50.0
 $start_transform rtrans
-RCC targRepl 0.0 0.0 -50.0 
+RCC targRepl 0.0 0.0 -50.0
  0.0 0.0 100.0 50.0
 $end_transform
 END
