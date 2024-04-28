@@ -1,17 +1,25 @@
 FREE
 GEOBEGIN , , , , , , , COMBNAME
     0    0
-RPP BLKBODY -10.0 10.0 -10.0 10.0 -10.0 10.0
+RPP BLKBODY -20.0 20.0 -20.0 20.0 -20.0 20.0
 * wl ws
-RPP B000001 -5.0 5.0 -5.0 5.0 -5.0 5.0
+RPP B000001 -10.0 10.0 -10.0 10.0 -10.0 10.0
+$start_transform T0002
 * h_pv1 ps
 QUA B0002_01 1 1 -0.709449715863117 0 0 0 0 0 0 -9.0
+$end_transform
+$start_transform T0002
 * h_pv1 ps
 QUA B0002_02 1 1 -0.709449715863117 0 0 0 0 0 0 -4.0
+$end_transform
+$start_transform T0002
 * h_pv1 ps
 XYP B0002_03 2.5
+$end_transform
+$start_transform T0002
 * h_pv1 ps
 XYP B0002_04 -2.5
+$end_transform
 END
 * h_pv1
 R0002 5 | +B0002_01 +B0002_03 -B0002_02 -B0002_04
@@ -49,3 +57,5 @@ COMPOUND, -1.0, M00100, , , , , M001
 ASSIGNMA M001 R0002
 ASSIGNMA BLCKHOLE BLKHOLE
 ASSIGNMA M000 R0000
+ROT-DEFI, 2001.0, 0.0, 44.999999999999986, 0.0, 0.0, 0.0, T0002
+ROT-DEFI, 2000.0, 0.0, 0.0, 0.0, 2.5, 0.0, T0002

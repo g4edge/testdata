@@ -2,7 +2,8 @@ FREE
 GEOBEGIN , , , , , , , COMBNAME
     0    0
 $start_transform boxTRF
-BOX BOX_BODY 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0
+BOX BOX_BODY 0.0 0.0 0.0 20.0 0.0 0.0
+ 0.0 20.0 0.0 0.0 0.0 20.0
 $end_transform
 END
 BOX_REG 5 | +BOX_BODY

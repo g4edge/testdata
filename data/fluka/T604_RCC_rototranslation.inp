@@ -2,7 +2,8 @@ FREE
 GEOBEGIN , , , , , , , COMBNAME
     0    0
 $start_transform rccTRF
-RCC RCC_BODY 0.0 0.0 0.0 5.0 5.0 5.0 2.5
+RCC RCC_BODY 0.0 0.0 0.0
+ 5.0 5.0 5.0 2.5
 $end_transform
 END
 RCC_REG 5 | +RCC_BODY
