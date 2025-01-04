@@ -3,8 +3,7 @@ from __future__ import annotations
 import logging
 import os
 from getpass import getuser
-from pathlib import Path
-from pathlib import PurePath
+from pathlib import Path, PurePath
 from tempfile import gettempdir
 
 from git import GitCommandError, InvalidGitRepositoryError, Repo
