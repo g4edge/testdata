@@ -25,6 +25,7 @@ class G4EdgeTestData:
         ...
     >>> abs_path = d['convert/T001_geant4Box2Fluka.inp']
     """
+
     def __init__(self):
         self._default_git_ref = "main"
         self._repo_path = Path(
@@ -86,7 +87,7 @@ class G4EdgeTestData:
         """
         self.files = []
         root = Path(self._repo_path / "data")
-        for dirpath, dirnames, filenames in os.walk(root):
+        for dirpath, _dirnames, filenames in os.walk(root):
             for f in filenames:
                 common = os.path.relpath(dirpath, root)
                 rp = os.path.join(common, f)
