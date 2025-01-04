@@ -4,6 +4,7 @@ import logging
 import os
 from getpass import getuser
 from pathlib import Path
+from pathlib import PurePath
 from tempfile import gettempdir
 
 from git import GitCommandError, InvalidGitRepositoryError, Repo
@@ -89,6 +90,6 @@ class G4EdgeTestData:
         for dirpath, dirnames, filenames in os.walk(root):
             for f in filenames:
                 common = os.path.relpath(dirpath, root)
-                rp = os.path.join(common, f)
-                self.files.append(rp)
+                rp = PurePath(common) / f
+                self.files.append(str(rp))
         self.files = sorted(self.files)
