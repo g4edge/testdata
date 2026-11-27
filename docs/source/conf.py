@@ -4,13 +4,13 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from pkg_resources import get_distribution
+from importlib.metadata import version
 
 sys.path.insert(0, Path(__file__).parents[2].resolve().as_posix())
 
 project = "g4edge-testdata"
 copyright = "G4Edge"
-version = get_distribution("g4edge-testdata").version
+version = version("g4edge-testdata")
 
 extensions = [
     "sphinx.ext.autodoc",
