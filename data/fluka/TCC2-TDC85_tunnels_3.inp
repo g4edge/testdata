@@ -1218,9 +1218,9 @@ XXROAIR      5 +XXVvoid-XXVsoil -XXVc85hc -XXVrc1 -XXVehn1 -XXVlrs1 -XXVlrs2 -XX
                +XXVra1 -XXVt85q9 -XXVehn1| +XXVra2 | +XXVra3
                -XXVt85c2 | +XXVra4 -XXVra2 -XXVehn1 |
                +XXVra5 -XXVra3 -XXVt85c2 -XXVt85v1 -XXVt85v2 -XXVt85v3 -XXVt85v4 -XXVt85v5 -XXVehn1 | +XXVra6
-               -XXVehn1 | +XXVra7 -XXVehn1 | +XXVsp85 -XXVehn1 -XXVt3cc|+XXVsp85 -XXVehn1 -XXVt2cc|+XXVspt3 
+               -XXVehn1 | +XXVra7 -XXVehn1 | +XXVsp85 -XXVehn1 -XXVt3cc|+XXVsp85 -XXVehn1 -XXVt2cc|+XXVspt3
                -XXVst3b | +XXVst3c -XXVst3d |
-               +XXVst3e -XXVst3f -XXVst3h -XXVst3i -XXVst3j -XXVst3k -XXVst3l -XXVt3cd-XXVt2cd| +XXVt3ca -XXVt3a2 
+               +XXVst3e -XXVst3f -XXVst3h -XXVst3i -XXVst3j -XXVst3k -XXVst3l -XXVt3cd-XXVt2cd| +XXVt3ca -XXVt3a2
                | +XXVt2ca -XXVt2a2 | +XXVt3cb -XXVt3a3| +XXVt2cb -XXVt2a3
 XXRSOIL      5 +XXVsoil -XXVc85o0 -XXVc85hc -XXVt85o0 -XXVt85s1 -XXVt85s3 -XXVc8o0 -XXVrc1 -XXVra1 -XXVra2
                -XXVra3 -XXVra4 -XXVra5
@@ -1229,7 +1229,7 @@ XXRSOIL      5 +XXVsoil -XXVc85o0 -XXVc85hc -XXVt85o0 -XXVt85s1 -XXVt85s3 -XXVc8
                -XXVt2cc -XXVt2ca -XXVt2cd -XXVt2cb|
                +XXVlr4 -XXVlr2 -XXVlr3 -XXVlr5 -XXVlrs2 |
                +XXVbr1 -XXVlrs2 -XXVbr2 | +XXVgr1 -XXVlrs1 -XXVbr2 -XXVlrs2 | +XXVgr2 | +XXVgr3 | +XXVgr4 |
-               +XXVst3b | +XXVst3d | +XXVst3g | +XXVst3f -XXVt3o0 -XXVc2o0  -XXVt2o0| +XXVst3h -XXVst3i | 
+               +XXVst3b | +XXVst3d | +XXVst3g | +XXVst3f -XXVt3o0 -XXVc2o0  -XXVt2o0| +XXVst3h -XXVst3i |
                +XXVst3j | +XXVst3k |+XXVst3l
 XXREHN1      5 +XXVehn1
 XXRECN3      5 +XXVc85bh -XXVc85ma
@@ -1370,23 +1370,23 @@ XXRC8A1      5 +XXVc8a1 -XXVt84a1 -XXVc8r1 -XXVc8r2 -XXVt84m1 -XXVc8m1 -XXVt85m2
                -XXVt85r4 -XXVt85r5 -XXVt85m2 | XXVc8a3 -XXVc8r2 -XXVc8r3 -XXVc8ma2 -XXVc8m1 -XXVt3ma | +XXVc8ga1
                -XXVc8m1
                -XXVc8ma2 | +XXVc8ga2 -XXVc8gb1 | +XXVc8a4 -XXVc8a3 -XXVt3ma -XXVt3r1 -XXVt3r2 |
-               +XXVt3a1 -XXVt3ma -XXVt3r1 -XXVt3r2 -XXVt3m2 -XXVc2a1 | +XXVt3a2 -XXVt3ma -XXVt3r3 | +XXVt3a3 
+               +XXVt3a1 -XXVt3ma -XXVt3r1 -XXVt3r2 -XXVt3m2 -XXVc2a1 | +XXVt3a2 -XXVt3ma -XXVt3r3 | +XXVt3a3
                -XXVt3ma -XXVt3r3|
-               +XXVt3a4 -XXVt3r4 -XXVt3r5 -XXVt3m2 -XXVt3ma -XXVc2a1 | +XXVt3a5 +XXVc2c3 | +XXVt3a5 +XXVt3c9 
+               +XXVt3a4 -XXVt3r4 -XXVt3r5 -XXVt3m2 -XXVt3ma -XXVc2a1 | +XXVt3a5 +XXVc2c3 | +XXVt3a5 +XXVt3c9
                -XXVt3m2-XXVt2m2
 * TT82 concrete tunnel
 XXRC8A2      5 +XXVt2a1 -XXVt2ma -XXVt2r1 -XXVt2r2 -XXVt2m2 -XXVc2a1 | +XXVt2a2 -XXVt2ma -XXVt2r3 | +XXVt2a3
                -XXVt2ma -XXVt2r3|
-               +XXVt2a4 -XXVt2r4 -XXVt2r5 -XXVt2m2 -XXVt2ma -XXVc2a1| +XXVt2a4 +XXVc2c3 | +XXVt2a4 +XXVt2c9 
+               +XXVt2a4 -XXVt2r4 -XXVt2r5 -XXVt2m2 -XXVt2ma -XXVc2a1| +XXVt2a4 +XXVc2c3 | +XXVt2a4 +XXVt2c9
                -XXVt2m2
 XXRCT3C3     5 +XXVt2c1 -XXVt2a1 -XXVc8a4 -XXVt82p -XXVt84p1 -XXVt2a2 -XXVt2a3 -XXVt2s2 -XXVt2s1 -XXVt2a4 |
                +XXVt2c2 | +XXVt2c3 | +XXVt2c4 |
                +XXVt2c5 -XXVt2a1 -XXVt82p-XXVt2a2 -XXVt2s3 -XXVt2s4 -XXVt2ca | +XXVt2c6 |
-               +XXVt2c7 -XXVt2a1 -XXVt82p-XXVt2a3 -XXVt2s3 -XXVt2s4 -XXVt2cb| +XXVt2c8 | +XXVt2r1 +XXVt2a1 
+               +XXVt2c7 -XXVt2a1 -XXVt82p-XXVt2a3 -XXVt2s3 -XXVt2s4 -XXVt2cb| +XXVt2c8 | +XXVt2r1 +XXVt2a1
                -XXVt2a4|
                +XXVt2r2 +XXVt2a1 -XXVt2a2
                -XXVt2a3 -XXVt2a4 | +XXVt2r3 +XXVt2a2 | +XXVt2r3 +XXVt2a3 | +XXVt2r1 | +XXVt2r2|
-               +XXVt2c9 -XXVt2a1 -XXVt2a4 -XXVt2s5 -XXVt2s6 -XXVc2c1 -XXVt2a5| +XXVt2c10 -XXVc2c1 | +XXVt2r4 
+               +XXVt2c9 -XXVt2a1 -XXVt2a4 -XXVt2s5 -XXVt2s6 -XXVc2c1 -XXVt2a5| +XXVt2c10 -XXVc2c1 | +XXVt2r4
                +XXVt2a4 -XXVc2a1 -XXVt2a5 |
                +XXVt2r5 +XXVt2a4 -XXVc2a1 |
                +XXVc82c3 -XXVc2c1 -XXVt2a1 -XXVt2a4 -XXVt2a5 -XXVt2bh | +XXVt2cc -XXVt2ca | +XXVt2cd -XXVt2cb
@@ -1394,10 +1394,10 @@ XXRCT3C3     5 +XXVt2c1 -XXVt2a1 -XXVc8a4 -XXVt82p -XXVt84p1 -XXVt2a2 -XXVt2a3 -
 XXRC8B1      5 +XXVc8gb1
 XXRCT3O0     5 +XXVt3o0 -XXVt3c1 -XXVt3a1 -XXVt83p -XXVt83b -XXVt3ma -XXVt3c2 -XXVt3c3 -XXVt2c1 -XXVt2a1 -XXVt2ma
                -XXVt2c2 -XXVt2c3
-               -XXVt3c4 -XXVt3c5 -XXVt3c6 -XXVt3c7 -XXVt3c8 -XXVt3c9 -XXVt3c10 -XXVc2o0 -XXVc2c1 -XXVc2c2  
+               -XXVt3c4 -XXVt3c5 -XXVt3c6 -XXVt3c7 -XXVt3c8 -XXVt3c9 -XXVt3c10 -XXVc2o0 -XXVc2c1 -XXVc2c2
                -XXVc2c3 -XXVt3cc -XXVt3cd
                -XXVt2c4 -XXVt2c5 -XXVt2c6 -XXVt2c7 -XXVt2c8 -XXVt2c9 -XXVt2c10  -XXVc82b1 -XXVt2cc -XXVt2cd|
-               +XXVt3s2 -XXVt3c5 -XXVt3c7 -XXVc8c2 -XXVt3c9 -XXVc2c3 | +XXVt3s1 -XXVt3c5 -XXVt3c7 -XXVc8c2 
+               +XXVt3s2 -XXVt3c5 -XXVt3c7 -XXVc8c2 -XXVt3c9 -XXVc2c3 | +XXVt3s1 -XXVt3c5 -XXVt3c7 -XXVc8c2
                -XXVt3c9 |
                +XXVt3s3 -XXVt3cc -XXVt3cd| +XXVt3s4 | +XXVt3s5 -XXVc2c1 | +XXVt3s6 -XXVc2c1 -XXVc2c3|
                +XXVt2s2 -XXVt2c5 -XXVt2c7  -XXVt2c9  | +XXVt2s1 -XXVt2c5 -XXVt2c7 -XXVt2c9 |
@@ -1405,15 +1405,15 @@ XXRCT3O0     5 +XXVt3o0 -XXVt3c1 -XXVt3a1 -XXVt83p -XXVt83b -XXVt3ma -XXVt3c2 -X
 XXRCT3C1     5 +XXVt3c1 -XXVt3a1 -XXVc8a4 -XXVt83p -XXVt84p1 -XXVt3a2 -XXVt3a3 -XXVt3s2 -XXVt3s1 -XXVt3a4 |
                +XXVt3c2 | +XXVt3c3 | +XXVt3c4 |
                +XXVt3c5 -XXVt3a1 -XXVt83p -XXVt3a2 -XXVt3s3 -XXVt3s4 -XXVt3ca | +XXVt3c6 |
-               +XXVt3c7 -XXVt3a1 -XXVt83p -XXVt3a3 -XXVt3s3 -XXVt3s4 -XXVt3cb| +XXVt3c8 | +XXVt3r1 +XXVt3a1 
+               +XXVt3c7 -XXVt3a1 -XXVt83p -XXVt3a3 -XXVt3s3 -XXVt3s4 -XXVt3cb| +XXVt3c8 | +XXVt3r1 +XXVt3a1
                -XXVt3a4|
                +XXVt3r2 +XXVt3a1 -XXVt3a2
-               -XXVt3a3 -XXVt3a4 | +XXVt3r3 +XXVt3a2 | +XXVt3r3 +XXVt3a3 | +XXVt3r1 +XXVc8a4 -XXVc8a3 | +XXVt3r2 
+               -XXVt3a3 -XXVt3a4 | +XXVt3r3 +XXVt3a2 | +XXVt3r3 +XXVt3a3 | +XXVt3r1 +XXVc8a4 -XXVc8a3 | +XXVt3r2
                +XXVc8a4 -XXVc8a3 |
-               +XXVt3c9 -XXVt3a1 -XXVt83p -XXVt3a4 -XXVt3s5 -XXVt3s6 -XXVc2c1 -XXVt3a5| +XXVt3c10 -XXVc2c1 | 
+               +XXVt3c9 -XXVt3a1 -XXVt83p -XXVt3a4 -XXVt3s5 -XXVt3s6 -XXVc2c1 -XXVt3a5| +XXVt3c10 -XXVc2c1 |
                +XXVt3r4 +XXVt3a4 -XXVc2a1 -XXVt3a5 |
                +XXVt3r5 +XXVt3a4 -XXVc2a1 |
-               +XXVc2c3 -XXVc2c1 -XXVc2c2 -XXVt3a1 -XXVt3a4 -XXVt3a5 -XXVt3bh | +XXVt3cc -XXVt3ca | +XXVt3cd 
+               +XXVc2c3 -XXVc2c1 -XXVc2c2 -XXVt3a1 -XXVt3a4 -XXVt3a5 -XXVt3bh | +XXVt3cc -XXVt3ca | +XXVt3cd
                -XXVt3cb
 XXRCC2O0     5 +XXVc2o0 -XXVc2c1 -XXVc2c2 -XXVc2b2 -XXVc2b3 -XXVc2b4
 XXRCC2C      5 +XXVc2c1 -XXVc2a1 -XXVt3a4 -XXVt83p -XXVt83b -XXVt3a1| +XXVc2c2
